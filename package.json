@@ -1,5 +1,5 @@
 {
-  "name": "TrafficAnalyzer",
+  "name": "traffic-analyzer",
   "version": "1.0.0",
   "main": "index.js",
   "author": "KiMDLE <kimdle248@gmail.com>",
@@ -12,5 +12,9 @@
   },
   "dependencies": {
     "csv": "^6.3.9"
+  },
+  "scripts": {
+    "start": "nodemon --watch src --exec ts-node src/index.ts",
+    "dev": "ts-node src/data/extract.ts"
   }
 }
