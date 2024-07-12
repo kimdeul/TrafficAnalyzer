@@ -24,6 +24,8 @@ export function extractBusStops() {
       console.error(new DataError(`Uncaught dong - ${dong} is not valid Dong`))
     }
   
+    if (Number.isNaN(parseFloat(line[8]))) continue;
+
     const busStop: BusStop = {
       name: line[1],
       number: parseInt(line[2]),
