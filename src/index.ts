@@ -1,7 +1,7 @@
-import { BUS_STOPS, extractBusStops } from "./data/extract";
+import { BUS_STOPS } from "./data/Data";
+import { BusStop } from "./types/BusStop";
 
-extractBusStops()
-console.log(Object.values(BUS_STOPS).reduce((p, c) => {
+console.log(Object.values(BUS_STOPS as BusStop[]).reduce((p, c) => {
   p[0] = Math.min(c.x, p[0])
   p[1] = Math.min(c.y, p[1])
   p[2] = Math.max(c.x, p[2])
@@ -9,15 +9,15 @@ console.log(Object.values(BUS_STOPS).reduce((p, c) => {
   return p
 }, [10000000000, 10000000000, 0, 0]))
 
-const get = document.getElementById
-const canvas = get("canvas")
+const get = document.getElementById.bind(document);
+const canvas = get("graph")
 
 function render() {
   if (!(canvas instanceof HTMLCanvasElement)) return;
   const ctx = canvas.getContext("2d")
   if (!ctx) return;
-  ctx.fillStyle = "#000"
-  ctx.fillRect(10, 10, 1, 1)
+  ctx.fillStyle = "#000";
+  ctx.fillRect(10, 10, 100, 100)
 }
 
 render()
