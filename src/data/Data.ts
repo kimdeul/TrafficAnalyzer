@@ -56,6 +56,17 @@ export const BUS_STOPS = [
   },
   {
     name: "(주)세모입구(린나이코리아)",
+    number: 37585,
+    id: 163000585,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 172037.8604,
+    latitude: 126.6846847,
+    y: 441205.1449,
+    longitude: 37.47260274
+  },
+  {
+    name: "(주)세모입구(린나이코리아)",
     number: 40893,
     id: 166000893,
     discrit: "부평구",
@@ -275,6 +286,39 @@ export const BUS_STOPS = [
     longitude: 37.46464365
   },
   {
+    name: "6공단사거리",
+    number: 37577,
+    id: 163000577,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170571.1644,
+    latitude: 126.6680982,
+    y: 441359.7219,
+    longitude: 37.47394984
+  },
+  {
+    name: "6공단입구",
+    number: 37443,
+    id: 163000443,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 171609.1612,
+    latitude: 126.6798502,
+    y: 440900.5708,
+    longitude: 37.46984547
+  },
+  {
+    name: "6공단입구",
+    number: 37442,
+    id: 163000442,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 171620.8586,
+    latitude: 126.6799835,
+    y: 440873.6733,
+    longitude: 37.46960348
+  },
+  {
     name: "8부두",
     number: 35182,
     id: 161000182,
@@ -473,6 +517,17 @@ export const BUS_STOPS = [
     longitude: 37.48697011
   },
   {
+    name: "JC회관",
+    number: 37383,
+    id: 163000383,
+    discrit: "미추홀구",
+    dong: "주안1동",
+    x: 171169.3773,
+    latitude: 126.6749035,
+    y: 440270.1874,
+    longitude: 37.46415215
+  },
+  {
     name: "JST기술연구소",
     number: 89491,
     id: 168001491,
@@ -603,6 +658,17 @@ export const BUS_STOPS = [
     latitude: 126.6970238,
     y: 439914.6918,
     longitude: 37.46100819
+  },
+  {
+    name: "KT인천지사",
+    number: 37415,
+    id: 163000415,
+    discrit: "미추홀구",
+    dong: "주안6동",
+    x: 172882.0213,
+    latitude: 126.6942791,
+    y: 439806.8507,
+    longitude: 37.46002944
   },
   {
     name: "LG마그나",
@@ -748,6 +814,28 @@ export const BUS_STOPS = [
     longitude: 37.48490871
   },
   {
+    name: "LH미추홀3단지",
+    number: 37222,
+    id: 163000222,
+    discrit: "미추홀구",
+    dong: "용현2동",
+    x: 168424.765,
+    latitude: 126.6439043,
+    y: 439715.3376,
+    longitude: 37.45906321
+  },
+  {
+    name: "LH미추홀3단지",
+    number: 37635,
+    id: 163000635,
+    discrit: "미추홀구",
+    dong: "용현2동",
+    x: 168297.5577,
+    latitude: 126.6424652,
+    y: 439745.7757,
+    longitude: 37.45933309
+  },
+  {
     name: "LH웨스턴블루힐정문",
     number: 89185,
     id: 168001185,
@@ -845,6 +933,39 @@ export const BUS_STOPS = [
     latitude: 126.6306538,
     y: 447120.5048,
     longitude: 37.52574256
+  },
+  {
+    name: "SK스카이뷰",
+    number: 37601,
+    id: 163000601,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 168702.9286,
+    latitude: 126.6470999,
+    y: 438500.6918,
+    longitude: 37.44812886
+  },
+  {
+    name: "SK스카이뷰104동",
+    number: 37587,
+    id: 163000587,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 168308.9305,
+    latitude: 126.6426474,
+    y: 438499.4061,
+    longitude: 37.44810384
+  },
+  {
+    name: "SK스카이뷰109동",
+    number: 37607,
+    id: 163000607,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 168424.9178,
+    latitude: 126.6439429,
+    y: 438854.6492,
+    longitude: 37.45130851
   },
   {
     name: "SK인천석유화학",
@@ -1078,6 +1199,17 @@ export const BUS_STOPS = [
     longitude: 37.47579725
   },
   {
+    name: "gym80fitness",
+    number: 37081,
+    id: 163000081,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167618.0247,
+    latitude: 126.6348216,
+    y: 438907.6999,
+    longitude: 37.45175856
+  },
+  {
     name: "㈜한슬",
     number: 42814,
     id: 168000814,
@@ -1098,6 +1230,28 @@ export const BUS_STOPS = [
     latitude: 126.6695561,
     y: 447432.067,
     longitude: 37.52866545
+  },
+  {
+    name: "가구단지사거리",
+    number: 37455,
+    id: 163000455,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 169554.0301,
+    latitude: 126.6565673,
+    y: 442143.098,
+    longitude: 37.48097495
+  },
+  {
+    name: "가구단지사거리",
+    number: 37456,
+    id: 163000456,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 169518.1216,
+    latitude: 126.6561606,
+    y: 442161.1145,
+    longitude: 37.48113609
   },
   {
     name: "가구전시장",
@@ -1771,6 +1925,28 @@ export const BUS_STOPS = [
     longitude: 37.48999606
   },
   {
+    name: "가좌테니스장",
+    number: 37457,
+    id: 163000457,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 171480.9518,
+    latitude: 126.6783812,
+    y: 441408.7217,
+    longitude: 37.4744199
+  },
+  {
+    name: "가좌테니스장",
+    number: 37454,
+    id: 163000454,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 171461.597,
+    latitude: 126.6781629,
+    y: 441396.3446,
+    longitude: 37.47430778
+  },
+  {
     name: "가좌현대아파트",
     number: 42130,
     id: 168000130,
@@ -1989,6 +2165,39 @@ export const BUS_STOPS = [
     latitude: 126.7083871,
     y: 439742.229,
     longitude: 37.45948303
+  },
+  {
+    name: "간석남부역",
+    number: 37435,
+    id: 163000435,
+    discrit: "미추홀구",
+    dong: "주안6동",
+    x: 172887.8328,
+    latitude: 126.6943278,
+    y: 440269.718,
+    longitude: 37.4642
+  },
+  {
+    name: "간석남부역",
+    number: 37429,
+    id: 163000429,
+    discrit: "미추홀구",
+    dong: "주안6동",
+    x: 172918.7788,
+    latitude: 126.6946814,
+    y: 440165.4727,
+    longitude: 37.46326167
+  },
+  {
+    name: "간석남부역",
+    number: 37529,
+    id: 163000529,
+    discrit: "미추홀구",
+    dong: "주안6동",
+    x: 172888.123,
+    latitude: 126.6943339,
+    y: 440193.0833,
+    longitude: 37.46350954
   },
   {
     name: "간석동용광경로당",
@@ -2253,6 +2462,17 @@ export const BUS_STOPS = [
     latitude: 126.6964144,
     y: 440062.7884,
     longitude: 37.46234097
+  },
+  {
+    name: "간석한신더휴아파트맞은편",
+    number: 37447,
+    id: 163000447,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 172249.7127,
+    latitude: 126.6870971,
+    y: 440741.5869,
+    longitude: 37.46843253
   },
   {
     name: "간재울초등학교",
@@ -4301,6 +4521,28 @@ export const BUS_STOPS = [
     longitude: 37.48041611
   },
   {
+    name: "경인방송",
+    number: 37004,
+    id: 163000004,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 167539.9867,
+    latitude: 126.634021,
+    y: 437062.6833,
+    longitude: 37.43513242
+  },
+  {
+    name: "경인방송",
+    number: 37003,
+    id: 163000003,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 167558.8332,
+    latitude: 126.6342282,
+    y: 437193.8015,
+    longitude: 37.43631445
+  },
+  {
     name: "경인산업",
     number: 39688,
     id: 165000688,
@@ -5500,6 +5742,28 @@ export const BUS_STOPS = [
     longitude: 37.40511321
   },
   {
+    name: "공단시장",
+    number: 37426,
+    id: 163000426,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 171577.5511,
+    latitude: 126.6795018,
+    y: 440668.7432,
+    longitude: 37.46775575
+  },
+  {
+    name: "공단시장",
+    number: 37427,
+    id: 163000427,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 171590.9417,
+    latitude: 126.6796534,
+    y: 440663.4731,
+    longitude: 37.46770868
+  },
+  {
     name: "공단오거리",
     number: 40565,
     id: 166000565,
@@ -5553,6 +5817,28 @@ export const BUS_STOPS = [
     latitude: 126.6804836,
     y: 442213.538,
     longitude: 37.48167701
+  },
+  {
+    name: "공단치안센터",
+    number: 37445,
+    id: 163000445,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 171473.824,
+    latitude: 126.6783166,
+    y: 440997.7751,
+    longitude: 37.47071709
+  },
+  {
+    name: "공단치안센터",
+    number: 37444,
+    id: 163000444,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 171433.9058,
+    latitude: 126.6778656,
+    y: 440991.7401,
+    longitude: 37.47066148
   },
   {
     name: "공단회관",
@@ -5819,6 +6105,83 @@ export const BUS_STOPS = [
     longitude: 37.49231467
   },
   {
+    name: "관교노인복지관·승학초등학교",
+    number: 37679,
+    id: 163000679,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 173091.0092,
+    latitude: 126.6967265,
+    y: 437474.9762,
+    longitude: 37.43902551
+  },
+  {
+    name: "관교여자중학교",
+    number: 37231,
+    id: 163000231,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 172418.81,
+    latitude: 126.6891039,
+    y: 438197.7035,
+    longitude: 37.44551741
+  },
+  {
+    name: "관교여자중학교",
+    number: 37229,
+    id: 163000229,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 172525.3941,
+    latitude: 126.6903103,
+    y: 438147.3019,
+    longitude: 37.44506647
+  },
+  {
+    name: "관교여자중학교",
+    number: 37226,
+    id: 163000226,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 172500.1715,
+    latitude: 126.6900264,
+    y: 438114.8305,
+    longitude: 37.44477316
+  },
+  {
+    name: "관교중학교",
+    number: 37200,
+    id: 163000200,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 172683.8569,
+    latitude: 126.6921105,
+    y: 437889.0998,
+    longitude: 37.44274479
+  },
+  {
+    name: "관교중학교(약수터)",
+    number: 37202,
+    id: 163000202,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 172610.5024,
+    latitude: 126.6912806,
+    y: 437915.7545,
+    longitude: 37.44298277
+  },
+  {
+    name: "관교중학교(약수터)",
+    number: 37203,
+    id: 163000203,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 172640.7844,
+    latitude: 126.6916222,
+    y: 437932.1584,
+    longitude: 37.44313147
+  },
+  {
     name: "관리공단본부",
     number: 42720,
     id: 168000720,
@@ -5940,6 +6303,17 @@ export const BUS_STOPS = [
     longitude: 37.52915949
   },
   {
+    name: "광명아파트",
+    number: 37434,
+    id: 163000434,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 172405.8836,
+    latitude: 126.688873,
+    y: 440459.433,
+    longitude: 37.46589503
+  },
+  {
     name: "광명항",
     number: 35714,
     id: 161000714,
@@ -6037,6 +6411,39 @@ export const BUS_STOPS = [
     latitude: 126.7171661,
     y: 447977.6333,
     longitude: 37.53370517
+  },
+  {
+    name: "교보생명",
+    number: 37357,
+    id: 163000357,
+    discrit: "미추홀구",
+    dong: "주안1동",
+    x: 171645.8337,
+    latitude: 126.6803089,
+    y: 439754.792,
+    longitude: 37.45952324
+  },
+  {
+    name: "교통방송사거리",
+    number: 37538,
+    id: 163000538,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 168899.6737,
+    latitude: 126.6493361,
+    y: 438196.0964,
+    longitude: 37.44539113
+  },
+  {
+    name: "교통방송사거리",
+    number: 37539,
+    id: 163000539,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 168928.68,
+    latitude: 126.6496654,
+    y: 438161.4372,
+    longitude: 37.44507983
   },
   {
     name: "교통연수원",
@@ -6611,6 +7018,17 @@ export const BUS_STOPS = [
     longitude: 37.52192887
   },
   {
+    name: "국민건강보험남부지사",
+    number: 37274,
+    id: 163000274,
+    discrit: "미추홀구",
+    dong: "주안7동",
+    x: 171422.0182,
+    latitude: 126.6778142,
+    y: 438853.6745,
+    longitude: 37.45139735
+  },
+  {
     name: "국민은행",
     number: 38149,
     id: 164000149,
@@ -6743,6 +7161,28 @@ export const BUS_STOPS = [
     longitude: 37.40007319
   },
   {
+    name: "국제이노베이션",
+    number: 37573,
+    id: 163000573,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 169890.0794,
+    latitude: 126.6603786,
+    y: 441850.8444,
+    longitude: 37.47835281
+  },
+  {
+    name: "국제이노베이션",
+    number: 37574,
+    id: 163000574,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 169783.345,
+    latitude: 126.6591705,
+    y: 441884.4922,
+    longitude: 37.47865249
+  },
+  {
     name: "국제학교",
     number: 38457,
     id: 164000457,
@@ -6765,6 +7205,17 @@ export const BUS_STOPS = [
     longitude: 37.39981125
   },
   {
+    name: "굴다리",
+    number: 37142,
+    id: 163000142,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 168557.4111,
+    latitude: 126.6454342,
+    y: 438997.378,
+    longitude: 37.45259901
+  },
+  {
     name: "굴다리오거리",
     number: 40231,
     id: 166000231,
@@ -6785,6 +7236,17 @@ export const BUS_STOPS = [
     latitude: 126.7285112,
     y: 443262.5883,
     longitude: 37.49124966
+  },
+  {
+    name: "굴다리입구",
+    number: 37152,
+    id: 163000152,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 168063.6369,
+    latitude: 126.6398442,
+    y: 439218.4966,
+    longitude: 37.45457431
   },
   {
     name: "굴포천",
@@ -6895,6 +7357,28 @@ export const BUS_STOPS = [
     latitude: 126.7329274,
     y: 444991.9805,
     longitude: 37.50684154
+  },
+  {
+    name: "궁현사거리",
+    number: 37576,
+    id: 163000576,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170191.0528,
+    latitude: 126.6637909,
+    y: 441611.0505,
+    longitude: 37.47620208
+  },
+  {
+    name: "궁현사거리",
+    number: 37575,
+    id: 163000575,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170208.6141,
+    latitude: 126.6639885,
+    y: 441634.82,
+    longitude: 37.4764168
   },
   {
     name: "귀뚜라미보일러",
@@ -7271,6 +7755,17 @@ export const BUS_STOPS = [
     longitude: 37.3926416
   },
   {
+    name: "금강요양병원",
+    number: 37291,
+    id: 163000291,
+    discrit: "미추홀구",
+    dong: "주안8동",
+    x: 172215.7205,
+    latitude: 126.6867867,
+    y: 438785.1407,
+    longitude: 37.45080409
+  },
+  {
     name: "금강종합상가",
     number: 42858,
     id: 168000858,
@@ -7447,6 +7942,28 @@ export const BUS_STOPS = [
     longitude: 37.59256147
   },
   {
+    name: "금호2차아파트",
+    number: 37033,
+    id: 163000033,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167546.6035,
+    latitude: 126.6340252,
+    y: 438663.4993,
+    longitude: 37.44955583
+  },
+  {
+    name: "금호2차아파트",
+    number: 37031,
+    id: 163000031,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167503.3409,
+    latitude: 126.6335367,
+    y: 438656.0755,
+    longitude: 37.44948742
+  },
+  {
     name: "금호베스트빌1단지.영종도서관",
     number: 35112,
     id: 161000112,
@@ -7503,6 +8020,17 @@ export const BUS_STOPS = [
   },
   {
     name: "금호아파트",
+    number: 37061,
+    id: 163000061,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 168079.7866,
+    latitude: 126.6400523,
+    y: 438629.2135,
+    longitude: 37.4492655
+  },
+  {
+    name: "금호아파트",
     number: 40795,
     id: 166000795,
     discrit: "부평구",
@@ -7533,6 +8061,17 @@ export const BUS_STOPS = [
     latitude: 126.5078384,
     y: 442414.1173,
     longitude: 37.48288902
+  },
+  {
+    name: "금호어울림",
+    number: 37048,
+    id: 163000048,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167433.3219,
+    latitude: 126.6327406,
+    y: 438764.9012,
+    longitude: 37.45046546
   },
   {
     name: "금호어울림",
@@ -7634,6 +8173,28 @@ export const BUS_STOPS = [
     longitude: 37.54642272
   },
   {
+    name: "금호타운",
+    number: 37024,
+    id: 163000024,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167671.4409,
+    latitude: 126.6354426,
+    y: 438514.9166,
+    longitude: 37.4482215
+  },
+  {
+    name: "금호타운",
+    number: 37026,
+    id: 163000026,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167666.7727,
+    latitude: 126.6353876,
+    y: 438565.3102,
+    longitude: 37.44867537
+  },
+  {
     name: "금홍염전",
     number: 35544,
     id: 161000544,
@@ -7654,6 +8215,17 @@ export const BUS_STOPS = [
     latitude: 126.5193521,
     y: 441405.6018,
     longitude: 37.4738499
+  },
+  {
+    name: "기계공고",
+    number: 37294,
+    id: 163000294,
+    discrit: "미추홀구",
+    dong: "주안2동",
+    x: 170754.4634,
+    latitude: 126.6702491,
+    y: 439378.4683,
+    longitude: 37.45610479
   },
   {
     name: "기계철제단지",
@@ -7698,6 +8270,17 @@ export const BUS_STOPS = [
     latitude: 126.7062152,
     y: 437698.2228,
     longitude: 37.44106106
+  },
+  {
+    name: "기점(미정차)_517 519",
+    number: 37677,
+    id: 163000677,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 168136.6445,
+    latitude: 126.6407154,
+    y: 438153.5158,
+    longitude: 37.44498148
   },
   {
     name: "긴마루교회입구",
@@ -8017,6 +8600,17 @@ export const BUS_STOPS = [
     latitude: 126.6447942,
     y: 449429.4347,
     longitude: 37.54658931
+  },
+  {
+    name: "남광로얄아파트",
+    number: 37257,
+    id: 163000257,
+    discrit: "미추홀구",
+    dong: "주안7동",
+    x: 171582.9736,
+    latitude: 126.6796394,
+    y: 438693.8313,
+    longitude: 37.44996214
   },
   {
     name: "남광하우스토리",
@@ -8668,6 +9262,28 @@ export const BUS_STOPS = [
     longitude: 37.57489055
   },
   {
+    name: "남인천농협백운지점",
+    number: 37174,
+    id: 163000174,
+    discrit: "미추홀구",
+    dong: "용현2동",
+    x: 168163.4826,
+    latitude: 126.6409635,
+    y: 439429.0856,
+    longitude: 37.45647514
+  },
+  {
+    name: "남인천새마을금고중앙지점",
+    number: 37300,
+    id: 163000300,
+    discrit: "미추홀구",
+    dong: "주안2동",
+    x: 171599.1119,
+    latitude: 126.6798034,
+    y: 439169.63,
+    longitude: 37.45424955
+  },
+  {
     name: "남인천여자중학교",
     number: 39190,
     id: 165000190,
@@ -8688,6 +9304,28 @@ export const BUS_STOPS = [
     latitude: 126.6940147,
     y: 438261.5098,
     longitude: 37.44610519
+  },
+  {
+    name: "남중학교",
+    number: 37336,
+    id: 163000336,
+    discrit: "미추홀구",
+    dong: "숭의4동",
+    x: 169532.9803,
+    latitude: 126.656401,
+    y: 440412.6893,
+    longitude: 37.4653835
+  },
+  {
+    name: "남중학교",
+    number: 37331,
+    id: 163000331,
+    discrit: "미추홀구",
+    dong: "숭의4동",
+    x: 169518.0137,
+    latitude: 126.6562324,
+    y: 440399.6288,
+    longitude: 37.46526534
   },
   {
     name: "남청라TG",
@@ -8941,6 +9579,17 @@ export const BUS_STOPS = [
     latitude: 126.7338765,
     y: 437964.4484,
     longitude: 37.44352563
+  },
+  {
+    name: "노인복지회관",
+    number: 37599,
+    id: 163000599,
+    discrit: "미추홀구",
+    dong: "용현2동",
+    x: 167979.209,
+    latitude: 126.6388678,
+    y: 439729.8906,
+    longitude: 37.45917898
   },
   {
     name: "노인인력개발센터",
@@ -10571,6 +11220,28 @@ export const BUS_STOPS = [
     longitude: 37.54523217
   },
   {
+    name: "대동아파트",
+    number: 37042,
+    id: 163000042,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 170464.6802,
+    latitude: 126.6670459,
+    y: 437583.6381,
+    longitude: 37.4399243
+  },
+  {
+    name: "대동아파트",
+    number: 37504,
+    id: 163000504,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 170461.939,
+    latitude: 126.6670138,
+    y: 437613.6421,
+    longitude: 37.44019455
+  },
+  {
     name: "대동아파트정문앞",
     number: 40277,
     id: 210000475,
@@ -10682,6 +11353,28 @@ export const BUS_STOPS = [
   },
   {
     name: "대림아파트",
+    number: 37054,
+    id: 163000054,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167740.7986,
+    latitude: 126.6362177,
+    y: 438712.0268,
+    longitude: 37.44999986
+  },
+  {
+    name: "대림아파트",
+    number: 37053,
+    id: 163000053,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167722.1733,
+    latitude: 126.6360073,
+    y: 438711.5127,
+    longitude: 37.44999458
+  },
+  {
+    name: "대림아파트",
     number: 40382,
     id: 166000382,
     discrit: "부평구",
@@ -10723,6 +11416,17 @@ export const BUS_STOPS = [
     latitude: 126.434849,
     y: 435756.6175,
     longitude: 37.42257781
+  },
+  {
+    name: "대명아파트",
+    number: 37537,
+    id: 163000537,
+    discrit: "미추홀구",
+    dong: "주안2동",
+    x: 170854.7944,
+    latitude: 126.6713753,
+    y: 439575.0414,
+    longitude: 37.45787907
   },
   {
     name: "대문목재",
@@ -10932,6 +11636,28 @@ export const BUS_STOPS = [
     latitude: 126.6881056,
     y: 435002.9698,
     longitude: 37.41673003
+  },
+  {
+    name: "대우일렉트로닉스",
+    number: 37463,
+    id: 163000463,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 168467.1557,
+    latitude: 126.6444554,
+    y: 438033.1684,
+    longitude: 37.4439085
+  },
+  {
+    name: "대우일렉트로닉스",
+    number: 37462,
+    id: 163000462,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 168526.1918,
+    latitude: 126.6451208,
+    y: 438074.7771,
+    longitude: 37.44428541
   },
   {
     name: "대우자동차운전학원",
@@ -11220,6 +11946,28 @@ export const BUS_STOPS = [
     longitude: 37.50277248
   },
   {
+    name: "대화초등학교",
+    number: 37399,
+    id: 163000399,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170556.9637,
+    latitude: 126.667963,
+    y: 440726.2592,
+    longitude: 37.46824197
+  },
+  {
+    name: "대화초등학교",
+    number: 37397,
+    id: 163000397,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170586.5027,
+    latitude: 126.668298,
+    y: 440698.8465,
+    longitude: 37.46799592
+  },
+  {
     name: "대흥식당",
     number: 35689,
     id: 161000689,
@@ -11482,6 +12230,28 @@ export const BUS_STOPS = [
     latitude: 126.6459784,
     y: 432753.4886,
     longitude: 37.39634284
+  },
+  {
+    name: "더월드스테이트2단지",
+    number: 37657,
+    id: 163000657,
+    discrit: "미추홀구",
+    dong: "주안6동",
+    x: 173052.5366,
+    latitude: 126.6961975,
+    y: 440051.8826,
+    longitude: 37.46224215
+  },
+  {
+    name: "더월드스테이트후문",
+    number: 37422,
+    id: 163000422,
+    discrit: "미추홀구",
+    dong: "주안6동",
+    x: 172770.0126,
+    latitude: 126.6929996,
+    y: 440172.8927,
+    longitude: 37.46332415
   },
   {
     name: "더포레스트아파트",
@@ -11903,6 +12673,17 @@ export const BUS_STOPS = [
   },
   {
     name: "도원역(인천축구전용경기장)",
+    number: 37549,
+    id: 163000549,
+    discrit: "미추홀구",
+    dong: "숭의13동",
+    x: 168368.3973,
+    latitude: 126.6432239,
+    y: 440721.2804,
+    longitude: 37.46812469
+  },
+  {
+    name: "도원역(인천축구전용경기장)",
     number: 35176,
     id: 161000176,
     discrit: "중구",
@@ -11911,6 +12692,171 @@ export const BUS_STOPS = [
     latitude: 126.6425278,
     y: 440737.0295,
     longitude: 37.46826448
+  },
+  {
+    name: "도화1동행정복지센터",
+    number: 37340,
+    id: 163000340,
+    discrit: "미추홀구",
+    dong: "도화1동",
+    x: 171092.4551,
+    latitude: 126.6740498,
+    y: 439868.601,
+    longitude: 37.46053149
+  },
+  {
+    name: "도화IC",
+    number: 37356,
+    id: 163000356,
+    discrit: "미추홀구",
+    dong: "도화1동",
+    x: 170851.9097,
+    latitude: 126.6713237,
+    y: 440054.6145,
+    longitude: 37.46219988
+  },
+  {
+    name: "도화e편한세상604동",
+    number: 37578,
+    id: 163000578,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170555.5273,
+    latitude: 126.667922,
+    y: 441344.0847,
+    longitude: 37.47380845
+  },
+  {
+    name: "도화e편한세상아파트",
+    number: 37612,
+    id: 163000612,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170152.5927,
+    latitude: 126.6633629,
+    y: 441443.7354,
+    longitude: 37.47469335
+  },
+  {
+    name: "도화e편한세상아파트",
+    number: 37613,
+    id: 163000613,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170167.5442,
+    latitude: 126.6635341,
+    y: 441390.2371,
+    longitude: 37.47421182
+  },
+  {
+    name: "도화e편한세상아파트5단지",
+    number: 37624,
+    id: 163000624,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170070.6746,
+    latitude: 126.662448,
+    y: 441168.8762,
+    longitude: 37.47221425
+  },
+  {
+    name: "도화e편한세상아파트6단지",
+    number: 37626,
+    id: 163000626,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170358.7733,
+    latitude: 126.6657017,
+    y: 441245.7289,
+    longitude: 37.47291598
+  },
+  {
+    name: "도화사거리.도화역",
+    number: 37392,
+    id: 163000392,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170428.7564,
+    latitude: 126.6665131,
+    y: 440743.5154,
+    longitude: 37.46839334
+  },
+  {
+    name: "도화사거리.도화역",
+    number: 37390,
+    id: 163000390,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170424.7678,
+    latitude: 126.6664688,
+    y: 440722.1865,
+    longitude: 37.46820104
+  },
+  {
+    name: "도화사거리·더샵인천스카이타워",
+    number: 37673,
+    id: 163000673,
+    discrit: "미추홀구",
+    dong: "도화동",
+    x: 170396.0719,
+    latitude: 126.6661374,
+    y: 440896.4422,
+    longitude: 37.46977015
+  },
+  {
+    name: "도화사거리·더샵인천스카이타워",
+    number: 37674,
+    id: 163000674,
+    discrit: "미추홀구",
+    dong: "도화동",
+    x: 170407.3167,
+    latitude: 126.6662655,
+    y: 440872.0214,
+    longitude: 37.46955048
+  },
+  {
+    name: "도화서희스타힐스",
+    number: 37625,
+    id: 163000625,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170104.7819,
+    latitude: 126.6628336,
+    y: 441169.8571,
+    longitude: 37.47222419
+  },
+  {
+    name: "도화역",
+    number: 37629,
+    id: 163000629,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170445.0513,
+    latitude: 126.6667048,
+    y: 440556.6082,
+    longitude: 37.46670985
+  },
+  {
+    name: "도화초등학교.수봉도서관",
+    number: 37367,
+    id: 163000367,
+    discrit: "미추홀구",
+    dong: "도화1동",
+    x: 170491.249,
+    latitude: 126.6672362,
+    y: 440327.697,
+    longitude: 37.46464887
+  },
+  {
+    name: "도화초등학교.수봉도서관",
+    number: 37366,
+    id: 163000366,
+    discrit: "미추홀구",
+    dong: "도화1동",
+    x: 170518.535,
+    latitude: 126.6675463,
+    y: 440285.4007,
+    longitude: 37.46426865
   },
   {
     name: "독골사거리",
@@ -11922,6 +12868,17 @@ export const BUS_STOPS = [
     latitude: 126.6676317,
     y: 445761.0784,
     longitude: 37.51360456
+  },
+  {
+    name: "독배로317번길(삼거리)",
+    number: 37634,
+    id: 163000634,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 168643.799,
+    latitude: 126.6464364,
+    y: 438388.7634,
+    longitude: 37.44711839
   },
   {
     name: "독정역(서구동구예비군훈련장)",
@@ -11944,6 +12901,28 @@ export const BUS_STOPS = [
     latitude: 126.6761511,
     y: 453557.484,
     longitude: 37.58387297
+  },
+  {
+    name: "독정이고개",
+    number: 37238,
+    id: 163000238,
+    discrit: "미추홀구",
+    dong: "용현14동",
+    x: 169613.1764,
+    latitude: 126.6573522,
+    y: 439330.3429,
+    longitude: 37.45563433
+  },
+  {
+    name: "독정이고개",
+    number: 37234,
+    id: 163000234,
+    discrit: "미추홀구",
+    dong: "용현14동",
+    x: 169582.0244,
+    latitude: 126.6570008,
+    y: 439313.3295,
+    longitude: 37.45548001
   },
   {
     name: "돌산밑",
@@ -12441,6 +13420,17 @@ export const BUS_STOPS = [
     longitude: 37.48134315
   },
   {
+    name: "동부아파트",
+    number: 37192,
+    id: 163000192,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 172998.9831,
+    latitude: 126.6956791,
+    y: 437680.1383,
+    longitude: 37.44087132
+  },
+  {
     name: "동산고",
     number: 36018,
     id: 162000018,
@@ -12706,6 +13696,17 @@ export const BUS_STOPS = [
   },
   {
     name: "동아아파트",
+    number: 37248,
+    id: 163000248,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 172881.5423,
+    latitude: 126.6943356,
+    y: 438127.0743,
+    longitude: 37.44489475
+  },
+  {
+    name: "동아아파트",
     number: 42404,
     id: 168000404,
     discrit: "서구",
@@ -12791,6 +13792,17 @@ export const BUS_STOPS = [
     latitude: 126.6727688,
     y: 442926.3958,
     longitude: 37.48807863
+  },
+  {
+    name: "동아풍림아파트",
+    number: 37037,
+    id: 163000037,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 169818.8637,
+    latitude: 126.6597386,
+    y: 437823.9322,
+    longitude: 37.44206846
   },
   {
     name: "동암국민주택",
@@ -13002,6 +14014,17 @@ export const BUS_STOPS = [
     longitude: 37.56366859
   },
   {
+    name: "동양장사거리",
+    number: 37301,
+    id: 163000301,
+    discrit: "미추홀구",
+    dong: "주안8동",
+    x: 172682.8569,
+    latitude: 126.6920675,
+    y: 438744.646,
+    longitude: 37.45045318
+  },
+  {
     name: "동양주공1.2단지",
     number: 41373,
     id: 167000373,
@@ -13088,6 +14111,28 @@ export const BUS_STOPS = [
     latitude: 126.5551211,
     y: 442560.4835,
     longitude: 37.48439586
+  },
+  {
+    name: "동원아파트",
+    number: 37379,
+    id: 163000379,
+    discrit: "미추홀구",
+    dong: "도화1동",
+    x: 170953.2966,
+    latitude: 126.6724606,
+    y: 440282.5286,
+    longitude: 37.46425656
+  },
+  {
+    name: "동원아파트",
+    number: 37376,
+    id: 163000376,
+    discrit: "미추홀구",
+    dong: "도화1동",
+    x: 170954.2742,
+    latitude: 126.6724727,
+    y: 440256.265,
+    longitude: 37.46401996
   },
   {
     name: "동인천",
@@ -13343,6 +14388,17 @@ export const BUS_STOPS = [
     longitude: 37.40459224
   },
   {
+    name: "동춘역(경유)",
+    number: null,
+    id: 282807060,
+    discrit: "남동구",
+    dong: "남촌도림동",
+    x: 174219.552,
+    latitude: 126.7095381,
+    y: 435772.906,
+    longitude: 37.42372209
+  },
+  {
     name: "동춘역(이마트)",
     number: 38060,
     id: 164000060,
@@ -13407,6 +14463,17 @@ export const BUS_STOPS = [
     latitude: 126.7370253,
     y: 446148.4956,
     longitude: 37.51727093
+  },
+  {
+    name: "두산위브아파트",
+    number: 37043,
+    id: 163000043,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 169522.6634,
+    latitude: 126.6563867,
+    y: 437940.7979,
+    longitude: 37.44311168
   },
   {
     name: "두산위브아파트",
@@ -13981,6 +15048,28 @@ export const BUS_STOPS = [
     longitude: 37.52010792
   },
   {
+    name: "로얄아파트",
+    number: 37424,
+    id: 163000424,
+    discrit: "미추홀구",
+    dong: "주안6동",
+    x: 172779.0623,
+    latitude: 126.6931008,
+    y: 440200.9859,
+    longitude: 37.46357753
+  },
+  {
+    name: "로얄아파트",
+    number: 37247,
+    id: 163000247,
+    discrit: "미추홀구",
+    dong: "주안8동",
+    x: 171603.1556,
+    latitude: 126.679871,
+    y: 438603.9714,
+    longitude: 37.44915313
+  },
+  {
     name: "롯데마트",
     number: 42829,
     id: 168001004,
@@ -14070,6 +15159,17 @@ export const BUS_STOPS = [
   },
   {
     name: "롯데백화점(인천터미널)",
+    number: 37513,
+    id: 163000513,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 173531.8834,
+    latitude: 126.7016916,
+    y: 437936.1067,
+    longitude: 37.44319302
+  },
+  {
+    name: "롯데백화점(인천터미널)",
     number: 39588,
     id: 165000588,
     discrit: "남동구",
@@ -14155,6 +15255,17 @@ export const BUS_STOPS = [
     latitude: 126.6786334,
     y: 444972.8465,
     longitude: 37.50653323
+  },
+  {
+    name: "롯데월드타워",
+    number: 37327,
+    id: 163000327,
+    discrit: "미추홀구",
+    dong: "도화1동",
+    x: 170972.9297,
+    latitude: 126.672701,
+    y: 439814.139,
+    longitude: 37.46003704
   },
   {
     name: "롯데캐슬",
@@ -15598,6 +16709,17 @@ export const BUS_STOPS = [
     longitude: 37.38382174
   },
   {
+    name: "명가빌라(회차)",
+    number: 37553,
+    id: 163000553,
+    discrit: "미추홀구",
+    dong: "주안2동",
+    x: 170507.0334,
+    latitude: 126.667449,
+    y: 439467.9626,
+    longitude: 37.45690326
+  },
+  {
     name: "명신여자고등학교",
     number: 40291,
     id: 166000291,
@@ -15961,6 +17083,17 @@ export const BUS_STOPS = [
     longitude: 37.50029369
   },
   {
+    name: "목화빌라",
+    number: 37545,
+    id: 163000545,
+    discrit: "미추홀구",
+    dong: "용현2동",
+    x: 168417.9503,
+    latitude: 126.6438432,
+    y: 439342.7984,
+    longitude: 37.45570644
+  },
+  {
     name: "목화예식장",
     number: 39448,
     id: 165000448,
@@ -16225,6 +17358,149 @@ export const BUS_STOPS = [
     longitude: 37.43520794
   },
   {
+    name: "문학경기장(야구장)",
+    number: 37144,
+    id: 163000144,
+    discrit: "미추홀구",
+    dong: "문학동",
+    x: 172632.9994,
+    latitude: 126.6915536,
+    y: 437411.0439,
+    longitude: 37.43843603
+  },
+  {
+    name: "문학경기장(월드컵경기장)",
+    number: 37157,
+    id: 163000157,
+    discrit: "미추홀구",
+    dong: "문학동",
+    x: 172743.7685,
+    latitude: 126.6928038,
+    y: 437449.5403,
+    longitude: 37.43878615
+  },
+  {
+    name: "문학경로당",
+    number: 37087,
+    id: 163000087,
+    discrit: "미추홀구",
+    dong: "문학동",
+    x: 171755.1491,
+    latitude: 126.6816374,
+    y: 437333.4472,
+    longitude: 37.43771046
+  },
+  {
+    name: "문학경로당",
+    number: 37088,
+    id: 163000088,
+    discrit: "미추홀구",
+    dong: "문학동",
+    x: 171747.199,
+    latitude: 126.681547,
+    y: 437347.2104,
+    longitude: 37.43783422
+  },
+  {
+    name: "문학고개",
+    number: 37057,
+    id: 163000057,
+    discrit: "미추홀구",
+    dong: "문학동",
+    x: 171404.2877,
+    latitude: 126.6776734,
+    y: 437319.6794,
+    longitude: 37.43757562
+  },
+  {
+    name: "문학고개",
+    number: 37056,
+    id: 163000056,
+    discrit: "미추홀구",
+    dong: "문학동",
+    x: 171412.7651,
+    latitude: 126.6777697,
+    y: 437307.8163,
+    longitude: 37.43746899
+  },
+  {
+    name: "문학고개",
+    number: 37101,
+    id: 163000101,
+    discrit: "미추홀구",
+    dong: "문학동",
+    x: 171477.6943,
+    latitude: 126.6784941,
+    y: 437546.9049,
+    longitude: 37.43962517
+  },
+  {
+    name: "문학우체국",
+    number: 37521,
+    id: 163000521,
+    discrit: "미추홀구",
+    dong: "문학동",
+    x: 171988.1153,
+    latitude: 126.6842709,
+    y: 437302.7512,
+    longitude: 37.43744098
+  },
+  {
+    name: "문학우체국",
+    number: 37520,
+    id: 163000520,
+    discrit: "미추홀구",
+    dong: "문학동",
+    x: 171980.1297,
+    latitude: 126.6841801,
+    y: 437318.8804,
+    longitude: 37.43758606
+  },
+  {
+    name: "문학정보고입구",
+    number: 37108,
+    id: 163000108,
+    discrit: "미추홀구",
+    dong: "문학동",
+    x: 172194.8611,
+    latitude: 126.6866077,
+    y: 437284.4409,
+    longitude: 37.43728225
+  },
+  {
+    name: "문학정보고입구",
+    number: 37107,
+    id: 163000107,
+    discrit: "미추홀구",
+    dong: "문학동",
+    x: 172168.8381,
+    latitude: 126.6863132,
+    y: 437296.1803,
+    longitude: 37.43738724
+  },
+  {
+    name: "문학초등학교",
+    number: 37110,
+    id: 163000110,
+    discrit: "미추홀구",
+    dong: "문학동",
+    x: 171833.5823,
+    latitude: 126.6825194,
+    y: 437444.0768,
+    longitude: 37.43870962
+  },
+  {
+    name: "문학초등학교",
+    number: 37105,
+    id: 163000105,
+    discrit: "미추홀구",
+    dong: "문학동",
+    x: 171805.801,
+    latitude: 126.6822065,
+    y: 437417.3319,
+    longitude: 37.4384678
+  },
+  {
     name: "문화교회",
     number: 40173,
     id: 166000173,
@@ -16333,6 +17609,17 @@ export const BUS_STOPS = [
     latitude: 126.5083103,
     y: 447440.8009,
     longitude: 37.52818086
+  },
+  {
+    name: "미도아파트",
+    number: 37446,
+    id: 163000446,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 171872.3748,
+    latitude: 126.6828279,
+    y: 440841.4656,
+    longitude: 37.469321
   },
   {
     name: "미도아파트",
@@ -16555,6 +17842,17 @@ export const BUS_STOPS = [
     longitude: 37.49699628
   },
   {
+    name: "미추홀경찰서(장미아파트)",
+    number: 37524,
+    id: 163000524,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 169380.7173,
+    latitude: 126.6547783,
+    y: 438047.6431,
+    longitude: 37.44406965
+  },
+  {
     name: "미추홀공원",
     number: 38368,
     id: 164000368,
@@ -16566,6 +17864,61 @@ export const BUS_STOPS = [
     longitude: 37.38501331
   },
   {
+    name: "미추홀구청",
+    number: 37304,
+    id: 163000304,
+    discrit: "미추홀구",
+    dong: "숭의2동",
+    x: 169033.3203,
+    latitude: 126.650761,
+    y: 440224.6648,
+    longitude: 37.4636728
+  },
+  {
+    name: "미추홀구청",
+    number: 37307,
+    id: 163000307,
+    discrit: "미추홀구",
+    dong: "숭의4동",
+    x: 169000.8794,
+    latitude: 126.6503904,
+    y: 440319.161,
+    longitude: 37.46452311
+  },
+  {
+    name: "미추홀구청입구",
+    number: 37306,
+    id: 163000306,
+    discrit: "미추홀구",
+    dong: "숭의13동",
+    x: 168895.9301,
+    latitude: 126.6492026,
+    y: 440354.6388,
+    longitude: 37.46483923
+  },
+  {
+    name: "미추홀구청입구",
+    number: 37312,
+    id: 163000312,
+    discrit: "미추홀구",
+    dong: "숭의4동",
+    x: 169028.6004,
+    latitude: 126.6507002,
+    y: 440402.3813,
+    longitude: 37.46527384
+  },
+  {
+    name: "미추홀구평생학습관",
+    number: 37073,
+    id: 163000073,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 170750.8479,
+    latitude: 126.6702763,
+    y: 437664.8536,
+    longitude: 37.44066515
+  },
+  {
     name: "미추홀도서관·인천신월초등학교",
     number: 39270,
     id: 165000270,
@@ -16575,6 +17928,17 @@ export const BUS_STOPS = [
     latitude: 126.7244303,
     y: 438539.7724,
     longitude: 37.44868756
+  },
+  {
+    name: "미추홀서사거리",
+    number: 37678,
+    id: 163000678,
+    discrit: "미추홀구",
+    dong: "학익동",
+    x: 169176.7559,
+    latitude: 126.6524706,
+    y: 438116.2876,
+    longitude: 37.44468135
   },
   {
     name: "미추홀아파트",
@@ -16619,6 +17983,50 @@ export const BUS_STOPS = [
     latitude: 126.7241882,
     y: 431999.7648,
     longitude: 37.38976097
+  },
+  {
+    name: "미추홀퍼스트(2단지)",
+    number: 37642,
+    id: 163000642,
+    discrit: "미추홀구",
+    dong: "숭의2동",
+    x: 168571.0427,
+    latitude: 126.6455612,
+    y: 439629.529,
+    longitude: 37.45829508
+  },
+  {
+    name: "미추홀퍼스트(2단지)",
+    number: 37220,
+    id: 163000220,
+    discrit: "미추홀구",
+    dong: "용현2동",
+    x: 168552.4927,
+    latitude: 126.6453522,
+    y: 439614.9437,
+    longitude: 37.45816303
+  },
+  {
+    name: "미추홀퍼스트2단지",
+    number: 37646,
+    id: 163000646,
+    discrit: "미추홀구",
+    dong: "용현2동",
+    x: 168374.5743,
+    latitude: 126.6433425,
+    y: 439587.8351,
+    longitude: 37.45791271
+  },
+  {
+    name: "미추홀퍼스트3단지",
+    number: 37647,
+    id: 163000647,
+    discrit: "미추홀구",
+    dong: "용현2동",
+    x: 168369.558,
+    latitude: 126.6432852,
+    y: 439600.8236,
+    longitude: 37.45802956
   },
   {
     name: "민방위교육장",
@@ -17391,6 +18799,28 @@ export const BUS_STOPS = [
     longitude: 37.48419666
   },
   {
+    name: "백운프라자",
+    number: 37181,
+    id: 163000181,
+    discrit: "미추홀구",
+    dong: "용현2동",
+    x: 168035.3972,
+    latitude: 126.6395126,
+    y: 439503.7555,
+    longitude: 37.45714348
+  },
+  {
+    name: "백운프라자",
+    number: 37185,
+    id: 163000185,
+    discrit: "미추홀구",
+    dong: "용현2동",
+    x: 168029.9619,
+    latitude: 126.6394503,
+    y: 439524.3816,
+    longitude: 37.45732913
+  },
+  {
     name: "백조아파트",
     number: 40388,
     id: 166000388,
@@ -17512,6 +18942,50 @@ export const BUS_STOPS = [
     longitude: 37.49509688
   },
   {
+    name: "법원",
+    number: 37131,
+    id: 163000131,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 170730.3821,
+    latitude: 126.670028,
+    y: 438094.0408,
+    longitude: 37.44453145
+  },
+  {
+    name: "법원",
+    number: 37130,
+    id: 163000130,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 170761.3517,
+    latitude: 126.6703804,
+    y: 438032.2069,
+    longitude: 37.44397531
+  },
+  {
+    name: "법원.검찰청",
+    number: 37074,
+    id: 163000074,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 170561.7759,
+    latitude: 126.6681372,
+    y: 437730.3639,
+    longitude: 37.44124939
+  },
+  {
+    name: "법원검찰청입구",
+    number: 37078,
+    id: 163000078,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 170561.2336,
+    latitude: 126.66813,
+    y: 437758.6105,
+    longitude: 37.44150387
+  },
+  {
     name: "베어즈베스트골프장",
     number: 89269,
     id: 168001269,
@@ -17620,6 +19094,28 @@ export const BUS_STOPS = [
     latitude: 126.7208254,
     y: 440205.5833,
     longitude: 37.46368805
+  },
+  {
+    name: "병무청(학익풍림아이원)",
+    number: 37013,
+    id: 163000013,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 169549.4523,
+    latitude: 126.6567003,
+    y: 437677.6435,
+    longitude: 37.44074157
+  },
+  {
+    name: "병무청(학익풍림아이원)",
+    number: 37671,
+    id: 163000671,
+    discrit: "미추홀구",
+    dong: "학익동",
+    x: 169484.817,
+    latitude: 126.6559694,
+    y: 437690.7153,
+    longitude: 37.44085721
   },
   {
     name: "병방사거리",
@@ -20537,6 +22033,17 @@ export const BUS_STOPS = [
     longitude: 37.48243584
   },
   {
+    name: "산업단지사거리",
+    number: 37460,
+    id: 163000460,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 169850.1098,
+    latitude: 126.6599099,
+    y: 442260.6327,
+    longitude: 37.48204364
+  },
+  {
     name: "산업용품센타",
     number: 42524,
     id: 168000524,
@@ -20634,6 +22141,28 @@ export const BUS_STOPS = [
     latitude: 126.6563607,
     y: 442659.3006,
     longitude: 37.48562531
+  },
+  {
+    name: "삼덕아파트",
+    number: 37403,
+    id: 163000403,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170707.9209,
+    latitude: 126.6696711,
+    y: 440683.5778,
+    longitude: 37.46786222
+  },
+  {
+    name: "삼덕아파트",
+    number: 37404,
+    id: 163000404,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170698.8831,
+    latitude: 126.669568,
+    y: 440708.0221,
+    longitude: 37.46808217
   },
   {
     name: "삼두2차아파트",
@@ -21307,6 +22836,17 @@ export const BUS_STOPS = [
     longitude: 37.36488705
   },
   {
+    name: "삼성빌라(종점)",
+    number: 37572,
+    id: 163000572,
+    discrit: "미추홀구",
+    dong: "도화1동",
+    x: 170626.5689,
+    latitude: 126.6687906,
+    y: 439705.832,
+    longitude: 37.45905025
+  },
+  {
     name: "삼성아파트",
     number: 35140,
     id: 161000140,
@@ -21407,6 +22947,17 @@ export const BUS_STOPS = [
   },
   {
     name: "삼영아파트",
+    number: 37280,
+    id: 163000280,
+    discrit: "미추홀구",
+    dong: "주안8동",
+    x: 172566.6084,
+    latitude: 126.6907623,
+    y: 438513.6445,
+    longitude: 37.44836842
+  },
+  {
+    name: "삼영아파트",
     number: 42085,
     id: 168000085,
     discrit: "서구",
@@ -21415,6 +22966,28 @@ export const BUS_STOPS = [
     latitude: 126.6718052,
     y: 443839.0813,
     longitude: 37.4962992
+  },
+  {
+    name: "삼영아파트",
+    number: 37279,
+    id: 163000279,
+    discrit: "미추홀구",
+    dong: "주안8동",
+    x: 172608.703,
+    latitude: 126.6912394,
+    y: 438476.9625,
+    longitude: 37.44803917
+  },
+  {
+    name: "삼영아파트",
+    number: 37116,
+    id: 163000116,
+    discrit: "미추홀구",
+    dong: "문학동",
+    x: 172034.1219,
+    latitude: 126.6847866,
+    y: 437411.0843,
+    longitude: 37.43841845
   },
   {
     name: "삼영테크",
@@ -21448,6 +23021,17 @@ export const BUS_STOPS = [
     latitude: 126.6852727,
     y: 433212.4095,
     longitude: 37.40058938
+  },
+  {
+    name: "삼은교회",
+    number: 37111,
+    id: 163000111,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167706.7375,
+    latitude: 126.6358178,
+    y: 439055.0086,
+    longitude: 37.45308889
   },
   {
     name: "삼익.광명아파트",
@@ -21615,6 +23199,17 @@ export const BUS_STOPS = [
     longitude: 37.38668504
   },
   {
+    name: "삼환1단지아파트",
+    number: 37252,
+    id: 163000252,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 172971.7298,
+    latitude: 126.6953541,
+    y: 438146.213,
+    longitude: 37.44506984
+  },
+  {
     name: "삼환아파트",
     number: 39323,
     id: 165000323,
@@ -21679,6 +23274,28 @@ export const BUS_STOPS = [
     latitude: 126.7329911,
     y: 438521.4155,
     longitude: 37.44854192
+  },
+  {
+    name: "상수도사업본부(스마트타운)",
+    number: 37380,
+    id: 163000380,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 169914.9894,
+    latitude: 126.6607059,
+    y: 440733.1036,
+    longitude: 37.46828293
+  },
+  {
+    name: "상수도사업본부(스마트타운)",
+    number: 37375,
+    id: 163000375,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 169742.453,
+    latitude: 126.6587575,
+    y: 440687.0992,
+    longitude: 37.46786279
   },
   {
     name: "상야동",
@@ -21954,6 +23571,39 @@ export const BUS_STOPS = [
     latitude: 126.6940223,
     y: 442213.7822,
     longitude: 37.48171522
+  },
+  {
+    name: "새안의원",
+    number: 37256,
+    id: 163000256,
+    discrit: "미추홀구",
+    dong: "주안3동",
+    x: 171087.4855,
+    latitude: 126.6740325,
+    y: 438881.191,
+    longitude: 37.45163486
+  },
+  {
+    name: "새안의원",
+    number: 37255,
+    id: 163000255,
+    discrit: "미추홀구",
+    dong: "주안2동",
+    x: 170924.1543,
+    latitude: 126.6721848,
+    y: 438926.5814,
+    longitude: 37.45203869
+  },
+  {
+    name: "새한아파트",
+    number: 37046,
+    id: 163000046,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167517.2225,
+    latitude: 126.6336898,
+    y: 438740.1118,
+    longitude: 37.45024507
   },
   {
     name: "샘내들교",
@@ -22405,6 +24055,17 @@ export const BUS_STOPS = [
     latitude: 126.7037431,
     y: 432497.7521,
     longitude: 37.39419819
+  },
+  {
+    name: "서원아파트",
+    number: 37095,
+    id: 163000095,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 170782.4188,
+    latitude: 126.6706283,
+    y: 437783.9448,
+    longitude: 37.44173916
   },
   {
     name: "서인천가구단지",
@@ -23122,6 +24783,28 @@ export const BUS_STOPS = [
     longitude: 37.54204328
   },
   {
+    name: "서화초등학교(도화e편한세상)",
+    number: 37438,
+    id: 163000438,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 169978.2811,
+    latitude: 126.6613909,
+    y: 441480.076,
+    longitude: 37.47501512
+  },
+  {
+    name: "서화초등학교(도화e편한세상)",
+    number: 37623,
+    id: 163000623,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 169930.5728,
+    latitude: 126.6608508,
+    y: 441499.0787,
+    longitude: 37.47518477
+  },
+  {
     name: "서흥초등학교",
     number: 36117,
     id: 162000117,
@@ -23153,6 +24836,17 @@ export const BUS_STOPS = [
     latitude: 126.6454947,
     y: 442088.0761,
     longitude: 37.48044636
+  },
+  {
+    name: "석건연립",
+    number: 37051,
+    id: 163000051,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 170550.0848,
+    latitude: 126.6680102,
+    y: 437604.3091,
+    longitude: 37.44011327
   },
   {
     name: "석남고가교입구사거리",
@@ -23320,6 +25014,138 @@ export const BUS_STOPS = [
     longitude: 37.50930295
   },
   {
+    name: "석락아파트",
+    number: 37241,
+    id: 163000241,
+    discrit: "미추홀구",
+    dong: "주안3동",
+    x: 170706.6407,
+    latitude: 126.6697271,
+    y: 438913.4672,
+    longitude: 37.45191366
+  },
+  {
+    name: "석락아파트",
+    number: 37244,
+    id: 163000244,
+    discrit: "미추홀구",
+    dong: "주안2동",
+    x: 170695.4116,
+    latitude: 126.6695988,
+    y: 438949.1362,
+    longitude: 37.45223468
+  },
+  {
+    name: "석바위",
+    number: 37556,
+    id: 163000556,
+    discrit: "미추홀구",
+    dong: "주안4동",
+    x: 172440.5969,
+    latitude: 126.6893022,
+    y: 439476.3009,
+    longitude: 37.45703813
+  },
+  {
+    name: "석바위",
+    number: 37370,
+    id: 163000370,
+    discrit: "미추홀구",
+    dong: "주안6동",
+    x: 172374.5313,
+    latitude: 126.6885511,
+    y: 439594.8712,
+    longitude: 37.45810447
+  },
+  {
+    name: "석바위",
+    number: 37365,
+    id: 163000365,
+    discrit: "미추홀구",
+    dong: "주안4동",
+    x: 172370.1839,
+    latitude: 126.6885031,
+    y: 439565.7662,
+    longitude: 37.4578421
+  },
+  {
+    name: "석바위시장",
+    number: 37382,
+    id: 163000382,
+    discrit: "미추홀구",
+    dong: "주안6동",
+    x: 172446.53,
+    latitude: 126.6893598,
+    y: 439729.9702,
+    longitude: 37.45932385
+  },
+  {
+    name: "석바위시장",
+    number: 37378,
+    id: 163000378,
+    discrit: "미추홀구",
+    dong: "주안6동",
+    x: 172603.7875,
+    latitude: 126.6911408,
+    y: 439634.1274,
+    longitude: 37.458465
+  },
+  {
+    name: "석바위시장",
+    number: 37384,
+    id: 163000384,
+    discrit: "미추홀구",
+    dong: "주안6동",
+    x: 172749.2516,
+    latitude: 126.692783,
+    y: 439686.383,
+    longitude: 37.45894012
+  },
+  {
+    name: "석바위시장",
+    number: 37381,
+    id: 163000381,
+    discrit: "미추홀구",
+    dong: "주안6동",
+    x: 172477.2486,
+    latitude: 126.6897079,
+    y: 439707.2472,
+    longitude: 37.45912004
+  },
+  {
+    name: "석바위시장",
+    number: 37544,
+    id: 163000544,
+    discrit: "미추홀구",
+    dong: "주안6동",
+    x: 172445.7301,
+    latitude: 126.6893498,
+    y: 439756.7225,
+    longitude: 37.45956486
+  },
+  {
+    name: "석바위시장역",
+    number: 37374,
+    id: 163000374,
+    discrit: "미추홀구",
+    dong: "주안6동",
+    x: 172699.4034,
+    latitude: 126.6922241,
+    y: 439564.3994,
+    longitude: 37.45783959
+  },
+  {
+    name: "석바위시장역",
+    number: 37373,
+    id: 163000373,
+    discrit: "미추홀구",
+    dong: "주안6동",
+    x: 172707.5449,
+    latitude: 126.6923172,
+    y: 439534.5451,
+    longitude: 37.45757084
+  },
+  {
     name: "석산로",
     number: 92051,
     id: 165001051,
@@ -23340,6 +25166,28 @@ export const BUS_STOPS = [
     latitude: 126.6991058,
     y: 439885.5701,
     longitude: 37.46075115
+  },
+  {
+    name: "석암초등학교",
+    number: 37412,
+    id: 163000412,
+    discrit: "미추홀구",
+    dong: "주안6동",
+    x: 172196.0294,
+    latitude: 126.6865095,
+    y: 440234.0326,
+    longitude: 37.4638579
+  },
+  {
+    name: "석암초등학교앞",
+    number: 37407,
+    id: 163000407,
+    discrit: "미추홀구",
+    dong: "주안1동",
+    x: 172076.3313,
+    latitude: 126.6851571,
+    y: 440217.5044,
+    longitude: 37.46370536
   },
   {
     name: "석정여자고등학교",
@@ -23923,6 +25771,17 @@ export const BUS_STOPS = [
     latitude: 126.6940413,
     y: 432165.3256,
     longitude: 37.39117816
+  },
+  {
+    name: "성원빌딩.우편취급국",
+    number: 37425,
+    id: 163000425,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 171928.6703,
+    latitude: 126.6834764,
+    y: 440523.5709,
+    longitude: 37.46645851
   },
   {
     name: "성일산업",
@@ -25905,6 +27764,50 @@ export const BUS_STOPS = [
     longitude: 37.47792822
   },
   {
+    name: "송림고가교",
+    number: 37491,
+    id: 163000491,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 169359.6609,
+    latitude: 126.6543746,
+    y: 442027.9074,
+    longitude: 37.47993066
+  },
+  {
+    name: "송림고가교",
+    number: 37492,
+    id: 163000492,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 169397.3027,
+    latitude: 126.6548006,
+    y: 442017.588,
+    longitude: 37.47983893
+  },
+  {
+    name: "송림고개(도화신동아아파트)",
+    number: 37439,
+    id: 163000439,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 169354.5258,
+    latitude: 126.6543307,
+    y: 441688.5295,
+    longitude: 37.47687275
+  },
+  {
+    name: "송림고개(도화신동아아파트)",
+    number: 37501,
+    id: 163000501,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 169342.4388,
+    latitude: 126.6541921,
+    y: 441735.9803,
+    longitude: 37.47729987
+  },
+  {
     name: "송림동진로아파트",
     number: 36155,
     id: 162000155,
@@ -26290,6 +28193,72 @@ export const BUS_STOPS = [
     longitude: 37.49361778
   },
   {
+    name: "수봉공원",
+    number: 37289,
+    id: 163000289,
+    discrit: "미추홀구",
+    dong: "주안2동",
+    x: 170086.486,
+    latitude: 126.6626906,
+    y: 439599.0859,
+    longitude: 37.45807113
+  },
+  {
+    name: "수봉공원",
+    number: 37569,
+    id: 163000569,
+    discrit: "미추홀구",
+    dong: "용현14동",
+    x: 170121.0034,
+    latitude: 126.6630823,
+    y: 439561.0813,
+    longitude: 37.45772983
+  },
+  {
+    name: "수봉공원.인천수봉문화회관입구",
+    number: 37369,
+    id: 163000369,
+    discrit: "미추홀구",
+    dong: "도화1동",
+    x: 170063.3468,
+    latitude: 126.6623928,
+    y: 440489.6197,
+    longitude: 37.46609399
+  },
+  {
+    name: "수봉공원.인천수봉문화회관입구",
+    number: 37362,
+    id: 163000362,
+    discrit: "미추홀구",
+    dong: "도화1동",
+    x: 170099.8628,
+    latitude: 126.6628073,
+    y: 440446.7992,
+    longitude: 37.46570937
+  },
+  {
+    name: "수봉마을쉼터",
+    number: 37570,
+    id: 163000570,
+    discrit: "미추홀구",
+    dong: "주안2동",
+    x: 170415.27,
+    latitude: 126.6664071,
+    y: 439586.2942,
+    longitude: 37.45796648
+  },
+  {
+    name: "수봉마을쉼터",
+    number: 37571,
+    id: 163000571,
+    discrit: "미추홀구",
+    dong: "주안2동",
+    x: 170443.7297,
+    latitude: 126.6667289,
+    y: 439584.8712,
+    longitude: 37.45795457
+  },
+  {
     name: "수산동",
     number: 39175,
     id: 165000175,
@@ -26390,6 +28359,17 @@ export const BUS_STOPS = [
   },
   {
     name: "순복음교회",
+    number: 37253,
+    id: 163000253,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 173223.9878,
+    latitude: 126.6982088,
+    y: 438033.0579,
+    longitude: 37.44405766
+  },
+  {
+    name: "순복음교회",
     number: 40661,
     id: 166000661,
     discrit: "부평구",
@@ -26466,6 +28446,171 @@ export const BUS_STOPS = [
     longitude: 37.48138359
   },
   {
+    name: "숭의1.3동(극동아파트)",
+    number: 37328,
+    id: 163000328,
+    discrit: "미추홀구",
+    dong: "숭의13동",
+    x: 168662.3066,
+    latitude: 126.6465469,
+    y: 440706.6552,
+    longitude: 37.46800295
+  },
+  {
+    name: "숭의1.3동(극동아파트)",
+    number: 37337,
+    id: 163000337,
+    discrit: "미추홀구",
+    dong: "숭의13동",
+    x: 168720.8363,
+    latitude: 126.6472077,
+    y: 440723.9712,
+    longitude: 37.46816095
+  },
+  {
+    name: "숭의2동행정복지센터",
+    number: 37563,
+    id: 163000563,
+    discrit: "미추홀구",
+    dong: "숭의2동",
+    x: 168696.3823,
+    latitude: 126.6469581,
+    y: 440093.9817,
+    longitude: 37.46248399
+  },
+  {
+    name: "숭의교회",
+    number: 37271,
+    id: 163000271,
+    discrit: "미추홀구",
+    dong: "숭의2동",
+    x: 168537.3921,
+    latitude: 126.6451667,
+    y: 439963.0109,
+    longitude: 37.46129856
+  },
+  {
+    name: "숭의교회",
+    number: 37269,
+    id: 163000269,
+    discrit: "미추홀구",
+    dong: "숭의2동",
+    x: 168575.0813,
+    latitude: 126.6455944,
+    y: 439921.0577,
+    longitude: 37.46092185
+  },
+  {
+    name: "숭의로터리",
+    number: 37273,
+    id: 163000273,
+    discrit: "미추홀구",
+    dong: "숭의13동",
+    x: 168177.7229,
+    latitude: 126.641095,
+    y: 440111.4011,
+    longitude: 37.46262321
+  },
+  {
+    name: "숭의로터리",
+    number: 37265,
+    id: 163000265,
+    discrit: "미추홀구",
+    dong: "숭의13동",
+    x: 168287.4307,
+    latitude: 126.6423394,
+    y: 440007.956,
+    longitude: 37.46169496
+  },
+  {
+    name: "숭의로터리",
+    number: 37266,
+    id: 163000266,
+    discrit: "미추홀구",
+    dong: "숭의2동",
+    x: 168320.5641,
+    latitude: 126.6427142,
+    y: 440002.4063,
+    longitude: 37.46164609
+  },
+  {
+    name: "숭의로터리.도원체육관",
+    number: 37276,
+    id: 163000276,
+    discrit: "미추홀구",
+    dong: "숭의13동",
+    x: 168104.4506,
+    latitude: 126.6402644,
+    y: 440165.1259,
+    longitude: 37.46310473
+  },
+  {
+    name: "숭의목공예마을앞",
+    number: 37313,
+    id: 163000313,
+    discrit: "미추홀구",
+    dong: "숭의13동",
+    x: 168809.4874,
+    latitude: 126.6482194,
+    y: 440498.52,
+    longitude: 37.46613266
+  },
+  {
+    name: "숭의목공예마을앞",
+    number: 37315,
+    id: 163000315,
+    discrit: "미추홀구",
+    dong: "숭의13동",
+    x: 168844.685,
+    latitude: 126.6486161,
+    y: 440526.3196,
+    longitude: 37.46638432
+  },
+  {
+    name: "숭의박문아파트",
+    number: 37353,
+    id: 163000353,
+    discrit: "미추홀구",
+    dong: "숭의13동",
+    x: 168936.323,
+    latitude: 126.6496416,
+    y: 440770.9172,
+    longitude: 37.4685912
+  },
+  {
+    name: "숭의박문아파트",
+    number: 37354,
+    id: 163000354,
+    discrit: "미추홀구",
+    dong: "숭의13동",
+    x: 168891.8611,
+    latitude: 126.649138,
+    y: 440795.5654,
+    longitude: 37.46881178
+  },
+  {
+    name: "숭의보건지소",
+    number: 37532,
+    id: 163000532,
+    discrit: "미추홀구",
+    dong: "숭의2동",
+    x: 168825.4017,
+    latitude: 126.6484077,
+    y: 440300.7122,
+    longitude: 37.46435098
+  },
+  {
+    name: "숭의역(1번출구)",
+    number: 37510,
+    id: 163000510,
+    discrit: "미추홀구",
+    dong: "용현2동",
+    x: 167858.1547,
+    latitude: 126.6374993,
+    y: 439736.1228,
+    longitude: 37.45923093
+  },
+  {
     name: "숭의역(2번출구)",
     number: 37211,
     id: 163000211,
@@ -26497,6 +28642,39 @@ export const BUS_STOPS = [
     latitude: 126.6377725,
     y: 440044.9767,
     longitude: 37.46201455
+  },
+  {
+    name: "숭의초등학교",
+    number: 37296,
+    id: 163000296,
+    discrit: "미추홀구",
+    dong: "숭의4동",
+    x: 169133.0933,
+    latitude: 126.6518966,
+    y: 440038.6279,
+    longitude: 37.46199997
+  },
+  {
+    name: "숭의초등학교",
+    number: 37308,
+    id: 163000308,
+    discrit: "미추홀구",
+    dong: "숭의4동",
+    x: 169483.7634,
+    latitude: 126.6558566,
+    y: 440124.0891,
+    longitude: 37.46278162
+  },
+  {
+    name: "숭의초등학교입구",
+    number: 37287,
+    id: 163000287,
+    discrit: "미추홀구",
+    dong: "숭의2동",
+    x: 169175.4133,
+    latitude: 126.6523797,
+    y: 439925.0558,
+    longitude: 37.46097811
   },
   {
     name: "쉐보레인천서비스",
@@ -26664,6 +28842,94 @@ export const BUS_STOPS = [
     longitude: 37.47465017
   },
   {
+    name: "시립가좌테니스장",
+    number: 37582,
+    id: 163000582,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 171536.1022,
+    latitude: 126.6790051,
+    y: 441397.4148,
+    longitude: 37.47431973
+  },
+  {
+    name: "시민공원",
+    number: 37359,
+    id: 163000359,
+    discrit: "미추홀구",
+    dong: "주안1동",
+    x: 171620.3067,
+    latitude: 126.6800183,
+    y: 439809.4081,
+    longitude: 37.46001454
+  },
+  {
+    name: "시민공원(문화창작지대)역",
+    number: 37346,
+    id: 163000346,
+    discrit: "미추홀구",
+    dong: "주안4동",
+    x: 171878.6604,
+    latitude: 126.6829462,
+    y: 439605.3179,
+    longitude: 37.45818362
+  },
+  {
+    name: "시민공원(문화창작지대)역",
+    number: 37344,
+    id: 163000344,
+    discrit: "미추홀구",
+    dong: "주안1동",
+    x: 171748.4313,
+    latitude: 126.6814727,
+    y: 439646.4407,
+    longitude: 37.45855015
+  },
+  {
+    name: "시민공원.문화창작지대",
+    number: 37468,
+    id: 163000468,
+    discrit: "미추홀구",
+    dong: "주안1동",
+    x: 171495.1513,
+    latitude: 126.6786093,
+    y: 439665.3871,
+    longitude: 37.45871307
+  },
+  {
+    name: "시민공원.문화창작지대",
+    number: 37334,
+    id: 163000334,
+    discrit: "미추홀구",
+    dong: "주안2동",
+    x: 171493.7892,
+    latitude: 126.678595,
+    y: 439635.7624,
+    longitude: 37.45844611
+  },
+  {
+    name: "시민공원역.포레나미추홀",
+    number: 37319,
+    id: 163000319,
+    discrit: "미추홀구",
+    dong: "주안4동",
+    x: 171634.2993,
+    latitude: 126.6801878,
+    y: 439514.7428,
+    longitude: 37.45736007
+  },
+  {
+    name: "시민공원역.포레나미추홀",
+    number: 37326,
+    id: 163000326,
+    discrit: "미추홀구",
+    dong: "주안2동",
+    x: 171611.9383,
+    latitude: 126.6799347,
+    y: 439524.7282,
+    longitude: 37.45744935
+  },
+  {
     name: "시장로터리(중앙철재)",
     number: 40261,
     id: 166000261,
@@ -26708,6 +28974,28 @@ export const BUS_STOPS = [
     longitude: 37.46463548
   },
   {
+    name: "신기.남부종합시장(진흥사거리)",
+    number: 37219,
+    id: 163000219,
+    discrit: "미추홀구",
+    dong: "주안7동",
+    x: 171574.743,
+    latitude: 126.6795565,
+    y: 438431.2672,
+    longitude: 37.44759621
+  },
+  {
+    name: "신기.남부종합시장(진흥사거리)",
+    number: 37217,
+    id: 163000217,
+    discrit: "미추홀구",
+    dong: "주안7동",
+    x: 171545.8128,
+    latitude: 126.6792288,
+    y: 438451.2356,
+    longitude: 37.44777523
+  },
+  {
     name: "신대진중앙아파트",
     number: 41274,
     id: 167000274,
@@ -26739,6 +29027,50 @@ export const BUS_STOPS = [
     latitude: 126.7161664,
     y: 446528.6472,
     longitude: 37.52064752
+  },
+  {
+    name: "신동아1.2차아파트",
+    number: 37507,
+    id: 163000507,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 170796.0078,
+    latitude: 126.6707886,
+    y: 437615.1964,
+    longitude: 37.44021917
+  },
+  {
+    name: "신동아3차아파트",
+    number: 37119,
+    id: 163000119,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 171440.3113,
+    latitude: 126.6780662,
+    y: 437686.1691,
+    longitude: 37.44087878
+  },
+  {
+    name: "신동아3차아파트",
+    number: 37494,
+    id: 163000494,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 171075.8311,
+    latitude: 126.6739538,
+    y: 437531.1586,
+    longitude: 37.4394708
+  },
+  {
+    name: "신동아3차아파트",
+    number: 37120,
+    id: 163000120,
+    discrit: "미추홀구",
+    dong: "문학동",
+    x: 171472.1925,
+    latitude: 126.6784269,
+    y: 437675.0154,
+    longitude: 37.44077927
   },
   {
     name: "신동아상가",
@@ -26786,6 +29118,50 @@ export const BUS_STOPS = [
   },
   {
     name: "신동아아파트",
+    number: 37143,
+    id: 163000143,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 171396.7407,
+    latitude: 126.6775654,
+    y: 437906.2172,
+    longitude: 37.44286005
+  },
+  {
+    name: "신동아아파트",
+    number: 37072,
+    id: 163000072,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 170843.3107,
+    latitude: 126.671323,
+    y: 437616.6989,
+    longitude: 37.44023421
+  },
+  {
+    name: "신동아아파트",
+    number: 37525,
+    id: 163000525,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 171015.8185,
+    latitude: 126.6732745,
+    y: 437560.2207,
+    longitude: 37.43973077
+  },
+  {
+    name: "신동아아파트",
+    number: 37160,
+    id: 163000160,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 171478.9617,
+    latitude: 126.6784921,
+    y: 437966.0331,
+    longitude: 37.44340153
+  },
+  {
+    name: "신동아아파트",
     number: 41349,
     id: 167000349,
     discrit: "계양구",
@@ -26805,6 +29181,17 @@ export const BUS_STOPS = [
     latitude: 126.6901183,
     y: 440649.6993,
     longitude: 37.46761262
+  },
+  {
+    name: "신동아아파트(B)",
+    number: 37162,
+    id: 163000162,
+    discrit: "미추홀구",
+    dong: "주안7동",
+    x: 171519.3715,
+    latitude: 126.6789469,
+    y: 438013.6073,
+    longitude: 37.44383142
   },
   {
     name: "신동아아파트116동",
@@ -26829,6 +29216,83 @@ export const BUS_STOPS = [
     longitude: 37.476557
   },
   {
+    name: "신동아아파트3차",
+    number: 37090,
+    id: 163000090,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 171178.4185,
+    latitude: 126.6751108,
+    y: 437586.0544,
+    longitude: 37.43996862
+  },
+  {
+    name: "신동아아파트3차",
+    number: 37097,
+    id: 163000097,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 171162.7608,
+    latitude: 126.6749319,
+    y: 437637.4163,
+    longitude: 37.4404309
+  },
+  {
+    name: "신동아아파트4차",
+    number: 37121,
+    id: 163000121,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 171294.13,
+    latitude: 126.676412,
+    y: 437747.6831,
+    longitude: 37.44142848
+  },
+  {
+    name: "신동아아파트4차",
+    number: 37123,
+    id: 163000123,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 171278.7515,
+    latitude: 126.6762374,
+    y: 437770.749,
+    longitude: 37.44163583
+  },
+  {
+    name: "신동아아파트5차",
+    number: 37141,
+    id: 163000141,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 171417.7321,
+    latitude: 126.6778032,
+    y: 437890.4947,
+    longitude: 37.44271904
+  },
+  {
+    name: "신동아아파트8차",
+    number: 37136,
+    id: 163000136,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 171295.746,
+    latitude: 126.676425,
+    y: 437884.09,
+    longitude: 37.44265755
+  },
+  {
+    name: "신동아아파트8차",
+    number: 37135,
+    id: 163000135,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 171279.5627,
+    latitude: 126.6762421,
+    y: 437884.8057,
+    longitude: 37.4426635
+  },
+  {
     name: "신동양아파트",
     number: 41203,
     id: 167000203,
@@ -26849,6 +29313,28 @@ export const BUS_STOPS = [
     latitude: 126.7204068,
     y: 449067.8828,
     longitude: 37.54353597
+  },
+  {
+    name: "신라아파트",
+    number: 37543,
+    id: 163000543,
+    discrit: "미추홀구",
+    dong: "주안8동",
+    x: 172414.0238,
+    latitude: 126.689039,
+    y: 438487.5719,
+    longitude: 37.44812897
+  },
+  {
+    name: "신라아파트",
+    number: 37277,
+    id: 163000277,
+    discrit: "미추홀구",
+    dong: "주안8동",
+    x: 172414.438,
+    latitude: 126.6890428,
+    y: 438509.8329,
+    longitude: 37.44832955
   },
   {
     name: "신명보람마을.삼부한신아파트",
@@ -26961,6 +29447,61 @@ export const BUS_STOPS = [
     longitude: 37.50570044
   },
   {
+    name: "신비마을아파트",
+    number: 37223,
+    id: 163000223,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 172277.4873,
+    latitude: 126.6875073,
+    y: 438187.3367,
+    longitude: 37.44541978
+  },
+  {
+    name: "신비마을아파트",
+    number: 37555,
+    id: 163000555,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 172903.5432,
+    latitude: 126.6946084,
+    y: 437469.4413,
+    longitude: 37.43897016
+  },
+  {
+    name: "신비마을아파트",
+    number: 37225,
+    id: 163000225,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 172289.5685,
+    latitude: 126.6876433,
+    y: 438199.925,
+    longitude: 37.44553356
+  },
+  {
+    name: "신비마을아파트",
+    number: 37164,
+    id: 163000164,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 172871.6314,
+    latitude: 126.6942456,
+    y: 437531.4321,
+    longitude: 37.43952776
+  },
+  {
+    name: "신비마을아파트(112동)",
+    number: 37171,
+    id: 163000171,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 172895.6158,
+    latitude: 126.6945156,
+    y: 437559.0551,
+    longitude: 37.43977734
+  },
+  {
     name: "신선초등학교",
     number: 35086,
     id: 161000086,
@@ -26981,6 +29522,17 @@ export const BUS_STOPS = [
     latitude: 126.6263817,
     y: 438924.4329,
     longitude: 37.45188283
+  },
+  {
+    name: "신선초등학교앞",
+    number: 37055,
+    id: 163000055,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167161.0082,
+    latitude: 126.629655,
+    y: 438946.7807,
+    longitude: 37.45209453
   },
   {
     name: "신설동",
@@ -27247,6 +29799,28 @@ export const BUS_STOPS = [
     longitude: 37.52917949
   },
   {
+    name: "신창아파트",
+    number: 37010,
+    id: 163000010,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 168252.1079,
+    latitude: 126.6420236,
+    y: 438074.1524,
+    longitude: 37.4442704
+  },
+  {
+    name: "신창아파트",
+    number: 37464,
+    id: 163000464,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 168254.5492,
+    latitude: 126.6420528,
+    y: 438035.8159,
+    longitude: 37.44392508
+  },
+  {
     name: "신촌초등학교",
     number: 40098,
     id: 166000098,
@@ -27256,6 +29830,28 @@ export const BUS_STOPS = [
     latitude: 126.706624,
     y: 442817.6411,
     longitude: 37.4871881
+  },
+  {
+    name: "신태양아파트",
+    number: 37406,
+    id: 163000406,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170891.5015,
+    latitude: 126.6717463,
+    y: 440682.5521,
+    longitude: 37.46785878
+  },
+  {
+    name: "신태양아파트",
+    number: 37408,
+    id: 163000408,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170978.5904,
+    latitude: 126.6727321,
+    y: 440647.6876,
+    longitude: 37.4675474
   },
   {
     name: "신트리공원",
@@ -28062,6 +30658,28 @@ export const BUS_STOPS = [
   },
   {
     name: "쌍용아파트",
+    number: 37228,
+    id: 163000228,
+    discrit: "미추홀구",
+    dong: "주안7동",
+    x: 171683.2902,
+    latitude: 126.6807818,
+    y: 438466.6944,
+    longitude: 37.44791874
+  },
+  {
+    name: "쌍용아파트",
+    number: 37179,
+    id: 163000179,
+    discrit: "미추홀구",
+    dong: "주안7동",
+    x: 171533.0639,
+    latitude: 126.6790962,
+    y: 438154.7603,
+    longitude: 37.44510362
+  },
+  {
+    name: "쌍용아파트",
     number: 38184,
     id: 164000184,
     discrit: "연수구",
@@ -28070,6 +30688,39 @@ export const BUS_STOPS = [
     latitude: 126.6524994,
     y: 436006.2805,
     longitude: 37.42567018
+  },
+  {
+    name: "쌍용아파트",
+    number: 37186,
+    id: 163000186,
+    discrit: "미추홀구",
+    dong: "주안7동",
+    x: 171499.7866,
+    latitude: 126.6787185,
+    y: 438198.0901,
+    longitude: 37.44549299
+  },
+  {
+    name: "쌍용아파트",
+    number: 37476,
+    id: 163000476,
+    discrit: "미추홀구",
+    dong: "주안8동",
+    x: 171650.3067,
+    latitude: 126.6804081,
+    y: 438492.4138,
+    longitude: 37.44814946
+  },
+  {
+    name: "쌍용아파트",
+    number: 37210,
+    id: 163000210,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 172920.0206,
+    latitude: 126.6947801,
+    y: 437864.1665,
+    longitude: 37.4425271
   },
   {
     name: "쌍용아파트정문",
@@ -28092,6 +30743,28 @@ export const BUS_STOPS = [
     latitude: 126.6489713,
     y: 442868.2605,
     longitude: 37.48748622
+  },
+  {
+    name: "쑥골고가교",
+    number: 37371,
+    id: 163000371,
+    discrit: "미추홀구",
+    dong: "도화1동",
+    x: 170573.9133,
+    latitude: 126.6681694,
+    y: 440356.4673,
+    longitude: 37.46491072
+  },
+  {
+    name: "쑥골고가교",
+    number: 37372,
+    id: 163000372,
+    discrit: "미추홀구",
+    dong: "도화1동",
+    x: 170620.2524,
+    latitude: 126.6686937,
+    y: 440342.7889,
+    longitude: 37.46478896
   },
   {
     name: "아나지고개",
@@ -28257,6 +30930,28 @@ export const BUS_STOPS = [
     latitude: 126.7355171,
     y: 443582.4154,
     longitude: 37.49414728
+  },
+  {
+    name: "아리마을쉼터",
+    number: 37552,
+    id: 163000552,
+    discrit: "미추홀구",
+    dong: "용현14동",
+    x: 169971.9762,
+    latitude: 126.6614113,
+    y: 439233.8466,
+    longitude: 37.45477665
+  },
+  {
+    name: "아리마을쉼터",
+    number: 37551,
+    id: 163000551,
+    discrit: "미추홀구",
+    dong: "용현14동",
+    x: 170018.9449,
+    latitude: 126.6619417,
+    y: 439242.9984,
+    longitude: 37.45486063
   },
   {
     name: "아모텍",
@@ -29062,6 +31757,17 @@ export const BUS_STOPS = [
     longitude: 37.53010739
   },
   {
+    name: "엑슬루타워",
+    number: 37187,
+    id: 163000187,
+    discrit: "미추홀구",
+    dong: "용현2동",
+    x: 167795.6734,
+    latitude: 126.6367972,
+    y: 439642.7343,
+    longitude: 37.45838733
+  },
+  {
     name: "엘리지안타운",
     number: 42394,
     id: 168000394,
@@ -29170,6 +31876,17 @@ export const BUS_STOPS = [
     latitude: 126.7654581,
     y: 437925.2173,
     longitude: 37.44323945
+  },
+  {
+    name: "연성교회",
+    number: 37278,
+    id: 163000278,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 172720.8284,
+    latitude: 126.6925088,
+    y: 438414.6337,
+    longitude: 37.44748091
   },
   {
     name: "연세농장",
@@ -29656,6 +32373,28 @@ export const BUS_STOPS = [
     longitude: 37.45337041
   },
   {
+    name: "연학초등학교",
+    number: 37137,
+    id: 163000137,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 170988.6391,
+    latitude: 126.6729493,
+    y: 438019.8575,
+    longitude: 37.44387121
+  },
+  {
+    name: "연학초등학교",
+    number: 37138,
+    id: 163000138,
+    discrit: "미추홀구",
+    dong: "주안3동",
+    x: 170981.7079,
+    latitude: 126.6728705,
+    y: 438031.5945,
+    longitude: 37.44397674
+  },
+  {
     name: "연합의원",
     number: 42186,
     id: 168000186,
@@ -29676,6 +32415,28 @@ export const BUS_STOPS = [
     latitude: 126.6806388,
     y: 434562.7684,
     longitude: 37.41274375
+  },
+  {
+    name: "연흥아파트",
+    number: 37568,
+    id: 163000568,
+    discrit: "미추홀구",
+    dong: "주안8동",
+    x: 172037.2483,
+    latitude: 126.6847818,
+    y: 438467.3616,
+    longitude: 37.44793554
+  },
+  {
+    name: "연흥아파트",
+    number: 37567,
+    id: 163000567,
+    discrit: "미추홀구",
+    dong: "주안8동",
+    x: 172069.5658,
+    latitude: 126.6851461,
+    y: 438491.4413,
+    longitude: 37.44815347
   },
   {
     name: "연희공원",
@@ -29854,6 +32615,28 @@ export const BUS_STOPS = [
     longitude: 37.48000901
   },
   {
+    name: "염전공원",
+    number: 37681,
+    id: 163000681,
+    discrit: "미추홀구",
+    dong: "도화동",
+    x: 170009,
+    latitude: 126.6617278,
+    y: 441733.2203,
+    longitude: 37.47729691
+  },
+  {
+    name: "영남아파트",
+    number: 37060,
+    id: 163000060,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 171147.1487,
+    latitude: 126.6747632,
+    y: 437440.8082,
+    longitude: 37.43865898
+  },
+  {
     name: "영남아파트",
     number: 38203,
     id: 164000203,
@@ -29863,6 +32646,17 @@ export const BUS_STOPS = [
     latitude: 126.681898,
     y: 435196.21,
     longitude: 37.41845452
+  },
+  {
+    name: "영남아파트",
+    number: 37063,
+    id: 163000063,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 171144.6289,
+    latitude: 126.6747339,
+    y: 437461.2113,
+    longitude: 37.43884274
   },
   {
     name: "영남아파트",
@@ -30800,6 +33594,17 @@ export const BUS_STOPS = [
     longitude: 37.38411684
   },
   {
+    name: "예술회관사거리",
+    number: 37254,
+    id: 163000254,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 173347.4239,
+    latitude: 126.6996054,
+    y: 437985.5895,
+    longitude: 37.44363355
+  },
+  {
     name: "예술회관역",
     number: 39206,
     id: 165000206,
@@ -31317,6 +34122,28 @@ export const BUS_STOPS = [
     longitude: 37.45666415
   },
   {
+    name: "옹진군청",
+    number: 37020,
+    id: 163000020,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167790.3881,
+    latitude: 126.6367912,
+    y: 438413.1408,
+    longitude: 37.44730866
+  },
+  {
+    name: "옹진군청",
+    number: 37019,
+    id: 163000019,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167837.94,
+    latitude: 126.6373286,
+    y: 438412.4893,
+    longitude: 37.44730445
+  },
+  {
     name: "완정공단입구",
     number: 42409,
     id: 168000409,
@@ -31603,6 +34430,50 @@ export const BUS_STOPS = [
     longitude: 37.49559791
   },
   {
+    name: "용남시장",
+    number: 37236,
+    id: 163000236,
+    discrit: "미추홀구",
+    dong: "주안2동",
+    x: 170405.8709,
+    latitude: 126.666324,
+    y: 439011.0051,
+    longitude: 37.45278288
+  },
+  {
+    name: "용남시장",
+    number: 37232,
+    id: 163000232,
+    discrit: "미추홀구",
+    dong: "용현14동",
+    x: 170390.2937,
+    latitude: 126.6661488,
+    y: 438990.205,
+    longitude: 37.45259497
+  },
+  {
+    name: "용남파출소",
+    number: 37177,
+    id: 163000177,
+    discrit: "미추홀구",
+    dong: "용현14동",
+    x: 170427.1423,
+    latitude: 126.6665819,
+    y: 438577.2895,
+    longitude: 37.44887582
+  },
+  {
+    name: "용남파출소",
+    number: 37184,
+    id: 163000184,
+    discrit: "미추홀구",
+    dong: "용현14동",
+    x: 170361.257,
+    latitude: 126.6658359,
+    y: 438611.3049,
+    longitude: 37.44918018
+  },
+  {
     name: "용담공원",
     number: 38172,
     id: 164000172,
@@ -31744,6 +34615,358 @@ export const BUS_STOPS = [
     latitude: 126.4103909,
     y: 438383.3838,
     longitude: 37.44612511
+  },
+  {
+    name: "용일사거리",
+    number: 37251,
+    id: 163000251,
+    discrit: "미추홀구",
+    dong: "주안2동",
+    x: 170569.8589,
+    latitude: 126.6681751,
+    y: 439068.9698,
+    longitude: 37.45331037
+  },
+  {
+    name: "용일사거리",
+    number: 37208,
+    id: 163000208,
+    discrit: "미추홀구",
+    dong: "주안3동",
+    x: 170503.5672,
+    latitude: 126.6674366,
+    y: 438799.5576,
+    longitude: 37.45088088
+  },
+  {
+    name: "용일사거리",
+    number: 37218,
+    id: 163000218,
+    discrit: "미추홀구",
+    dong: "용현14동",
+    x: 170484.976,
+    latitude: 126.6672239,
+    y: 438864.4648,
+    longitude: 37.45146509
+  },
+  {
+    name: "용일초등학교",
+    number: 37237,
+    id: 163000237,
+    discrit: "미추홀구",
+    dong: "용현14동",
+    x: 170224.0076,
+    latitude: 126.6642657,
+    y: 439085.0157,
+    longitude: 37.45344386
+  },
+  {
+    name: "용일초등학교",
+    number: 37233,
+    id: 163000233,
+    discrit: "미추홀구",
+    dong: "용현14동",
+    x: 170108.4767,
+    latitude: 126.6629593,
+    y: 439102.3992,
+    longitude: 37.45359675
+  },
+  {
+    name: "용정초등학교",
+    number: 37299,
+    id: 163000299,
+    discrit: "미추홀구",
+    dong: "숭의4동",
+    x: 169743.1224,
+    latitude: 126.6588,
+    y: 439836.5698,
+    longitude: 37.46019965
+  },
+  {
+    name: "용정초등학교",
+    number: 37297,
+    id: 163000297,
+    discrit: "미추홀구",
+    dong: "숭의4동",
+    x: 169792.8747,
+    latitude: 126.6593643,
+    y: 439788.4672,
+    longitude: 37.45976788
+  },
+  {
+    name: "용현2동행정복지센터",
+    number: 37654,
+    id: 163000654,
+    discrit: "미추홀구",
+    dong: "용현2동",
+    x: 168429.6606,
+    latitude: 126.6439742,
+    y: 439376.2401,
+    longitude: 37.45600815
+  },
+  {
+    name: "용현2동행정복지센터",
+    number: 37653,
+    id: 163000653,
+    discrit: "미추홀구",
+    dong: "용현2동",
+    x: 168434.4569,
+    latitude: 126.6440275,
+    y: 439396.1727,
+    longitude: 37.4561879
+  },
+  {
+    name: "용현3동행정복지센터.보훈병원",
+    number: 37221,
+    id: 163000221,
+    discrit: "미추홀구",
+    dong: "용현3동",
+    x: 169105.918,
+    latitude: 126.6516157,
+    y: 439411.9304,
+    longitude: 37.45635259
+  },
+  {
+    name: "용현3동행정복지센터.보훈병원",
+    number: 37224,
+    id: 163000224,
+    discrit: "미추홀구",
+    dong: "용현3동",
+    x: 169103.0022,
+    latitude: 126.6515819,
+    y: 439433.6229,
+    longitude: 37.45654794
+  },
+  {
+    name: "용현5동행정복지센터",
+    number: 37129,
+    id: 163000129,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 168108.4041,
+    latitude: 126.6403575,
+    y: 439048.3321,
+    longitude: 37.4530427
+  },
+  {
+    name: "용현고가교",
+    number: 37611,
+    id: 163000611,
+    discrit: "미추홀구",
+    dong: "용현14동",
+    x: 168870.3365,
+    latitude: 126.6489746,
+    y: 438905.3997,
+    longitude: 37.45178089
+  },
+  {
+    name: "용현고가교",
+    number: 37550,
+    id: 163000550,
+    discrit: "미추홀구",
+    dong: "용현14동",
+    x: 168994.8363,
+    latitude: 126.6503805,
+    y: 438931.018,
+    longitude: 37.4520159
+  },
+  {
+    name: "용현고개",
+    number: 37178,
+    id: 163000178,
+    discrit: "미추홀구",
+    dong: "용현2동",
+    x: 168847.7585,
+    latitude: 126.6487073,
+    y: 439193.0876,
+    longitude: 37.45437217
+  },
+  {
+    name: "용현고개",
+    number: 37497,
+    id: 163000497,
+    discrit: "미추홀구",
+    dong: "용현3동",
+    x: 168879.4392,
+    latitude: 126.6490651,
+    y: 439198.8978,
+    longitude: 37.45442559
+  },
+  {
+    name: "용현동농협",
+    number: 37117,
+    id: 163000117,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167927.0064,
+    latitude: 126.6383086,
+    y: 439021.793,
+    longitude: 37.4527973
+  },
+  {
+    name: "용현동상우빌라",
+    number: 37564,
+    id: 163000564,
+    discrit: "미추홀구",
+    dong: "용현14동",
+    x: 170265.8071,
+    latitude: 126.6647285,
+    y: 439323.9338,
+    longitude: 37.45559783
+  },
+  {
+    name: "용현동상우빌라",
+    number: 37565,
+    id: 163000565,
+    discrit: "미추홀구",
+    dong: "용현14동",
+    x: 170261.9998,
+    latitude: 126.6646852,
+    y: 439330.0123,
+    longitude: 37.45565248
+  },
+  {
+    name: "용현동성원상떼빌아파트",
+    number: 37546,
+    id: 163000546,
+    discrit: "미추홀구",
+    dong: "용현2동",
+    x: 168558.6995,
+    latitude: 126.6454482,
+    y: 439009.1141,
+    longitude: 37.45270479
+  },
+  {
+    name: "용현사거리",
+    number: 37213,
+    id: 163000213,
+    discrit: "미추홀구",
+    dong: "용현2동",
+    x: 168871.3365,
+    latitude: 126.6489624,
+    y: 439461.2686,
+    longitude: 37.45678924
+  },
+  {
+    name: "용현사거리",
+    number: 37212,
+    id: 163000212,
+    discrit: "미추홀구",
+    dong: "용현2동",
+    x: 168801.3976,
+    latitude: 126.6481716,
+    y: 439470.173,
+    longitude: 37.45686711
+  },
+  {
+    name: "용현시장",
+    number: 37230,
+    id: 163000230,
+    discrit: "미추홀구",
+    dong: "용현2동",
+    x: 168905.1791,
+    latitude: 126.6493408,
+    y: 439558.2794,
+    longitude: 37.45766444
+  },
+  {
+    name: "용현시장",
+    number: 37270,
+    id: 163000270,
+    discrit: "미추홀구",
+    dong: "용현3동",
+    x: 169296.605,
+    latitude: 126.6537603,
+    y: 439666.7307,
+    longitude: 37.45865467
+  },
+  {
+    name: "용현시장",
+    number: 37227,
+    id: 163000227,
+    discrit: "미추홀구",
+    dong: "용현3동",
+    x: 168936.1982,
+    latitude: 126.6496922,
+    y: 439537.9648,
+    longitude: 37.45748245
+  },
+  {
+    name: "용현시장",
+    number: 37268,
+    id: 163000268,
+    discrit: "미추홀구",
+    dong: "용현3동",
+    x: 169329.4021,
+    latitude: 126.6541326,
+    y: 439628.0849,
+    longitude: 37.45830757
+  },
+  {
+    name: "용현아파트",
+    number: 37153,
+    id: 163000153,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 168167.9925,
+    latitude: 126.641024,
+    y: 439208.988,
+    longitude: 37.45449225
+  },
+  {
+    name: "용현중학교",
+    number: 37021,
+    id: 163000021,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167935.4438,
+    latitude: 126.6384312,
+    y: 438395.1161,
+    longitude: 37.44715131
+  },
+  {
+    name: "용현중학교",
+    number: 37028,
+    id: 163000028,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167975.3472,
+    latitude: 126.6388791,
+    y: 438466.5523,
+    longitude: 37.44779633
+  },
+  {
+    name: "용현초등학교",
+    number: 37508,
+    id: 163000508,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 168274.9686,
+    latitude: 126.6422387,
+    y: 439077.5702,
+    longitude: 37.45331187
+  },
+  {
+    name: "용현초등학교입구",
+    number: 37134,
+    id: 163000134,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 168003.5939,
+    latitude: 126.6391687,
+    y: 439146.1391,
+    longitude: 37.4539203
+  },
+  {
+    name: "용현초등학교입구",
+    number: 37128,
+    id: 163000128,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167981.99,
+    latitude: 126.6389272,
+    y: 439086.194,
+    longitude: 37.45337946
   },
   {
     name: "우리자동차",
@@ -32032,6 +35255,17 @@ export const BUS_STOPS = [
     longitude: 37.42262036
   },
   {
+    name: "우정아파트",
+    number: 37675,
+    id: 163000675,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 172004.9531,
+    latitude: 126.6843261,
+    y: 440854.4977,
+    longitude: 37.46944245
+  },
+  {
     name: "우주골드타운빌라",
     number: 40864,
     id: 166000864,
@@ -32074,6 +35308,28 @@ export const BUS_STOPS = [
     latitude: 126.6439707,
     y: 449658.4722,
     longitude: 37.54865042
+  },
+  {
+    name: "우진아파트",
+    number: 37159,
+    id: 163000159,
+    discrit: "미추홀구",
+    dong: "주안7동",
+    x: 171244.2339,
+    latitude: 126.675836,
+    y: 438060.8576,
+    longitude: 37.44424861
+  },
+  {
+    name: "우진아파트",
+    number: 37158,
+    id: 163000158,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 171233.4203,
+    latitude: 126.6757145,
+    y: 438041.7592,
+    longitude: 37.4440762
   },
   {
     name: "우체국사거리",
@@ -33374,6 +36630,28 @@ export const BUS_STOPS = [
     longitude: 37.58663194
   },
   {
+    name: "유원아파트",
+    number: 37172,
+    id: 163000172,
+    discrit: "미추홀구",
+    dong: "용현2동",
+    x: 168177.5502,
+    latitude: 126.6411238,
+    y: 439398.395,
+    longitude: 37.45619911
+  },
+  {
+    name: "유원아파트",
+    number: 37163,
+    id: 163000163,
+    discrit: "미추홀구",
+    dong: "용현2동",
+    x: 168128.0477,
+    latitude: 126.6405665,
+    y: 439348.9683,
+    longitude: 37.45575207
+  },
+  {
     name: "유진시스템앞",
     number: 40678,
     id: 166000678,
@@ -33471,6 +36749,28 @@ export const BUS_STOPS = [
     latitude: 126.6987938,
     y: 436390.6246,
     longitude: 37.42926075
+  },
+  {
+    name: "윤성아파트(인항고교)",
+    number: 37012,
+    id: 163000012,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 168048.8593,
+    latitude: 126.6397222,
+    y: 438180.4662,
+    longitude: 37.44522127
+  },
+  {
+    name: "윤성아파트(인항고교)",
+    number: 37011,
+    id: 163000011,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 168051.0546,
+    latitude: 126.6397449,
+    y: 438228.7703,
+    longitude: 37.44565656
   },
   {
     name: "율도근린공원",
@@ -34078,6 +37378,72 @@ export const BUS_STOPS = [
     longitude: 37.58701696
   },
   {
+    name: "인고앞",
+    number: 37318,
+    id: 163000318,
+    discrit: "미추홀구",
+    dong: "주안4동",
+    x: 172486.0809,
+    latitude: 126.6898276,
+    y: 439174.2747,
+    longitude: 37.45431826
+  },
+  {
+    name: "인고앞",
+    number: 37338,
+    id: 163000338,
+    discrit: "미추홀구",
+    dong: "주안4동",
+    x: 172453.2142,
+    latitude: 126.689451,
+    y: 439312.3815,
+    longitude: 37.45556161
+  },
+  {
+    name: "인고체육관",
+    number: 37305,
+    id: 163000305,
+    discrit: "미추홀구",
+    dong: "주안4동",
+    x: 172496.6439,
+    latitude: 126.689956,
+    y: 438934.1406,
+    longitude: 37.45215498
+  },
+  {
+    name: "인고체육관(동양장사거리)",
+    number: 37309,
+    id: 163000309,
+    discrit: "미추홀구",
+    dong: "주안4동",
+    x: 172463.6477,
+    latitude: 126.6895807,
+    y: 438996.7385,
+    longitude: 37.452718
+  },
+  {
+    name: "인명여자고등학교",
+    number: 37199,
+    id: 163000199,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 173228.71,
+    latitude: 126.6982759,
+    y: 437655.1901,
+    longitude: 37.44065323
+  },
+  {
+    name: "인명여자고등학교",
+    number: 37205,
+    id: 163000205,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 173256.5072,
+    latitude: 126.6985888,
+    y: 437687.6269,
+    longitude: 37.44094629
+  },
+  {
     name: "인성여자고등학교",
     number: 35808,
     id: 161000808,
@@ -34230,6 +37596,28 @@ export const BUS_STOPS = [
     latitude: 126.7143699,
     y: 439876.1645,
     longitude: 37.46070448
+  },
+  {
+    name: "인천가정법원.인천지방법원등기국",
+    number: 37405,
+    id: 163000405,
+    discrit: "미추홀구",
+    dong: "주안6동",
+    x: 172499.7147,
+    latitude: 126.6899491,
+    y: 440045.5808,
+    longitude: 37.46216906
+  },
+  {
+    name: "인천가정법원.인천지방법원등기국",
+    number: 37409,
+    id: 163000409,
+    discrit: "미추홀구",
+    dong: "주안6동",
+    x: 172469.0499,
+    latitude: 126.6896009,
+    y: 440089.159,
+    longitude: 37.46256078
   },
   {
     name: "인천가족공원입구",
@@ -34595,6 +37983,61 @@ export const BUS_STOPS = [
     longitude: 37.38113445
   },
   {
+    name: "인천광역시종합건설본부",
+    number: 37325,
+    id: 163000325,
+    discrit: "미추홀구",
+    dong: "도화1동",
+    x: 170945.754,
+    latitude: 126.6723938,
+    y: 439815.8109,
+    longitude: 37.46005125
+  },
+  {
+    name: "인천교(인천기계산업단지)",
+    number: 37451,
+    id: 163000451,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170714.9858,
+    latitude: 126.6697182,
+    y: 441505.4286,
+    longitude: 37.47526722
+  },
+  {
+    name: "인천교(인천기계산업단지)",
+    number: 37449,
+    id: 163000449,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170636.388,
+    latitude: 126.6688341,
+    y: 441395.3226,
+    longitude: 37.47427268
+  },
+  {
+    name: "인천교삼거리",
+    number: 37453,
+    id: 163000453,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170649.6192,
+    latitude: 126.6689748,
+    y: 441616.2037,
+    longitude: 37.47626321
+  },
+  {
+    name: "인천교삼거리(인천기계산업단지)",
+    number: 37452,
+    id: 163000452,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170600.0282,
+    latitude: 126.6684156,
+    y: 441581.0821,
+    longitude: 37.47594519
+  },
+  {
     name: "인천교통공사",
     number: 40032,
     id: 166000032,
@@ -34760,6 +38203,50 @@ export const BUS_STOPS = [
     longitude: 37.3774981
   },
   {
+    name: "인천기계공고",
+    number: 37281,
+    id: 163000281,
+    discrit: "미추홀구",
+    dong: "주안2동",
+    x: 170681.7049,
+    latitude: 126.6694319,
+    y: 439249.5739,
+    longitude: 37.45494116
+  },
+  {
+    name: "인천기계공고",
+    number: 37272,
+    id: 163000272,
+    discrit: "미추홀구",
+    dong: "주안2동",
+    x: 170653.9067,
+    latitude: 126.6691217,
+    y: 439149.397,
+    longitude: 37.45403769
+  },
+  {
+    name: "인천기계산업단지",
+    number: 37580,
+    id: 163000580,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170881.0118,
+    latitude: 126.6716095,
+    y: 441143.1183,
+    longitude: 37.4720081
+  },
+  {
+    name: "인천기계산업단지",
+    number: 37579,
+    id: 163000579,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170880.4326,
+    latitude: 126.6716041,
+    y: 441115.3189,
+    longitude: 37.47175761
+  },
+  {
     name: "인천기독병원",
     number: 35803,
     id: 161000803,
@@ -34813,6 +38300,17 @@ export const BUS_STOPS = [
     latitude: 126.7109505,
     y: 433406.1553,
     longitude: 37.40240093
+  },
+  {
+    name: "인천남부초.힐스테이트푸르지오",
+    number: 37275,
+    id: 163000275,
+    discrit: "미추홀구",
+    dong: "주안2동",
+    x: 171405.3066,
+    latitude: 126.6776238,
+    y: 438892.5031,
+    longitude: 37.45174668
   },
   {
     name: "인천논현역앞",
@@ -35310,6 +38808,50 @@ export const BUS_STOPS = [
     longitude: 37.40279727
   },
   {
+    name: "인천비즈니스고등학교",
+    number: 37421,
+    id: 163000421,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170483.1362,
+    latitude: 126.667114,
+    y: 441087.4824,
+    longitude: 37.47149419
+  },
+  {
+    name: "인천비즈니스고등학교",
+    number: 37423,
+    id: 163000423,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170547.9763,
+    latitude: 126.667845,
+    y: 441136.1964,
+    longitude: 37.47193517
+  },
+  {
+    name: "인천비즈니스고등학교",
+    number: 37614,
+    id: 163000614,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170337.785,
+    latitude: 126.6654684,
+    y: 441147.5819,
+    longitude: 37.47203101
+  },
+  {
+    name: "인천비지니스고등학교",
+    number: 37615,
+    id: 163000615,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170382.7618,
+    latitude: 126.6659796,
+    y: 441079.495,
+    longitude: 37.471419
+  },
+  {
     name: "인천상공회의소",
     number: 92041,
     id: 165001041,
@@ -35539,6 +39081,28 @@ export const BUS_STOPS = [
     latitude: 126.6425289,
     y: 441020.9104,
     longitude: 37.47082224
+  },
+  {
+    name: "인천소방본부",
+    number: 37189,
+    id: 163000189,
+    discrit: "미추홀구",
+    dong: "주안3동",
+    x: 170688.2014,
+    latitude: 126.6695323,
+    y: 438573.3557,
+    longitude: 37.4488487
+  },
+  {
+    name: "인천소방본부",
+    number: 37191,
+    id: 163000191,
+    discrit: "미추홀구",
+    dong: "주안3동",
+    x: 170747.8012,
+    latitude: 126.6702068,
+    y: 438546.8056,
+    longitude: 37.44861138
   },
   {
     name: "인천소방항공대",
@@ -35937,6 +39501,28 @@ export const BUS_STOPS = [
     longitude: 37.46376102
   },
   {
+    name: "인천용학초등학교",
+    number: 37676,
+    id: 163000676,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 168391.7835,
+    latitude: 126.6435936,
+    y: 438268.5736,
+    longitude: 37.4460269
+  },
+  {
+    name: "인천의료원",
+    number: 37458,
+    id: 163000458,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170497.3783,
+    latitude: 126.6672445,
+    y: 441847.079,
+    longitude: 37.47833851
+  },
+  {
     name: "인천의료원",
     number: 36093,
     id: 162000093,
@@ -36102,6 +39688,39 @@ export const BUS_STOPS = [
     longitude: 37.45561032
   },
   {
+    name: "인천준법지원센터·미추홀트루엘파크",
+    number: 37147,
+    id: 163000147,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 170564.0338,
+    latitude: 126.6681429,
+    y: 438226.3845,
+    longitude: 37.44571857
+  },
+  {
+    name: "인천준법지원센터·미추홀트루엘파크",
+    number: 37148,
+    id: 163000148,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 170570.8426,
+    latitude: 126.6682193,
+    y: 438239.3753,
+    longitude: 37.44583583
+  },
+  {
+    name: "인천지방법원",
+    number: 37096,
+    id: 163000096,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 170614.2216,
+    latitude: 126.6687248,
+    y: 437858.0879,
+    longitude: 37.44240184
+  },
+  {
     name: "인천지방법원북부지원입구",
     number: 89435,
     id: 168001435,
@@ -36179,6 +39798,39 @@ export const BUS_STOPS = [
     longitude: 37.46729345
   },
   {
+    name: "인천축구전용경기장",
+    number: 37303,
+    id: 163000303,
+    discrit: "미추홀구",
+    dong: "숭의13동",
+    x: 168517.5959,
+    latitude: 126.6449245,
+    y: 440394.2458,
+    longitude: 37.46518325
+  },
+  {
+    name: "인천축구전용경기장",
+    number: 37286,
+    id: 163000286,
+    discrit: "미추홀구",
+    dong: "숭의13동",
+    x: 168385.3118,
+    latitude: 126.6434375,
+    y: 440199.6773,
+    longitude: 37.4634257
+  },
+  {
+    name: "인천축구전용경기장(서희스타힐스)",
+    number: 37558,
+    id: 163000558,
+    discrit: "미추홀구",
+    dong: "숭의13동",
+    x: 168528.0022,
+    latitude: 126.645038,
+    y: 440490.3658,
+    longitude: 37.46604964
+  },
+  {
     name: "인천축산농협",
     number: 40454,
     id: 166000454,
@@ -36234,6 +39886,17 @@ export const BUS_STOPS = [
     longitude: 37.46007263
   },
   {
+    name: "인천터미널",
+    number: 37215,
+    id: 163000215,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 173506.2797,
+    latitude: 126.7014092,
+    y: 437742.8581,
+    longitude: 37.44145112
+  },
+  {
     name: "인천터미널사거리입구",
     number: 39194,
     id: 165000194,
@@ -36243,6 +39906,17 @@ export const BUS_STOPS = [
     latitude: 126.7002547,
     y: 438112.0343,
     longitude: 37.44477448
+  },
+  {
+    name: "인천터미널역",
+    number: 37648,
+    id: 163000648,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 173385.9076,
+    latitude: 126.7000492,
+    y: 437738.583,
+    longitude: 37.44140914
   },
   {
     name: "인천테크노밸리U1센터",
@@ -36399,6 +40073,50 @@ export const BUS_STOPS = [
     longitude: 37.42651695
   },
   {
+    name: "인천향교.인천도호부청사",
+    number: 37124,
+    id: 163000124,
+    discrit: "미추홀구",
+    dong: "문학동",
+    x: 172177.3077,
+    latitude: 126.6864037,
+    y: 437434.2572,
+    longitude: 37.43863156
+  },
+  {
+    name: "인천향교.인천도호부청사",
+    number: 37125,
+    id: 163000125,
+    discrit: "미추홀구",
+    dong: "문학동",
+    x: 172278.0929,
+    latitude: 126.6875437,
+    y: 437402.414,
+    longitude: 37.43834769
+  },
+  {
+    name: "인천향교유림회관",
+    number: 37059,
+    id: 163000059,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 170840.6275,
+    latitude: 126.6712952,
+    y: 437554.4592,
+    longitude: 37.43967335
+  },
+  {
+    name: "인천향교유림회관",
+    number: 37062,
+    id: 163000062,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 170855.0767,
+    latitude: 126.6714575,
+    y: 437577.5781,
+    longitude: 37.4398821
+  },
+  {
     name: "인천환경공단입구",
     number: 42930,
     id: 168000930,
@@ -36531,6 +40249,116 @@ export const BUS_STOPS = [
     longitude: 37.45767423
   },
   {
+    name: "인하대역",
+    number: 37596,
+    id: 163000596,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 168911.8989,
+    latitude: 126.6494585,
+    y: 438569.2568,
+    longitude: 37.44875368
+  },
+  {
+    name: "인하대역(1번출구)",
+    number: 37066,
+    id: 163000066,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 168960.2621,
+    latitude: 126.6500086,
+    y: 438484.3619,
+    longitude: 37.44799041
+  },
+  {
+    name: "인하대역(7번출구)",
+    number: 37091,
+    id: 163000091,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 168985.452,
+    latitude: 126.6502949,
+    y: 438446.187,
+    longitude: 37.44764731
+  },
+  {
+    name: "인하대역3번출구",
+    number: 37127,
+    id: 163000127,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 168884.1543,
+    latitude: 126.649138,
+    y: 438733.6091,
+    longitude: 37.45023354
+  },
+  {
+    name: "인하대역4번출구",
+    number: 37122,
+    id: 163000122,
+    discrit: "미추홀구",
+    dong: "용현14동",
+    x: 168935.2005,
+    latitude: 126.6497171,
+    y: 438680.5836,
+    longitude: 37.44975751
+  },
+  {
+    name: "인하대정문",
+    number: 37099,
+    id: 163000099,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 169290.6392,
+    latitude: 126.6537465,
+    y: 438379.7611,
+    longitude: 37.44705902
+  },
+  {
+    name: "인하대정문",
+    number: 37104,
+    id: 163000104,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 169313.6397,
+    latitude: 126.6540059,
+    y: 438392.4311,
+    longitude: 37.44717394
+  },
+  {
+    name: "인하대후문",
+    number: 37166,
+    id: 163000166,
+    discrit: "미추홀구",
+    dong: "용현14동",
+    x: 169553.3939,
+    latitude: 126.6566974,
+    y: 438825.1001,
+    longitude: 37.45108018
+  },
+  {
+    name: "인하대후문",
+    number: 37165,
+    id: 163000165,
+    discrit: "미추홀구",
+    dong: "용현14동",
+    x: 169467.028,
+    latitude: 126.6557201,
+    y: 438855.6226,
+    longitude: 37.45135233
+  },
+  {
+    name: "인하대후문",
+    number: 37167,
+    id: 163000167,
+    discrit: "미추홀구",
+    dong: "용현14동",
+    x: 169504.535,
+    latitude: 126.6561435,
+    y: 438867.8948,
+    longitude: 37.45146414
+  },
+  {
     name: "인향아파트",
     number: 40557,
     id: 166000557,
@@ -36595,6 +40423,28 @@ export const BUS_STOPS = [
     latitude: 126.7323008,
     y: 453008.0374,
     longitude: 37.57906396
+  },
+  {
+    name: "인화여고",
+    number: 37547,
+    id: 163000547,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 169228.3983,
+    latitude: 126.6529439,
+    y: 440754.6281,
+    longitude: 37.46845422
+  },
+  {
+    name: "인화여고",
+    number: 37548,
+    id: 163000548,
+    discrit: "미추홀구",
+    dong: "숭의13동",
+    x: 169145.8687,
+    latitude: 126.6520114,
+    y: 440743.6205,
+    longitude: 37.46835229
   },
   {
     name: "일신동행정복지센터",
@@ -36804,6 +40654,17 @@ export const BUS_STOPS = [
     latitude: 126.3907361,
     y: 438122.6515,
     longitude: 37.44367599
+  },
+  {
+    name: "자동차매매단지",
+    number: 37459,
+    id: 163000459,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170240.5819,
+    latitude: 126.6643346,
+    y: 442013.1798,
+    longitude: 37.47982681
   },
   {
     name: "자동차매매단지",
@@ -37356,6 +41217,61 @@ export const BUS_STOPS = [
     longitude: 37.40647116
   },
   {
+    name: "장미아파트",
+    number: 37094,
+    id: 163000094,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 169631.5063,
+    latitude: 126.6576046,
+    y: 438234.4279,
+    longitude: 37.44576085
+  },
+  {
+    name: "장미아파트",
+    number: 37092,
+    id: 163000092,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 169643.109,
+    latitude: 126.6577372,
+    y: 438198.5232,
+    longitude: 37.44543773
+  },
+  {
+    name: "장미아파트",
+    number: 37044,
+    id: 163000044,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 169566.7635,
+    latitude: 126.6568846,
+    y: 437952.398,
+    longitude: 37.44321765
+  },
+  {
+    name: "장미아파트(19동)앞",
+    number: 37474,
+    id: 163000474,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 169508.0961,
+    latitude: 126.65621,
+    y: 438233.1028,
+    longitude: 37.44574484
+  },
+  {
+    name: "장미아파트(19동)앞",
+    number: 37540,
+    id: 163000540,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 169530.5296,
+    latitude: 126.6564638,
+    y: 438225.2758,
+    longitude: 37.44567506
+  },
+  {
     name: "장서초등학교",
     number: 39965,
     id: 165000965,
@@ -37631,6 +41547,39 @@ export const BUS_STOPS = [
     longitude: 37.4241244
   },
   {
+    name: "장안사거리",
+    number: 37285,
+    id: 163000285,
+    discrit: "미추홀구",
+    dong: "숭의2동",
+    x: 168513.7957,
+    latitude: 126.644892,
+    y: 440147.8963,
+    longitude: 37.46296355
+  },
+  {
+    name: "장안사거리",
+    number: 37295,
+    id: 163000295,
+    discrit: "미추홀구",
+    dong: "숭의13동",
+    x: 168606.7514,
+    latitude: 126.6459398,
+    y: 440216.0942,
+    longitude: 37.46358117
+  },
+  {
+    name: "장애인복지관",
+    number: 37249,
+    id: 163000249,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 172514.1632,
+    latitude: 126.6901778,
+    y: 438294.6969,
+    longitude: 37.44639416
+  },
+  {
     name: "장인가구",
     number: 39706,
     id: 165000706,
@@ -37640,6 +41589,39 @@ export const BUS_STOPS = [
     latitude: 126.6924263,
     y: 431624.623,
     longitude: 37.38630215
+  },
+  {
+    name: "장천사거리",
+    number: 37282,
+    id: 163000282,
+    discrit: "미추홀구",
+    dong: "숭의2동",
+    x: 169056.557,
+    latitude: 126.6510367,
+    y: 439915.2881,
+    longitude: 37.46088613
+  },
+  {
+    name: "장천사거리",
+    number: 37610,
+    id: 163000610,
+    discrit: "미추홀구",
+    dong: "숭의4동",
+    x: 169203.5409,
+    latitude: 126.6526951,
+    y: 439984.2028,
+    longitude: 37.46151196
+  },
+  {
+    name: "장천사거리",
+    number: 37651,
+    id: 163000651,
+    discrit: "미추홀구",
+    dong: "숭의2동",
+    x: 169052.1683,
+    latitude: 126.6509864,
+    y: 439931.9041,
+    longitude: 37.46103569
   },
   {
     name: "장촌마을",
@@ -37829,6 +41811,28 @@ export const BUS_STOPS = [
     longitude: 37.50535556
   },
   {
+    name: "정광아파트(병무청)",
+    number: 37009,
+    id: 163000009,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 169569.4899,
+    latitude: 126.6569348,
+    y: 437481.7067,
+    longitude: 37.43897685
+  },
+  {
+    name: "정광아파트(병무청)",
+    number: 37008,
+    id: 163000008,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 169589.0264,
+    latitude: 126.6571558,
+    y: 437477.2202,
+    longitude: 37.43893707
+  },
+  {
     name: "정광아파트.만수주공11단지",
     number: 39476,
     id: 165000476,
@@ -37906,6 +41910,50 @@ export const BUS_STOPS = [
     longitude: 37.49748425
   },
   {
+    name: "정부인천지방합동청사",
+    number: 37386,
+    id: 163000386,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170108.5133,
+    latitude: 126.6628936,
+    y: 440729.5158,
+    longitude: 37.46825689
+  },
+  {
+    name: "정부인천지방합동청사",
+    number: 37388,
+    id: 163000388,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 170144.7557,
+    latitude: 126.663302,
+    y: 440761.8194,
+    longitude: 37.46854912
+  },
+  {
+    name: "정비단지",
+    number: 37006,
+    id: 163000006,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 167472.6396,
+    latitude: 126.63324,
+    y: 437516.7542,
+    longitude: 37.43922119
+  },
+  {
+    name: "정비단지",
+    number: 37005,
+    id: 163000005,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 167505.4848,
+    latitude: 126.6336103,
+    y: 437535.585,
+    longitude: 37.43939201
+  },
+  {
     name: "정서진삼거리",
     number: 89234,
     id: 168001234,
@@ -37915,6 +41963,28 @@ export const BUS_STOPS = [
     latitude: 126.6141419,
     y: 450714.1192,
     longitude: 37.55806756
+  },
+  {
+    name: "정석항공과학고",
+    number: 37168,
+    id: 163000168,
+    discrit: "미추홀구",
+    dong: "용현14동",
+    x: 169845.5058,
+    latitude: 126.6600027,
+    y: 438726.5427,
+    longitude: 37.45020177
+  },
+  {
+    name: "정석항공과학고",
+    number: 37170,
+    id: 163000170,
+    discrit: "미추홀구",
+    dong: "용현14동",
+    x: 169825.1331,
+    latitude: 126.6597712,
+    y: 438757.7903,
+    longitude: 37.45048264
   },
   {
     name: "정왕IC(미정차)",
@@ -37928,6 +41998,39 @@ export const BUS_STOPS = [
     longitude: 37.38038711
   },
   {
+    name: "제물포시장",
+    number: 37310,
+    id: 163000310,
+    discrit: "미추홀구",
+    dong: "숭의4동",
+    x: 169568.6977,
+    latitude: 126.6568164,
+    y: 440131.3582,
+    longitude: 37.46284992
+  },
+  {
+    name: "제물포시장",
+    number: 37311,
+    id: 163000311,
+    discrit: "미추홀구",
+    dong: "숭의4동",
+    x: 169586.0139,
+    latitude: 126.657012,
+    y: 440132.9669,
+    longitude: 37.46286499
+  },
+  {
+    name: "제물포신협(구박문여고)",
+    number: 37499,
+    id: 163000499,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 169032.308,
+    latitude: 126.6507235,
+    y: 440845.2635,
+    longitude: 37.46926428
+  },
+  {
     name: "제물포신협(구박문여고)",
     number: 36003,
     id: 162000003,
@@ -37937,6 +42040,105 @@ export const BUS_STOPS = [
     latitude: 126.6500839,
     y: 440884.6793,
     longitude: 37.46961751
+  },
+  {
+    name: "제물포여자중학교",
+    number: 37290,
+    id: 163000290,
+    discrit: "미추홀구",
+    dong: "주안8동",
+    x: 172479.5684,
+    latitude: 126.6897732,
+    y: 438660.3894,
+    longitude: 37.449688
+  },
+  {
+    name: "제물포여자중학교",
+    number: 37288,
+    id: 163000288,
+    discrit: "미추홀구",
+    dong: "주안8동",
+    x: 172512.8471,
+    latitude: 126.6901499,
+    y: 438645.1881,
+    longitude: 37.44955202
+  },
+  {
+    name: "제물포여자중학교",
+    number: 37298,
+    id: 163000298,
+    discrit: "미추홀구",
+    dong: "주안4동",
+    x: 172357.4495,
+    latitude: 126.6883875,
+    y: 438811.2144,
+    longitude: 37.45104327
+  },
+  {
+    name: "제물포역",
+    number: 37364,
+    id: 163000364,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 169424.8493,
+    latitude: 126.6551662,
+    y: 440714.682,
+    longitude: 37.46810084
+  },
+  {
+    name: "제물포역",
+    number: 37502,
+    id: 163000502,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 169571.1659,
+    latitude: 126.6568221,
+    y: 440668.0933,
+    longitude: 37.46768592
+  },
+  {
+    name: "제물포역",
+    number: 37496,
+    id: 163000496,
+    discrit: "미추홀구",
+    dong: "숭의4동",
+    x: 169613.0803,
+    latitude: 126.6573029,
+    y: 440498.1952,
+    longitude: 37.46615654
+  },
+  {
+    name: "제물포역",
+    number: 37355,
+    id: 163000355,
+    discrit: "미추홀구",
+    dong: "도화1동",
+    x: 169615.8298,
+    latitude: 126.6573328,
+    y: 440526.4379,
+    longitude: 37.4664111
+  },
+  {
+    name: "제물포역",
+    number: 37498,
+    id: 163000498,
+    discrit: "미추홀구",
+    dong: "숭의13동",
+    x: 169417.818,
+    latitude: 126.6550946,
+    y: 440525.0365,
+    longitude: 37.46639193
+  },
+  {
+    name: "제물포역(동양빌딩)",
+    number: 37339,
+    id: 163000339,
+    discrit: "미추홀구",
+    dong: "숭의4동",
+    x: 169416.2447,
+    latitude: 126.6550781,
+    y: 440495.0361,
+    longitude: 37.46612158
   },
   {
     name: "제물포중학교",
@@ -37959,6 +42161,61 @@ export const BUS_STOPS = [
     latitude: 126.6867236,
     y: 442963.6687,
     longitude: 37.48845246
+  },
+  {
+    name: "제운사거리(청년창업특화거리)",
+    number: 37175,
+    id: 163000175,
+    discrit: "미추홀구",
+    dong: "용현14동",
+    x: 170516.1304,
+    latitude: 126.6675897,
+    y: 438523.8651,
+    longitude: 37.44839732
+  },
+  {
+    name: "제운사거리(청년창업특화거리)",
+    number: 37534,
+    id: 163000534,
+    discrit: "미추홀구",
+    dong: "주안3동",
+    x: 170536.4135,
+    latitude: 126.6678187,
+    y: 438528.474,
+    longitude: 37.44843949
+  },
+  {
+    name: "제일시장",
+    number: 37329,
+    id: 163000329,
+    discrit: "미추홀구",
+    dong: "도화1동",
+    x: 171214.702,
+    latitude: 126.6754375,
+    y: 439716.6941,
+    longitude: 37.45916664
+  },
+  {
+    name: "제일시장",
+    number: 37316,
+    id: 163000316,
+    discrit: "미추홀구",
+    dong: "도화1동",
+    x: 171114.5668,
+    latitude: 126.6743077,
+    y: 439666.9796,
+    longitude: 37.45871559
+  },
+  {
+    name: "제일시장사거리",
+    number: 37667,
+    id: 163000667,
+    discrit: "미추홀구",
+    dong: "도화1동",
+    x: 170985.7086,
+    latitude: 126.6728499,
+    y: 439700.6792,
+    longitude: 37.45901518
   },
   {
     name: "제일풍경채",
@@ -38038,6 +42295,17 @@ export const BUS_STOPS = [
     longitude: 37.53628063
   },
   {
+    name: "조달청(한양2차아파트)",
+    number: 37511,
+    id: 163000511,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167428.8459,
+    latitude: 126.6326751,
+    y: 439100.2065,
+    longitude: 37.45348636
+  },
+  {
     name: "조달청비축기지",
     number: 35114,
     id: 161000114,
@@ -38102,6 +42370,28 @@ export const BUS_STOPS = [
     latitude: 126.6978497,
     y: 440809.1202,
     longitude: 37.46906912
+  },
+  {
+    name: "종점(병무청)",
+    number: 37014,
+    id: 163000014,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 170007.7185,
+    latitude: 126.6618857,
+    y: 437503.4041,
+    longitude: 37.43918668
+  },
+  {
+    name: "종합터미널",
+    number: 37242,
+    id: 163000242,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 173616.7048,
+    latitude: 126.7026556,
+    y: 437783.5818,
+    longitude: 37.4418212
   },
   {
     name: "종합터미널",
@@ -38291,6 +42581,83 @@ export const BUS_STOPS = [
     longitude: 37.55345328
   },
   {
+    name: "주안1동행정복지센터",
+    number: 37385,
+    id: 163000385,
+    discrit: "미추홀구",
+    dong: "주안1동",
+    x: 171210.2585,
+    latitude: 126.6753644,
+    y: 440300.7712,
+    longitude: 37.46442898
+  },
+  {
+    name: "주안2동치안센터",
+    number: 37302,
+    id: 163000302,
+    discrit: "미추홀구",
+    dong: "주안2동",
+    x: 170842.1182,
+    latitude: 126.6712355,
+    y: 439486.1291,
+    longitude: 37.45707758
+  },
+  {
+    name: "주안4동행정복지센터",
+    number: 37333,
+    id: 163000333,
+    discrit: "미추홀구",
+    dong: "주안4동",
+    x: 172554.6713,
+    latitude: 126.690601,
+    y: 439223.0082,
+    longitude: 37.45475939
+  },
+  {
+    name: "주안4동행정복지센터",
+    number: 37335,
+    id: 163000335,
+    discrit: "미추홀구",
+    dong: "주안4동",
+    x: 172536.9528,
+    latitude: 126.6904003,
+    y: 439235.0609,
+    longitude: 37.45486745
+  },
+  {
+    name: "주안5동행정복지센터",
+    number: 37526,
+    id: 163000526,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 172222.8164,
+    latitude: 126.6868013,
+    y: 440523.0644,
+    longitude: 37.46646285
+  },
+  {
+    name: "주안7동행정복지센터",
+    number: 37216,
+    id: 163000216,
+    discrit: "미추홀구",
+    dong: "주안7동",
+    x: 171394.99,
+    latitude: 126.6775221,
+    y: 438509.4418,
+    longitude: 37.44829501
+  },
+  {
+    name: "주안7동행정복지센터",
+    number: 37214,
+    id: 163000214,
+    discrit: "미추홀구",
+    dong: "주안7동",
+    x: 171398.0849,
+    latitude: 126.6775579,
+    y: 438488.9022,
+    longitude: 37.44811004
+  },
+  {
     name: "주안국가산단역",
     number: 37583,
     id: 163000583,
@@ -38300,6 +42667,281 @@ export const BUS_STOPS = [
     latitude: 126.6815775,
     y: 441355.1151,
     longitude: 37.4739456
+  },
+  {
+    name: "주안국가산단역",
+    number: 37584,
+    id: 163000584,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 171758.5321,
+    latitude: 126.6815226,
+    y: 441319.5771,
+    longitude: 37.47362525
+  },
+  {
+    name: "주안남초등학교",
+    number: 37284,
+    id: 163000284,
+    discrit: "미추홀구",
+    dong: "주안8동",
+    x: 171951.014,
+    latitude: 126.6837943,
+    y: 438810.0539,
+    longitude: 37.45102056
+  },
+  {
+    name: "주안남초등학교",
+    number: 37283,
+    id: 163000283,
+    discrit: "미추홀구",
+    dong: "주안4동",
+    x: 171837.893,
+    latitude: 126.6825141,
+    y: 438855.3336,
+    longitude: 37.45142508
+  },
+  {
+    name: "주안도서관",
+    number: 37341,
+    id: 163000341,
+    discrit: "미추홀구",
+    dong: "주안4동",
+    x: 172739.1882,
+    latitude: 126.6926861,
+    y: 439231.7256,
+    longitude: 37.4548434
+  },
+  {
+    name: "주안도서관",
+    number: 37342,
+    id: 163000342,
+    discrit: "미추홀구",
+    dong: "주안4동",
+    x: 172740.5512,
+    latitude: 126.692701,
+    y: 439244.4626,
+    longitude: 37.4549582
+  },
+  {
+    name: "주안매매단지",
+    number: 37586,
+    id: 163000586,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 171932.8774,
+    latitude: 126.683507,
+    y: 440966.1078,
+    longitude: 37.47044585
+  },
+  {
+    name: "주안북부역",
+    number: 37418,
+    id: 163000418,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 171501.6318,
+    latitude: 126.6786463,
+    y: 440600.0943,
+    longitude: 37.46713489
+  },
+  {
+    name: "주안북부역",
+    number: 37420,
+    id: 163000420,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 171640.8522,
+    latitude: 126.6802215,
+    y: 440561.979,
+    longitude: 37.46679577
+  },
+  {
+    name: "주안북초등학교",
+    number: 37417,
+    id: 163000417,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 171445.8758,
+    latitude: 126.6780166,
+    y: 440586.942,
+    longitude: 37.46701467
+  },
+  {
+    name: "주안사거리",
+    number: 37514,
+    id: 163000514,
+    discrit: "미추홀구",
+    dong: "주안2동",
+    x: 171353.8938,
+    latitude: 126.6770134,
+    y: 439647.5583,
+    longitude: 37.45854806
+  },
+  {
+    name: "주안사거리",
+    number: 37330,
+    id: 163000330,
+    discrit: "미추홀구",
+    dong: "주안1동",
+    x: 171377.9643,
+    latitude: 126.6772843,
+    y: 439676.5757,
+    longitude: 37.45881025
+  },
+  {
+    name: "주안시범공단",
+    number: 39927,
+    id: 165000927,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 172012.6365,
+    latitude: 126.6844069,
+    y: 441012.0707,
+    longitude: 37.4708624
+  },
+  {
+    name: "주안아파트",
+    number: 37207,
+    id: 163000207,
+    discrit: "미추홀구",
+    dong: "주안8동",
+    x: 172015.4355,
+    latitude: 126.6845457,
+    y: 438194.0643,
+    longitude: 37.44547249
+  },
+  {
+    name: "주안아파트",
+    number: 37209,
+    id: 163000209,
+    discrit: "미추홀구",
+    dong: "주안8동",
+    x: 172028.2982,
+    latitude: 126.6846906,
+    y: 438207.247,
+    longitude: 37.44559165
+  },
+  {
+    name: "주안역",
+    number: 37389,
+    id: 163000389,
+    discrit: "미추홀구",
+    dong: "주안1동",
+    x: 171661.8375,
+    latitude: 126.6804738,
+    y: 440170.9883,
+    longitude: 37.46327362
+  },
+  {
+    name: "주안역",
+    number: 37506,
+    id: 163000506,
+    discrit: "미추홀구",
+    dong: "주안1동",
+    x: 171767.339,
+    latitude: 126.6816638,
+    y: 440236.7636,
+    longitude: 37.46386949
+  },
+  {
+    name: "주안역",
+    number: 37402,
+    id: 163000402,
+    discrit: "미추홀구",
+    dong: "주안1동",
+    x: 171811.7324,
+    latitude: 126.6821647,
+    y: 440259.6048,
+    longitude: 37.46407664
+  },
+  {
+    name: "주안역",
+    number: 37387,
+    id: 163000387,
+    discrit: "미추홀구",
+    dong: "주안1동",
+    x: 171639.5762,
+    latitude: 126.6802217,
+    y: 440182.9543,
+    longitude: 37.46338075
+  },
+  {
+    name: "주안역센트레빌아파트",
+    number: 37430,
+    id: 163000430,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 172043.962,
+    latitude: 126.6847794,
+    y: 440528.4327,
+    longitude: 37.46650582
+  },
+  {
+    name: "주안역센트레빌아파트정문",
+    number: 37490,
+    id: 163000490,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 172205.5186,
+    latitude: 126.686595,
+    y: 440807.7403,
+    longitude: 37.46902723
+  },
+  {
+    name: "주안역환승정류장",
+    number: 37503,
+    id: 163000503,
+    discrit: "미추홀구",
+    dong: "주안1동",
+    x: 171639.3466,
+    latitude: 126.6802141,
+    y: 440312.2079,
+    longitude: 37.46454531
+  },
+  {
+    name: "주안역환승정류장",
+    number: 37617,
+    id: 163000617,
+    discrit: "미추홀구",
+    dong: "주안1동",
+    x: 171635.1038,
+    latitude: 126.6801678,
+    y: 440268.3972,
+    longitude: 37.46415045
+  },
+  {
+    name: "주안파크자이더플래티넘아파트",
+    number: 37204,
+    id: 163000204,
+    discrit: "미추홀구",
+    dong: "주안3동",
+    x: 171086.0767,
+    latitude: 126.6740301,
+    y: 438535.6838,
+    longitude: 37.44852182
+  },
+  {
+    name: "주안파크자이더플래티넘아파트",
+    number: 37201,
+    id: 163000201,
+    discrit: "미추홀구",
+    dong: "주안3동",
+    x: 171052.0509,
+    latitude: 126.6736462,
+    y: 438519.2978,
+    longitude: 37.44837312
+  },
+  {
+    name: "주안현대아파트",
+    number: 37358,
+    id: 163000358,
+    discrit: "미추홀구",
+    dong: "주안1동",
+    x: 172007.1792,
+    latitude: 126.684398,
+    y: 439625.9055,
+    longitude: 37.45837302
   },
   {
     name: "주원고개",
@@ -38863,6 +43505,28 @@ export const BUS_STOPS = [
     longitude: 37.37679031
   },
   {
+    name: "진달래아파트",
+    number: 37600,
+    id: 163000600,
+    discrit: "미추홀구",
+    dong: "용현2동",
+    x: 168246.4676,
+    latitude: 126.6418972,
+    y: 439525.823,
+    longitude: 37.45734959
+  },
+  {
+    name: "진도로르빌아파트",
+    number: 37471,
+    id: 163000471,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 171722.9528,
+    latitude: 126.6811493,
+    y: 440569.2993,
+    longitude: 37.46686424
+  },
+  {
     name: "진산과학고등학교",
     number: 40915,
     id: 166000915,
@@ -39026,6 +43690,50 @@ export const BUS_STOPS = [
     latitude: 126.6548436,
     y: 453482.728,
     longitude: 37.58313879
+  },
+  {
+    name: "진흥아파트",
+    number: 37190,
+    id: 163000190,
+    discrit: "미추홀구",
+    dong: "주안8동",
+    x: 171775.8874,
+    latitude: 126.6818406,
+    y: 438145.1659,
+    longitude: 37.44502463
+  },
+  {
+    name: "진흥아파트",
+    number: 37240,
+    id: 163000240,
+    discrit: "미추홀구",
+    dong: "주안8동",
+    x: 171844.0702,
+    latitude: 126.6825992,
+    y: 438456.9599,
+    longitude: 37.44783595
+  },
+  {
+    name: "진흥아파트",
+    number: 37243,
+    id: 163000243,
+    discrit: "미추홀구",
+    dong: "주안8동",
+    x: 171884.4719,
+    latitude: 126.6830549,
+    y: 438477.9873,
+    longitude: 37.44802664
+  },
+  {
+    name: "진흥아파트",
+    number: 37193,
+    id: 163000193,
+    discrit: "미추홀구",
+    dong: "주안8동",
+    x: 171800.4394,
+    latitude: 126.6821173,
+    y: 438165.1003,
+    longitude: 37.44520498
   },
   {
     name: "진흥아파트",
@@ -40326,6 +45034,50 @@ export const BUS_STOPS = [
     longitude: 37.53434049
   },
   {
+    name: "청운대삼거리(하늘꿈교회)",
+    number: 37500,
+    id: 163000500,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 169690.8065,
+    latitude: 126.658141,
+    y: 441479.5717,
+    longitude: 37.47500117
+  },
+  {
+    name: "청운대삼거리(하늘꿈교회)",
+    number: 37433,
+    id: 163000433,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 169694.3171,
+    latitude: 126.6581796,
+    y: 441506.9835,
+    longitude: 37.47524827
+  },
+  {
+    name: "청운대후문.한전제물포지사",
+    number: 37632,
+    id: 163000632,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 169829.9127,
+    latitude: 126.6597405,
+    y: 440823.7761,
+    longitude: 37.4690971
+  },
+  {
+    name: "청운대후문.한전제물포지사",
+    number: 37633,
+    id: 163000633,
+    discrit: "미추홀구",
+    dong: "도화23동",
+    x: 169805.2346,
+    latitude: 126.6594618,
+    y: 440817.9434,
+    longitude: 37.46904374
+  },
+  {
     name: "청정주말농장",
     number: 39852,
     id: 165000852,
@@ -41514,6 +46266,28 @@ export const BUS_STOPS = [
     longitude: 37.41107377
   },
   {
+    name: "태평아파트.주안한신휴플러스아파트",
+    number: 37180,
+    id: 163000180,
+    discrit: "미추홀구",
+    dong: "주안7동",
+    x: 171640.6412,
+    latitude: 126.6803137,
+    y: 438108.1597,
+    longitude: 37.44468706
+  },
+  {
+    name: "태평아파트.주안한신휴플러스아파트",
+    number: 37183,
+    id: 163000183,
+    discrit: "미추홀구",
+    dong: "주안7동",
+    x: 171628.8785,
+    latitude: 126.6801803,
+    y: 438119.2016,
+    longitude: 37.44478618
+  },
+  {
     name: "태평아파트1차(A)",
     number: 42326,
     id: 168000326,
@@ -41657,6 +46431,28 @@ export const BUS_STOPS = [
     longitude: 37.51084076
   },
   {
+    name: "태화아파트",
+    number: 37413,
+    id: 163000413,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 171207.5255,
+    latitude: 126.6753211,
+    y: 440619.3126,
+    longitude: 37.46729892
+  },
+  {
+    name: "태화아파트",
+    number: 37416,
+    id: 163000416,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 171279.825,
+    latitude: 126.676138,
+    y: 440627.9149,
+    longitude: 37.46737868
+  },
+  {
     name: "태화한진아파트",
     number: 41132,
     id: 167000132,
@@ -41765,6 +46561,50 @@ export const BUS_STOPS = [
     latitude: 126.6565508,
     y: 431127.2424,
     longitude: 37.38172149
+  },
+  {
+    name: "토지금고",
+    number: 37114,
+    id: 163000114,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167887.8062,
+    latitude: 126.6378668,
+    y: 438993.9135,
+    longitude: 37.45254475
+  },
+  {
+    name: "토지금고",
+    number: 37115,
+    id: 163000115,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167876.1291,
+    latitude: 126.6377338,
+    y: 439016.6815,
+    longitude: 37.45274948
+  },
+  {
+    name: "토지금고시장",
+    number: 37102,
+    id: 163000102,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167878.9313,
+    latitude: 126.6377699,
+    y: 438916.2098,
+    longitude: 37.45184434
+  },
+  {
+    name: "토지금고시장앞",
+    number: 37509,
+    id: 163000509,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167859.4286,
+    latitude: 126.6375495,
+    y: 438914.5019,
+    longitude: 37.45182827
   },
   {
     name: "트러스(서구장애인직업재활시설)",
@@ -42251,6 +47091,17 @@ export const BUS_STOPS = [
     longitude: 37.61393219
   },
   {
+    name: "풍림아이원아파트",
+    number: 37034,
+    id: 163000034,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 169871.7685,
+    latitude: 126.6603388,
+    y: 437765.38,
+    longitude: 37.44154263
+  },
+  {
     name: "풍림아파트",
     number: 41374,
     id: 167000374,
@@ -42260,6 +47111,17 @@ export const BUS_STOPS = [
     latitude: 126.7468443,
     y: 450512.6842,
     longitude: 37.55661344
+  },
+  {
+    name: "풍림아파트",
+    number: 37246,
+    id: 163000246,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 173285.0351,
+    latitude: 126.6989018,
+    y: 437947.6257,
+    longitude: 37.44328969
   },
   {
     name: "풍림아파트",
@@ -42293,6 +47155,17 @@ export const BUS_STOPS = [
     latitude: 126.6929185,
     y: 435193.3969,
     longitude: 37.41845846
+  },
+  {
+    name: "풍림아파트",
+    number: 37245,
+    id: 163000245,
+    discrit: "미추홀구",
+    dong: "관교동",
+    x: 173261.9794,
+    latitude: 126.6986411,
+    y: 437950.8984,
+    longitude: 37.44331851
   },
   {
     name: "풍림아파트",
@@ -42482,6 +47355,17 @@ export const BUS_STOPS = [
     longitude: 37.55486941
   },
   {
+    name: "하나로쇼핑",
+    number: 37118,
+    id: 163000118,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167706.3235,
+    latitude: 126.6358103,
+    y: 439119.3772,
+    longitude: 37.45366883
+  },
+  {
     name: "하나모터스",
     number: 89451,
     id: 168001451,
@@ -42502,6 +47386,17 @@ export const BUS_STOPS = [
     latitude: 126.6279036,
     y: 445875.9654,
     longitude: 37.51452071
+  },
+  {
+    name: "하나아파트",
+    number: 37052,
+    id: 163000052,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 170612.8742,
+    latitude: 126.6687209,
+    y: 437572.5152,
+    longitude: 37.43982881
   },
   {
     name: "하나아파트",
@@ -42768,6 +47663,61 @@ export const BUS_STOPS = [
     longitude: 37.54457424
   },
   {
+    name: "학산사거리",
+    number: 37562,
+    id: 163000562,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 170119.6613,
+    latitude: 126.6631408,
+    y: 437745.5873,
+    longitude: 37.44137236
+  },
+  {
+    name: "학산사거리",
+    number: 37027,
+    id: 163000027,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 170031.9002,
+    latitude: 126.6621527,
+    y: 437656.8622,
+    longitude: 37.44057011
+  },
+  {
+    name: "학산사거리",
+    number: 37025,
+    id: 163000025,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 170048.0699,
+    latitude: 126.6623368,
+    y: 437622.4463,
+    longitude: 37.44026055
+  },
+  {
+    name: "학산소극장",
+    number: 37169,
+    id: 163000169,
+    discrit: "미추홀구",
+    dong: "용현14동",
+    x: 170116.7525,
+    latitude: 126.6630719,
+    y: 438633.8305,
+    longitude: 37.44937526
+  },
+  {
+    name: "학산소극장",
+    number: 37173,
+    id: 163000173,
+    discrit: "미추홀구",
+    dong: "용현14동",
+    x: 170129.0079,
+    latitude: 126.6632096,
+    y: 438653.7444,
+    longitude: 37.44955508
+  },
+  {
     name: "학생안전체험관",
     number: 39284,
     id: 165000284,
@@ -42777,6 +47727,226 @@ export const BUS_STOPS = [
     latitude: 126.7150659,
     y: 438963.4168,
     longitude: 37.45248229
+  },
+  {
+    name: "학익.원흥아파트",
+    number: 37015,
+    id: 163000015,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 169880.1302,
+    latitude: 126.6604417,
+    y: 437560.5478,
+    longitude: 37.43969739
+  },
+  {
+    name: "학익2동행정복지센터",
+    number: 37151,
+    id: 163000151,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 170436.8468,
+    latitude: 126.6667025,
+    y: 438303.7369,
+    longitude: 37.44641145
+  },
+  {
+    name: "학익2동행정복지센터",
+    number: 37150,
+    id: 163000150,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 170461.2143,
+    latitude: 126.6669784,
+    y: 438290.2081,
+    longitude: 37.44629033
+  },
+  {
+    name: "학익고등학교",
+    number: 37029,
+    id: 163000029,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 170236.3808,
+    latitude: 126.6644655,
+    y: 437603.1519,
+    longitude: 37.44009279
+  },
+  {
+    name: "학익고등학교",
+    number: 37505,
+    id: 163000505,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 170186.486,
+    latitude: 126.6639002,
+    y: 437640.3799,
+    longitude: 37.4404266
+  },
+  {
+    name: "학익동구치소",
+    number: 37139,
+    id: 163000139,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 170691.9332,
+    latitude: 126.6695912,
+    y: 438152.8683,
+    longitude: 37.44506026
+  },
+  {
+    name: "학익동성당앞",
+    number: 37630,
+    id: 163000630,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 169319.8746,
+    latitude: 126.6541011,
+    y: 437798.6556,
+    longitude: 37.44182428
+  },
+  {
+    name: "학익동성당앞",
+    number: 37631,
+    id: 163000631,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 169367.5058,
+    latitude: 126.6546414,
+    y: 437749.235,
+    longitude: 37.44138059
+  },
+  {
+    name: "학익사거리",
+    number: 37077,
+    id: 163000077,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 170181.909,
+    latitude: 126.6638381,
+    y: 437896.6327,
+    longitude: 37.44273527
+  },
+  {
+    name: "학익사거리",
+    number: 37075,
+    id: 163000075,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 170203.2787,
+    latitude: 126.6640803,
+    y: 437877.5226,
+    longitude: 37.44256378
+  },
+  {
+    name: "학익사거리",
+    number: 37058,
+    id: 163000058,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 170131.1619,
+    latitude: 126.6632678,
+    y: 437816.8706,
+    longitude: 37.44201498
+  },
+  {
+    name: "학익사거리(동아풍림아파트)",
+    number: 37089,
+    id: 163000089,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 170080.7172,
+    latitude: 126.6626903,
+    y: 438002.2715,
+    longitude: 37.4436838
+  },
+  {
+    name: "학익사거리(동아풍림아파트)",
+    number: 37084,
+    id: 163000084,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 170097.1653,
+    latitude: 126.6628775,
+    y: 437969,
+    longitude: 37.44338456
+  },
+  {
+    name: "학익시장",
+    number: 37106,
+    id: 163000106,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 170292.8483,
+    latitude: 126.6650868,
+    y: 438017.8147,
+    longitude: 37.44383069
+  },
+  {
+    name: "학익시장",
+    number: 37112,
+    id: 163000112,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 170290.2244,
+    latitude: 126.6650554,
+    y: 438060.8374,
+    longitude: 37.44421824
+  },
+  {
+    name: "학익시장(법원검찰청)",
+    number: 37080,
+    id: 163000080,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 170293.7581,
+    latitude: 126.6651033,
+    y: 437864.5017,
+    longitude: 37.44244938
+  },
+  {
+    name: "학익시장앞",
+    number: 37082,
+    id: 163000082,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 170308.7823,
+    latitude: 126.665272,
+    y: 437890.2763,
+    longitude: 37.44268209
+  },
+  {
+    name: "학익여자고등학교",
+    number: 37566,
+    id: 163000566,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 171274.7019,
+    latitude: 126.6761848,
+    y: 437943.6832,
+    longitude: 37.44319383
+  },
+  {
+    name: "학익여자고등학교",
+    number: 37140,
+    id: 163000140,
+    discrit: "미추홀구",
+    dong: "학익2동",
+    x: 171292.8587,
+    latitude: 126.6763904,
+    y: 437933.4098,
+    longitude: 37.44310183
+  },
+  {
+    name: "학익풍림아파트",
+    number: 37487,
+    id: 163000487,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 169877.0617,
+    latitude: 126.6604067,
+    y: 437568.9901,
+    longitude: 37.43977335
   },
   {
     name: "한국가스공사",
@@ -43121,6 +48291,28 @@ export const BUS_STOPS = [
   },
   {
     name: "한국아파트",
+    number: 37682,
+    id: 163000682,
+    discrit: "미추홀구",
+    dong: "용현동",
+    x: 167915.0932,
+    latitude: 126.6382053,
+    y: 438301.2845,
+    longitude: 37.44630519
+  },
+  {
+    name: "한국아파트",
+    number: 37017,
+    id: 163000017,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167908.1855,
+    latitude: 126.6381249,
+    y: 438354.9356,
+    longitude: 37.44678834
+  },
+  {
+    name: "한국아파트",
     number: 38154,
     id: 164000154,
     discrit: "연수구",
@@ -43283,6 +48475,28 @@ export const BUS_STOPS = [
     latitude: 126.6454617,
     y: 449878.1238,
     longitude: 37.55063395
+  },
+  {
+    name: "한국폴리텍2대학남인천캠퍼스",
+    number: 37448,
+    id: 163000448,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 171406.0046,
+    latitude: 126.6775465,
+    y: 441085.4446,
+    longitude: 37.47150489
+  },
+  {
+    name: "한국폴리텍2대학남인천캠퍼스",
+    number: 37450,
+    id: 163000450,
+    discrit: "미추홀구",
+    dong: "주안5동",
+    x: 171406.1585,
+    latitude: 126.6775453,
+    y: 441160.4686,
+    longitude: 37.47218085
   },
   {
     name: "한남시티플라자",
@@ -43649,6 +48863,39 @@ export const BUS_STOPS = [
   },
   {
     name: "한신아파트",
+    number: 37262,
+    id: 163000262,
+    discrit: "미추홀구",
+    dong: "주안8동",
+    x: 172481.6452,
+    latitude: 126.689808,
+    y: 438358.1314,
+    longitude: 37.44696473
+  },
+  {
+    name: "한신아파트",
+    number: 37267,
+    id: 163000267,
+    discrit: "미추홀구",
+    dong: "주안8동",
+    x: 172226.5387,
+    latitude: 126.6869198,
+    y: 438498.6064,
+    longitude: 37.44822276
+  },
+  {
+    name: "한신아파트",
+    number: 37264,
+    id: 163000264,
+    discrit: "미추홀구",
+    dong: "주안8동",
+    x: 172215.7381,
+    latitude: 126.6867986,
+    y: 438476.3326,
+    longitude: 37.44802175
+  },
+  {
+    name: "한신아파트",
     number: 42095,
     id: 168000095,
     discrit: "서구",
@@ -43712,6 +48959,17 @@ export const BUS_STOPS = [
     latitude: 126.6832016,
     y: 443757.7799,
     longitude: 37.49559793
+  },
+  {
+    name: "한양2차아파트",
+    number: 37512,
+    id: 163000512,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167435.2833,
+    latitude: 126.6327504,
+    y: 439044.5355,
+    longitude: 37.452985
   },
   {
     name: "한양2차아파트",
@@ -43836,6 +49094,17 @@ export const BUS_STOPS = [
   },
   {
     name: "한양아파트",
+    number: 37076,
+    id: 163000076,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167928.5471,
+    latitude: 126.6383374,
+    y: 438760.056,
+    longitude: 37.45043914
+  },
+  {
+    name: "한양아파트",
     number: 40905,
     id: 166000905,
     discrit: "부평구",
@@ -43855,6 +49124,17 @@ export const BUS_STOPS = [
     latitude: 126.7029651,
     y: 444617.0384,
     longitude: 37.50339141
+  },
+  {
+    name: "한양아파트",
+    number: 37079,
+    id: 163000079,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167943.3655,
+    latitude: 126.6385046,
+    y: 438765.9464,
+    longitude: 37.45049272
   },
   {
     name: "한양아파트",
@@ -44826,6 +50106,17 @@ export const BUS_STOPS = [
   },
   {
     name: "현광아파트",
+    number: 37007,
+    id: 163000007,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 169406.9536,
+    latitude: 126.6551009,
+    y: 437418.9853,
+    longitude: 37.43840637
+  },
+  {
+    name: "현광아파트",
     number: 41071,
     id: 167000071,
     discrit: "계양구",
@@ -44869,6 +50160,17 @@ export const BUS_STOPS = [
     longitude: 37.52548932
   },
   {
+    name: "현광아파트",
+    number: 37488,
+    id: 163000488,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 169401.2989,
+    latitude: 126.6550363,
+    y: 437436.074,
+    longitude: 37.43856015
+  },
+  {
     name: "현광아파트(호산부인과)",
     number: 39376,
     id: 165000376,
@@ -44878,6 +50180,28 @@ export const BUS_STOPS = [
     latitude: 126.7287093,
     y: 439280.7245,
     longitude: 37.45537352
+  },
+  {
+    name: "현광아파트후문",
+    number: 37560,
+    id: 163000560,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 169246.3843,
+    latitude: 126.6532891,
+    y: 437357.5975,
+    longitude: 37.43784794
+  },
+  {
+    name: "현광아파트후문앞",
+    number: 37559,
+    id: 163000559,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 169240.2692,
+    latitude: 126.6532193,
+    y: 437373.9043,
+    longitude: 37.43799466
   },
   {
     name: "현대.태화아파트",
@@ -45233,6 +50557,17 @@ export const BUS_STOPS = [
   },
   {
     name: "현대아파트",
+    number: 37154,
+    id: 163000154,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167624.6446,
+    latitude: 126.6348739,
+    y: 439419.818,
+    longitude: 37.45637291
+  },
+  {
+    name: "현대아파트",
     number: 40682,
     id: 166000682,
     discrit: "부평구",
@@ -45252,6 +50587,17 @@ export const BUS_STOPS = [
     latitude: 126.7086048,
     y: 442908.0585,
     longitude: 37.48800768
+  },
+  {
+    name: "현대아파트",
+    number: 37161,
+    id: 163000161,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 167689.0032,
+    latitude: 126.6355996,
+    y: 439459.2135,
+    longitude: 37.45673011
   },
   {
     name: "현대아파트",
@@ -46957,6 +52303,72 @@ export const BUS_STOPS = [
     latitude: 126.6252598,
     y: 434325.246,
     longitude: 37.4104404
+  },
+  {
+    name: "힐스테이트푸르지오주안",
+    number: 37293,
+    id: 163000293,
+    discrit: "미추홀구",
+    dong: "주안4동",
+    x: 171617.4849,
+    latitude: 126.6800159,
+    y: 439043.6809,
+    longitude: 37.45311532
+  },
+  {
+    name: "힐스테이트푸르지오주안아파트",
+    number: 37680,
+    id: 163000680,
+    discrit: "미추홀구",
+    dong: "주안2동",
+    x: 171592.7648,
+    latitude: 126.6797376,
+    y: 439017.8614,
+    longitude: 37.45288193
+  },
+  {
+    name: "힐스테이트학익",
+    number: 37023,
+    id: 163000023,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 168987.6645,
+    latitude: 126.6503381,
+    y: 438014.7957,
+    longitude: 37.44376059
+  },
+  {
+    name: "힐스테이트학익",
+    number: 37022,
+    id: 163000022,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 168966.3558,
+    latitude: 126.6500973,
+    y: 438014.9831,
+    longitude: 37.44376156
+  },
+  {
+    name: "힐스테이트학익104동앞",
+    number: 37670,
+    id: 163000670,
+    discrit: "미추홀구",
+    dong: "학익1동",
+    x: 168675.989,
+    latitude: 126.6468125,
+    y: 438098.6207,
+    longitude: 37.44450533
+  },
+  {
+    name: "힐스테이트학익104동앞",
+    number: 37669,
+    id: 163000669,
+    discrit: "미추홀구",
+    dong: "용현5동",
+    x: 168741.3734,
+    latitude: 126.6475496,
+    y: 438140.7792,
+    longitude: 37.44488739
   },
   {
     name: "힐캐슬프라자",

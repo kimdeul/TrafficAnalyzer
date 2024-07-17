@@ -7,7 +7,8 @@ export enum Discrits {
   JUNG = "중구",
   DONG = "동구",
   GANGHWA = "강화군",
-  ONGJIN = "옹진군"
+  ONGJIN = "옹진군",
+  MICHUHOL = "미추홀구",
 }
 
 export type Dong = `${string}동`
