@@ -16,6 +16,7 @@
     "@types/webpack": "^5.28.5",
     "axios": "^1.7.2",
     "csv": "^6.3.9",
+    "dotenv": "^16.4.5",
     "fs": "^0.0.1-security",
     "path": "^0.12.7",
     "webpack": "^5.93.0",
@@ -25,6 +26,7 @@
     "bundle": "webpack",
     "watch": "webpack --watch",
     "extract": "ts-node src/data/extract.ts",
+    "request": "ts-node src/data/request.ts",
     "start": "yarn bundle && yarn watch"
   }
 }
