@@ -25,8 +25,8 @@
   "scripts": {
     "bundle": "webpack",
     "watch": "webpack --watch",
-    "extract": "ts-node src/data/extract.ts",
-    "request": "ts-node src/data/request.ts",
+    "extract": "ts-node src/data/raw/extract.ts",
+    "request": "ts-node src/data/raw/request.ts",
     "start": "yarn bundle && yarn watch"
   }
 }

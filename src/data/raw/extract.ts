@@ -1,7 +1,7 @@
 import { readFileSync, writeFileSync } from "fs";
 import { join } from "path";
-import { BusStop, isValidDiscrits, isValidDong } from "../types/BusStop";
-import { DataError } from "./DataError";
+import { BusStop, isValidDiscrits, isValidDong } from "../../types/BusStop";
+import { DataError } from "../../types/DataError";
 
 const EXTRACTED_BUS_STOPS: BusStop[] = []
 
@@ -41,4 +41,4 @@ for (const lineSource of csv.split("\r\n").slice(1)) {
 
 }
 
-writeFileSync("src/data/extracted.json", JSON.stringify(EXTRACTED_BUS_STOPS, null, 2))
+writeFileSync("src/data/raw/extracted.json", JSON.stringify(EXTRACTED_BUS_STOPS, null, 2))

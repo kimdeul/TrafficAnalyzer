@@ -1,10 +1,10 @@
 import axios from "axios";
 import { config } from "dotenv";
 import { writeFileSync } from "fs";
-import { LINE_NUMBERS, Routes } from "../types/Line";
+import { BusRoute, BusRouteColors, ROUTE_NUMBERS_MAINLINE } from "../../types/BusRoute";
 
 config()
-const EXTRACTED_BUS_ROUTES: Routes[] = []
+const EXTRACTED_BUS_ROUTES:BusRoute[] = []
 
 function sleep(ms: number) {
   return new Promise(res => setTimeout(res, ms))
@@ -22,11 +22,11 @@ async function getRouteIdByRouteNumber(num: string) {
       serviceKey: process.env.API_KEY,
       pageNo: 1,
       numOfRows: 100,
-      routeNo: num,
+      routeNo: num
     }
   })
   console.log(res.data)
-  return extractDataByTag(res.data, "ROUTEID")?.[0]
+  return extractDataByTag(res.data, "ROUTEID")?.[extractDataByTag(res.data, "ROUTENO")?.indexOf(num) ?? 0]
 }
 
 async function getRouteStopsByRouteId(id: string) {
@@ -41,20 +41,23 @@ async function getRouteStopsByRouteId(id: string) {
   return extractDataByTag(res.data, "SHORT_BSTOPID")?.map(id => parseInt(id))
 }
 
+const TARGET_ROUTES = ROUTE_NUMBERS_MAINLINE;
+const TARGET_COLOR = BusRouteColors.MAINLINE;
+
 (async () => { 
-  for (const num of LINE_NUMBERS) {
+  for (const num of TARGET_ROUTES) {
     await sleep(1000)
     console.log(num)
     const id = await getRouteIdByRouteNumber(num)
     if (!id) continue
     const list = await getRouteStopsByRouteId(id)
     if (!list) continue
-    console.log(list)
     EXTRACTED_BUS_ROUTES.push({
       number: num,
       id: id,
-      list: list
+      list: list,
+      color: TARGET_COLOR
     })
   }
-  writeFileSync("src/data/request.json", JSON.stringify(EXTRACTED_BUS_ROUTES, null, 2))
+  writeFileSync("src/data/raw/request.json", JSON.stringify(EXTRACTED_BUS_ROUTES, null, 2))
 })()
