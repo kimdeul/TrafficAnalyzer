@@ -27,7 +27,7 @@ console.log(MAX_X, MAX_Y, MIN_X, MIN_Y);
 
   function renderBusStop(x: number, y: number, color?: string) {
     if (!ctx) return
-    ctx.fillStyle = color ?? "#99a2";
+    ctx.fillStyle = color ?? "#99a";
     const [cx, cy] = convert(x, y)
     ctx.fillRect(cx, cy, 8, 8)
   }
@@ -38,7 +38,7 @@ console.log(MAX_X, MAX_Y, MIN_X, MIN_Y);
     for (const num of route.list) {
       const now = BUS_STOPS.find(e => e.number === num)
       if (!now) continue;
-      renderBusStop(now.x, now.y, route.color + "22")
+      renderBusStop(now.x, now.y, route.color + "33")
       const [x, y] = convert(now.x, now.y)
       ctx.lineTo(x, y)
     }

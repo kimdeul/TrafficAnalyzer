@@ -24,7 +24,7 @@ export const ROUTE_NUMBERS: string[] = [
 export enum BusRouteColors {
   BRANCH = "#5bb025",
   MAINLINE = "#3366cc",
-  TOWN = ""
+  TOWN = "#5ab025"
 }
 
 export interface BusRoute {

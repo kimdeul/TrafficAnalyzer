@@ -1,7 +1,7 @@
 import axios from "axios";
 import { config } from "dotenv";
 import { writeFileSync } from "fs";
-import { BusRoute, BusRouteColors, ROUTE_NUMBERS_MAINLINE } from "../../types/BusRoute";
+import { BusRoute, BusRouteColors, ROUTE_NUMBERS_TOWN } from "../../types/BusRoute";
 
 config()
 const EXTRACTED_BUS_ROUTES:BusRoute[] = []
@@ -41,8 +41,8 @@ async function getRouteStopsByRouteId(id: string) {
   return extractDataByTag(res.data, "SHORT_BSTOPID")?.map(id => parseInt(id))
 }
 
-const TARGET_ROUTES = ROUTE_NUMBERS_MAINLINE;
-const TARGET_COLOR = BusRouteColors.MAINLINE;
+const TARGET_ROUTES = ROUTE_NUMBERS_TOWN;
+const TARGET_COLOR = BusRouteColors.TOWN;
 
 (async () => { 
   for (const num of TARGET_ROUTES) {
