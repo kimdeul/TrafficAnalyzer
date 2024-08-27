@@ -1,7 +1,6 @@
 import { readFileSync, writeFileSync } from "fs";
 import { join } from "path";
 import { BusStop, isValidDiscrits, isValidDong } from "../../types/BusStop";
-import { DataError } from "../../types/DataError";
 
 const EXTRACTED_BUS_STOPS: BusStop[] = []
 
@@ -12,16 +11,8 @@ for (const lineSource of csv.split("\r\n").slice(1)) {
   const discrit = line[4]
   const dong = line[5]
 
-  if (!isValidDiscrits(discrit)) {
-    // the bus stops whose discrit is "코드 없음" is not in Incheon.
-    continue;
-    console.error(new DataError(`Uncaught discrit - ${discrit} is not valid Discrit`))
-  }
-
-  if (!isValidDong(dong)) {
-    continue;
-    console.error(new DataError(`Uncaught dong - ${dong} is not valid Dong`))
-  }
+  if (!isValidDiscrits(discrit)) continue;
+  if (!isValidDong(dong)) continue;
 
   if (Number.isNaN(parseFloat(line[8]))) continue;
 
@@ -42,3 +33,6 @@ for (const lineSource of csv.split("\r\n").slice(1)) {
 }
 
 writeFileSync("src/data/raw/extracted.json", JSON.stringify(EXTRACTED_BUS_STOPS, null, 2))
+
+
+
