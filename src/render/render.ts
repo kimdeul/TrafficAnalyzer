@@ -1,5 +1,6 @@
 import { BUS_ROUTES } from "../data/BusRoutes"
 import { BUS_STOPS } from "../data/BusStops"
+import { graph, graphize } from "../graph/graphize"
 import { BusRoute } from "../types/BusRoute"
 import { BusStop } from "../types/BusStop"
 
@@ -11,46 +12,73 @@ const [MIN_X, MIN_Y, MAX_X, MAX_Y] = Object.values(BUS_STOPS as BusStop[]).reduc
     return p
   }, [10000000000, 10000000000, 0, 0])
 
-export function renderRoutes(canvas: HTMLCanvasElement) {
-    const ctx = canvas.getContext("2d")
-    if (!ctx) return;
-  
-    function convert(x: number, y: number) {
-      return [(x-MIN_X)/10, (MAX_Y-y)/10]
-    }
-  
-    function renderBusStop(x: number, y: number, color?: string) {
-      if (!ctx) return
-      ctx.fillStyle = color ?? "#99a";
-      const [cx, cy] = convert(x, y)
-      ctx.fillRect(cx, cy, 8, 8)
-    }
-  
-    function renderBusRoute(route: BusRoute) {
-      if (!ctx) return
-      ctx.beginPath()
-      for (const num of route.list) {
-        const now = BUS_STOPS.find(e => e.number === num)
-        if (!now) continue;
-        renderBusStop(now.x, now.y, route.color + "33")
-        const [x, y] = convert(now.x, now.y)
-        ctx.lineTo(x, y)
+function convert(x: number, y: number) {
+  return [(x-MIN_X)/10, (MAX_Y-y)/10] as const
+}
+
+type Context = CanvasRenderingContext2D
+
+function renderBusStop(ctx: Context, x: number, y: number, color?: string) {
+  if (!ctx) return
+  ctx.fillStyle = color ?? "#99a";
+  const [cx, cy] = convert(x, y)
+  ctx.fillRect(cx, cy, 8, 8)
+}
+
+function renderBusRoute(ctx: Context, route: BusRoute) {
+  if (!ctx) return
+  ctx.beginPath()
+  for (const num of route.list) {
+    const now = BUS_STOPS.find(e => e.number === num)
+    if (!now) continue;
+    renderBusStop(ctx, now.x, now.y, route.color + "33")
+    const [x, y] = convert(now.x, now.y)
+    ctx.lineTo(x, y)
+  }
+  ctx.strokeStyle = route.color + "55"
+  ctx.lineWidth = 2
+  ctx.stroke()
+  ctx.closePath()
+}
+
+export function renderWithBackground(ctx: Context, callback: () => void) {
+  const background = new Image(); 
+  const SIZE = 3820
+  background.src = "img/incheon.png"
+  background.onload = () => {
+    ctx.drawImage(background, 0, -40, SIZE, SIZE)
+    callback()
+  };
+}
+
+export function renderRoutes(ctx: Context) {
+  if (!ctx) return;
+  renderWithBackground(ctx, () => {
+    BUS_STOPS.map(bs => renderBusStop(ctx, bs.x, bs.y))
+    BUS_ROUTES.map(route => renderBusRoute(ctx, route))
+  })
+}
+
+export function renderGraph(ctx: Context) {
+  if (!ctx) return;
+  graphize()
+  renderWithBackground(ctx, () => {
+    for (const foundFrom of BUS_STOPS) {
+      for (const to of graph.get(`${foundFrom.number}`) ?? []) {
+        ctx.beginPath()
+        ctx.moveTo(...convert(foundFrom.x, foundFrom.y))
+        const foundTo = BUS_STOPS.find(e => e.number === to.to)
+        if (!foundTo) continue;
+        const [x, y] = convert(foundTo.x, foundTo.y)
+        ctx.lineTo(...convert(foundTo.x, foundTo.y))
+        ctx.strokeStyle = "#666";
+        ctx.lineWidth = 2
+        ctx.stroke()
+        ctx.closePath()
       }
-      ctx.strokeStyle = route.color + "55"
-      ctx.lineWidth = 2
-      ctx.stroke()
-      ctx.closePath()
     }
-  
-    const background = new Image(); 
-    const SIZE = 3820
-    background.src = "img/incheon.png"
-    background.onload = () => {
-      ctx.drawImage(background, 0, -40, SIZE, SIZE)
-      BUS_STOPS.map(bs => renderBusStop(bs.x, bs.y))
-      BUS_ROUTES.map(route => renderBusRoute(route))
-    }
-  
+    BUS_STOPS.map(bs => renderBusStop(ctx, bs.x, bs.y, "#333"))
+  })
 }
   
   
