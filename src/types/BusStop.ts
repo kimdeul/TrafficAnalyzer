@@ -23,6 +23,9 @@ export interface BusStop {
   readonly latitude: number;
   readonly y: number;
   readonly longitude: number;
+  readonly users: {
+    readonly average: number;
+  }
 }
 
 export function isValidDiscrits(source: string): source is Discrits {

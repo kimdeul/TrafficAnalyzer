@@ -4,8 +4,9 @@ import { BusStop, Discrits, isValidDiscrits, isValidDong } from "../../types/Bus
 
 const EXTRACTED_BUS_STOPS: BusStop[] = []
 
-const csv = readFileSync(join(__dirname, '../../', 'source/busstops.csv'), "utf-8")
-for (const lineSource of csv.split("\r\n").slice(1)) {
+const informations = readFileSync(join(__dirname, '../../', 'source/busstops.csv'), "utf-8").split("\r\n")
+const users = readFileSync(join(__dirname, '../../', 'source/users.csv'), "utf-8").split("\r\n").map(line => line.split(","))
+for (const lineSource of informations.slice(1)) {
 
   const line = lineSource.split(",")
   const discrit = line[4]
@@ -27,12 +28,16 @@ for (const lineSource of csv.split("\r\n").slice(1)) {
     latitude: parseFloat(line[7]),
     y: parseFloat(line[8]),
     longitude: parseFloat(line[9]),
+    users: {
+      average: parseInt(users.find(s => s[1] === line[2])?.[7] ?? "0")
+    }
   }
 
   EXTRACTED_BUS_STOPS.push(busStop)
 
 }
 
+console.log(Math.max(...EXTRACTED_BUS_STOPS.map(e => e.users.average)))
 writeFileSync("src/data/raw/extracted.json", JSON.stringify(EXTRACTED_BUS_STOPS, null, 2))
 
 
