@@ -1,6 +1,7 @@
+import { hsl } from "color-convert"
 import { BUS_ROUTES } from "../data/BusRoutes"
 import { BUS_STOPS } from "../data/BusStops"
-import { graph, graphize } from "../graph/graphize"
+import { dijkstra, graph, graphize } from "../graph/graphize"
 import { BusRoute } from "../types/BusRoute"
 import { BusStop } from "../types/BusStop"
 
@@ -62,23 +63,38 @@ export function renderRoutes(ctx: Context) {
 export function renderGraph(ctx: Context) {
   if (!ctx) return;
   graphize()
-  renderWithBackground(ctx, () => {
-    for (const foundFrom of BUS_STOPS) {
-      for (const to of graph.get(`${foundFrom.number}`) ?? []) {
-        ctx.beginPath()
-        ctx.moveTo(...convert(foundFrom.x, foundFrom.y))
-        const foundTo = BUS_STOPS.find(e => e.number === to.to)
-        if (!foundTo) continue;
-        const [x, y] = convert(foundTo.x, foundTo.y)
-        ctx.lineTo(...convert(foundTo.x, foundTo.y))
-        ctx.strokeStyle = "#666";
-        ctx.lineWidth = 2
-        ctx.stroke()
-        ctx.closePath()
-      }
+  for (const foundFrom of BUS_STOPS) {
+    for (const to of graph.get(`${foundFrom.number}`) ?? []) {
+      ctx.beginPath()
+      ctx.moveTo(...convert(foundFrom.x, foundFrom.y))
+      const foundTo = BUS_STOPS.find(e => e.number === to.to)
+      if (!foundTo) continue;
+      const [x, y] = convert(foundTo.x, foundTo.y)
+      ctx.lineTo(...convert(foundTo.x, foundTo.y))
+      ctx.strokeStyle = "#999";
+      ctx.lineWidth = 2
+      ctx.stroke()
+      ctx.closePath()
     }
-    BUS_STOPS.map(bs => renderBusStop(ctx, bs.x, bs.y, "#333"))
-  })
+  }
+  BUS_STOPS.map(bs => renderBusStop(ctx, bs.x, bs.y, "#333"))
+}
+  
+  
+export function renderDistance(ctx: Context, start: number) {
+  if (!ctx) return;
+  const distances = dijkstra(start)
+  const [x1, y1] = convert(BUS_STOPS[start].x, BUS_STOPS[start].y)
+  for (let i=0; i<BUS_STOPS.length; i++) {
+    ctx.fillStyle = distances[i] === Infinity ? "#000000" : "#" + hsl.hex([360 * Math.min(distances[i], 50000) / 50000, 100, 50]);
+    const [cx, cy] = convert(BUS_STOPS[i].x, BUS_STOPS[i].y)
+    ctx.fillRect(cx, cy, 8, 8)
+  }
+  console.log(distances)
+  ctx.fillStyle = "#000"
+  ctx.fillRect(x1, y1, 16, 16)
+  ctx.fillStyle = "#FFF"
+  ctx.fillRect(x1 + 2, y1 + 2, 12, 12)
 }
   
   
