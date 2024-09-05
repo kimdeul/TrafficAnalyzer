@@ -18,7 +18,10 @@ export function graphize() {
         for (const stop of route.list.slice(1)) {
             if (!graph.has(`${stop}`)) graph.set(`${stop}`, [])
             const [from, to] = [prev, stop].map(id => BUS_STOPS.find(s => s.number === id))
-            if (from && to && to.number) graph.get(`${from.number}`)?.push({ to: to.number, weight: dist(from, to)})
+            if (from && to && from.number && to.number) {
+                graph.get(`${from.number}`)?.push({ to: to.number, weight: dist(from, to)})
+                graph.get(`${to.number}`)?.push({ to: from.number, weight: dist(from, to)})
+            }
             prev = stop;
         }
     })

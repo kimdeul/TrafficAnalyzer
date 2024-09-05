@@ -14,7 +14,7 @@ const [MIN_X, MIN_Y, MAX_X, MAX_Y] = Object.values(BUS_STOPS as BusStop[]).reduc
   }, [10000000000, 10000000000, 0, 0])
 
 function convert(x: number, y: number) {
-  return [(x-MIN_X)/10, (MAX_Y-y)/10] as const
+  return [(x-MIN_X)/5, (MAX_Y-y)/5 + 140] as const
 }
 
 type Context = CanvasRenderingContext2D
@@ -44,10 +44,10 @@ function renderBusRoute(ctx: Context, route: BusRoute) {
 
 export function renderWithBackground(ctx: Context, callback: () => void) {
   const background = new Image(); 
-  const SIZE = 3820
+  const SIZE = 1680
   background.src = "img/incheon.png"
   background.onload = () => {
-    ctx.drawImage(background, 0, -40, SIZE, SIZE)
+    ctx.drawImage(background, 0, 0, SIZE, SIZE)
     callback()
   };
 }
@@ -71,7 +71,7 @@ export function renderGraph(ctx: Context) {
       if (!foundTo) continue;
       const [x, y] = convert(foundTo.x, foundTo.y)
       ctx.lineTo(...convert(foundTo.x, foundTo.y))
-      ctx.strokeStyle = "#999";
+      ctx.strokeStyle = "#aaaaaa50";
       ctx.lineWidth = 2
       ctx.stroke()
       ctx.closePath()
@@ -86,7 +86,7 @@ export function renderDistance(ctx: Context, start: number) {
   const distances = dijkstra(start)
   const [x1, y1] = convert(BUS_STOPS[start].x, BUS_STOPS[start].y)
   for (let i=0; i<BUS_STOPS.length; i++) {
-    ctx.fillStyle = distances[i] === Infinity ? "#000000" : "#" + hsl.hex([360 * Math.min(distances[i], 50000) / 50000, 100, 50]);
+    ctx.fillStyle = distances[i] === Infinity ? "#000000" : "#" + hsl.hex([360 * Math.min(distances[i], 20000) / 20000, 100, 50]);
     const [cx, cy] = convert(BUS_STOPS[i].x, BUS_STOPS[i].y)
     ctx.fillRect(cx, cy, 8, 8)
   }

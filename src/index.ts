@@ -1,3 +1,4 @@
+import { idx } from "./graph/graphize";
 import { renderDistance, renderGraph, renderWithBackground } from "./render/render";
 
 const get = document.getElementById.bind(document);
@@ -6,5 +7,5 @@ const ctx = (canvas as HTMLCanvasElement).getContext("2d")!!
 
 renderWithBackground(ctx, () => {
     renderGraph(ctx)
-    renderDistance(ctx, 1892)
+    renderDistance(ctx, idx["40224"])
 })

@@ -1,10 +1,10 @@
 import { readFileSync, writeFileSync } from "fs";
 import { join } from "path";
-import { BusStop, isValidDiscrits, isValidDong } from "../../types/BusStop";
+import { BusStop, Discrits, isValidDiscrits, isValidDong } from "../../types/BusStop";
 
 const EXTRACTED_BUS_STOPS: BusStop[] = []
 
-const csv = readFileSync(join(__dirname, '..', 'source/busstops.csv'), "utf-8")
+const csv = readFileSync(join(__dirname, '../../', 'source/busstops.csv'), "utf-8")
 for (const lineSource of csv.split("\r\n").slice(1)) {
 
   const line = lineSource.split(",")
@@ -15,6 +15,7 @@ for (const lineSource of csv.split("\r\n").slice(1)) {
   if (!isValidDong(dong)) continue;
 
   if (Number.isNaN(parseFloat(line[8]))) continue;
+  if (discrit !== Discrits.BUPYEONG) continue;
 
   const busStop: BusStop = {
     name: line[1],
