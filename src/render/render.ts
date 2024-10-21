@@ -4,6 +4,7 @@ import { BUS_STOP_ARRAY, BUS_STOPS } from "../data/BusStops"
 import { dijkstra } from "../graph/dijkstra"
 import { graph, graphize } from "../graph/graphize"
 import { BusRoute } from "../types/BusRoute"
+import { BusStop } from "../types/BusStop"
 
 const [MIN_X, MIN_Y, MAX_X, MAX_Y] = BUS_STOP_ARRAY.reduce((p, c) => {
   p[0] = Math.min(c.x, p[0])
@@ -26,10 +27,10 @@ export class Renderer {
     return [(x-MIN_X)/5, (MAX_Y-y)/5 + 140] as const
   }
 
-  renderBusStop(x: number, y: number, color?: string) {
+  renderBusStop(stop: BusStop, color?: string, size?: number) {
     this.ctx.fillStyle = color ?? "#99a";
-    const [cx, cy] = Renderer.convert(x, y)
-    this.ctx.fillRect(cx, cy, 8, 8)
+    const [cx, cy] = Renderer.convert(stop.x, stop.y)
+    this.ctx.fillRect(cx, cy, size ?? 8, size ?? 8)
   }
   
   renderBusRoute(route: BusRoute) {
@@ -37,7 +38,7 @@ export class Renderer {
     for (const num of route.list) {
       const now = BUS_STOPS[num]
       if (!now) continue;
-      this.renderBusStop(now.x, now.y, route.color + "33")
+      this.renderBusStop(now, route.color + "33")
       const [x, y] = Renderer.convert(now.x, now.y)
       this.ctx.lineTo(x, y)
     }
@@ -59,7 +60,7 @@ export class Renderer {
   
   renderRoutes() {
     this.renderWithBackground(() => {
-      BUS_STOP_ARRAY.map(bs => this.renderBusStop(bs.x, bs.y))
+      BUS_STOP_ARRAY.map(bs => this.renderBusStop)
       BUS_ROUTES.map(route => this.renderBusRoute(route))
     })
   }
@@ -80,7 +81,7 @@ export class Renderer {
         this.ctx.closePath()
       }
     }
-    BUS_STOP_ARRAY.map(bs => this.renderBusStop(bs.x, bs.y, "#333"))
+    BUS_STOP_ARRAY.map(bs => this.renderBusStop(bs, "#333"))
   }
     
     
@@ -99,7 +100,7 @@ export class Renderer {
   }
 
   renderUsers() {
-    BUS_STOP_ARRAY.map(bs => this.renderBusStop(bs.x, bs.y, "#" + hsl.hex([250, 100, 100 * Math.min(1, bs.users.average / 3000)])))
+    BUS_STOP_ARRAY.map(bs => this.renderBusStop(bs, "#" + hsl.hex([250, 100, 100 * Math.min(1, bs.users.average / 3000)])))
   }
 }
   
