@@ -89,7 +89,7 @@ export class Renderer {
     const distances = dijkstra(start)
     const [x1, y1] = Renderer.convert(BUS_STOP_ARRAY[start].x, BUS_STOP_ARRAY[start].y)
     for (let i=0; i<BUS_STOP_ARRAY.length; i++) {
-      this.ctx.fillStyle = distances[i] === Infinity ? "#000000" : "#" + hsv.hex([360 * Math.min(distances[i], 20000) / 20000, 100, 50]);
+      this.ctx.fillStyle = distances[i] === Infinity ? "#000000" : "#" + hsv.hex([360 * Math.min(distances[i], 20) / 20, 100, 50]);
       const [cx, cy] = Renderer.convert(BUS_STOP_ARRAY[i].x, BUS_STOP_ARRAY[i].y)
       this.ctx.fillRect(cx, cy, 8, 8)
     }

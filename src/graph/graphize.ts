@@ -24,7 +24,7 @@ export function graphize() {
 
     // Upside-downside transfer
     for (const from of BUS_STOP_ARRAY) {
-        const to = BUS_STOP_ARRAY.find(stop => stop.number === BUS_STOP_ARRAY.filter(to => to.name === from.name && getDistance(from, to) <= 500)?.[0]?.number)
+        const to = BUS_STOP_ARRAY.find(stop => stop.number === BUS_STOP_ARRAY.filter(to => to.name === from.name && getDistance(from, to) <= 0.1)?.[0]?.number)
         if (!to || !to.number || !from.number) return;
         graph[`${to.number}`]?.push({ to: from.number, weight: getDistance(from, to), route: "transfer"})
         graph[`${from.number}`]?.push({ to: to.number, weight: getDistance(from, to), route: "transfer"})

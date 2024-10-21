@@ -11,8 +11,8 @@ function haversine(deg: number) {
 export function getDistance(stop1: BusStop, stop2: BusStop) {
   const EARTH_RADIUS = 6371
   const dist = 2 * EARTH_RADIUS * Math.asin(Math.sqrt(
-    haversine(rad(stop2.latitude) - rad(stop1.latitude))
-     + Math.cos(rad(stop1.latitude)) * Math.cos(rad(stop2.latitude)) * haversine(rad(stop2.longitude) - rad(stop1.longitude))
+    haversine(rad(stop2.longitude) - rad(stop1.longitude))
+     + Math.cos(rad(stop1.longitude)) * Math.cos(rad(stop2.longitude)) * haversine(rad(stop2.latitude) - rad(stop1.latitude))
   ))
   return dist
 }
