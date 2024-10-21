@@ -1,11 +1,11 @@
 import { hsl, hsv } from "color-convert"
 import { BUS_ROUTES } from "../data/BusRoutes"
-import { BUS_STOPS } from "../data/BusStops"
-import { dijkstra, graph, graphize } from "../graph/graphize"
+import { BUS_STOP_ARRAY, BUS_STOPS } from "../data/BusStops"
+import { dijkstra } from "../graph/dijkstra"
+import { graph, graphize } from "../graph/graphize"
 import { BusRoute } from "../types/BusRoute"
-import { BusStop } from "../types/BusStop"
 
-const [MIN_X, MIN_Y, MAX_X, MAX_Y] = Object.values(BUS_STOPS as BusStop[]).reduce((p, c) => {
+const [MIN_X, MIN_Y, MAX_X, MAX_Y] = BUS_STOP_ARRAY.reduce((p, c) => {
   p[0] = Math.min(c.x, p[0])
   p[1] = Math.min(c.y, p[1])
   p[2] = Math.max(c.x, p[2])
@@ -35,7 +35,7 @@ export class Renderer {
   renderBusRoute(route: BusRoute) {
     this.ctx.beginPath()
     for (const num of route.list) {
-      const now = BUS_STOPS.find(e => e.number === num)
+      const now = BUS_STOPS[num]
       if (!now) continue;
       this.renderBusStop(now.x, now.y, route.color + "33")
       const [x, y] = Renderer.convert(now.x, now.y)
@@ -59,18 +59,18 @@ export class Renderer {
   
   renderRoutes() {
     this.renderWithBackground(() => {
-      BUS_STOPS.map(bs => this.renderBusStop(bs.x, bs.y))
+      BUS_STOP_ARRAY.map(bs => this.renderBusStop(bs.x, bs.y))
       BUS_ROUTES.map(route => this.renderBusRoute(route))
     })
   }
   
   renderGraph() {
     graphize()
-    for (const foundFrom of BUS_STOPS) {
-      for (const to of graph.get(`${foundFrom.number}`) ?? []) {
+    for (const foundFrom of BUS_STOP_ARRAY) {
+      for (const to of graph[`${foundFrom.number}`] ?? []) {
         this.ctx.beginPath()
         this.ctx.moveTo(...Renderer.convert(foundFrom.x, foundFrom.y))
-        const foundTo = BUS_STOPS.find(e => e.number === to.to)
+        const foundTo = BUS_STOPS[to.to]
         if (!foundTo) continue;
         const [x, y] = Renderer.convert(foundTo.x, foundTo.y)
         this.ctx.lineTo(...Renderer.convert(foundTo.x, foundTo.y))
@@ -80,16 +80,16 @@ export class Renderer {
         this.ctx.closePath()
       }
     }
-    BUS_STOPS.map(bs => this.renderBusStop(bs.x, bs.y, "#333"))
+    BUS_STOP_ARRAY.map(bs => this.renderBusStop(bs.x, bs.y, "#333"))
   }
     
     
   renderDistance(start: number) {
     const distances = dijkstra(start)
-    const [x1, y1] = Renderer.convert(BUS_STOPS[start].x, BUS_STOPS[start].y)
-    for (let i=0; i<BUS_STOPS.length; i++) {
+    const [x1, y1] = Renderer.convert(BUS_STOP_ARRAY[start].x, BUS_STOP_ARRAY[start].y)
+    for (let i=0; i<BUS_STOP_ARRAY.length; i++) {
       this.ctx.fillStyle = distances[i] === Infinity ? "#000000" : "#" + hsv.hex([360 * Math.min(distances[i], 20000) / 20000, 100, 50]);
-      const [cx, cy] = Renderer.convert(BUS_STOPS[i].x, BUS_STOPS[i].y)
+      const [cx, cy] = Renderer.convert(BUS_STOP_ARRAY[i].x, BUS_STOP_ARRAY[i].y)
       this.ctx.fillRect(cx, cy, 8, 8)
     }
     this.ctx.fillStyle = "#000"
@@ -99,7 +99,7 @@ export class Renderer {
   }
 
   renderUsers() {
-    BUS_STOPS.map(bs => this.renderBusStop(bs.x, bs.y, "#" + hsl.hex([250, 100, 100 * Math.min(1, bs.users.average / 3000)])))
+    BUS_STOP_ARRAY.map(bs => this.renderBusStop(bs.x, bs.y, "#" + hsl.hex([250, 100, 100 * Math.min(1, bs.users.average / 3000)])))
   }
 }
   

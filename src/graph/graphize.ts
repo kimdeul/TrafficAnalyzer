@@ -1,56 +1,39 @@
-import Heap from "heap-js";
 import { BUS_ROUTES } from "../data/BusRoutes";
-import { BUS_STOPS } from "../data/BusStops";
+import { BUS_STOP_ARRAY, BUS_STOPS } from "../data/BusStops";
+import { BusStop, Discrits } from "../types/BusStop";
 
-type vertex = { to: number, weight: number }
+type connection = { to: number, weight: number, route: string }
 
-export const graph: Map<string, vertex[]> = new Map()
+export const graph: { [key: string]: connection[] } = {}
 export const idx: { [key: string]: number } = {};
-for (let i=0; i<BUS_STOPS.length; i++) idx[`${BUS_STOPS[i].number}`] = i;
+for (let i=0; i<BUS_STOP_ARRAY.length; i++) idx[`${BUS_STOP_ARRAY[i].number}`] = i;
 
-function dist(from: typeof BUS_STOPS[number], to: typeof BUS_STOPS[number]) {
+function dist(from: BusStop, to: BusStop) {
     return Math.sqrt((from.x - to.x) ** 2 + (from.y - to.y) ** 2)
 }
 
 export function graphize() {
-    BUS_ROUTES.map(route => {
+    for (const route of BUS_ROUTES) {
         let prev = route.list[0]
         for (const stop of route.list.slice(1)) {
-            if (!graph.has(`${stop}`)) graph.set(`${stop}`, [])
-            const [from, to] = [prev, stop].map(id => BUS_STOPS.find(s => s.number === id))
-            if (from && to && from.number && to.number) graph.get(`${from.number}`)?.push({ to: to.number, weight: dist(from, to)})
+            if (!graph[`${stop}`] && BUS_STOPS[`${stop}`]?.discrit === Discrits.BUPYEONG) graph[`${stop}`] = []
+            const [from, to] = [prev, stop].map(id => BUS_STOPS[id])
+            if (from && to && from.number && to.number) graph[`${from.number}`]?.push({ to: to.number, weight: dist(from, to), route: route.number })
             prev = stop;
-        }
-    })
-
-    BUS_STOPS.map(from => {
-        const to = BUS_STOPS.find(stop => stop.number === BUS_STOPS.filter(to => to.name === from.name && dist(from, to) <= 500)?.[0].number)
-        if (!to || !to.number || !from.number) return;
-        graph.get(`${to.number}`)?.push({ to: from.number, weight: dist(from, to)})
-        graph.get(`${from.number}`)?.push({ to: to.number, weight: dist(from, to)})
-    })
-
-    console.log("Graphize completed.")
-
-}
-
-export function dijkstra(start: number) {
-
-    const distances = new Array(BUS_STOPS.length).fill(0).map(_ => Infinity)
-    const heap = new Heap<[number, number]>((a, b) => a[1] - b[1])
-    heap.init([[start, 0]])
-
-    while (heap.size()) {
-        const [nowp, noww] = heap.pop() as [number, number]
-        if (distances[nowp] < noww) continue;
-        for (const bs of graph.get(`${BUS_STOPS[nowp].number}`) ?? []) {
-            const [nextp, nextw] = [idx[bs.to], noww + bs.weight]
-            if (nextw < distances[nextp]) {
-                distances[nextp] = nextw;
-                heap.push([nextp, nextw])
-            }
         }
     }
 
-    return distances;
+    // Remove out-scope
+
+    // Upside-downside transfer
+    for (const from of BUS_STOP_ARRAY) {
+        const to = BUS_STOP_ARRAY.find(stop => stop.number === BUS_STOP_ARRAY.filter(to => to.name === from.name && dist(from, to) <= 500)?.[0].number)
+        if (!to || !to.number || !from.number) return;
+        graph[`${to.number}`]?.push({ to: from.number, weight: dist(from, to), route: "transfer"})
+        graph[`${from.number}`]?.push({ to: to.number, weight: dist(from, to), route: "transfer"})
+    }
+
+    console.log(graph)
+    console.log("Graphize completed.")
+
 }

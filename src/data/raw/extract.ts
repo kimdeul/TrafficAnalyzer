@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync } from "fs";
 import { join } from "path";
 import { BusStop, Discrits, isValidDiscrits, isValidDong } from "../../types/BusStop";
 
-const EXTRACTED_BUS_STOPS: BusStop[] = []
+const EXTRACTED_BUS_STOPS: { [key: string]: BusStop } = {}
 
 const informations = readFileSync(join(__dirname, '../../', 'source/busstops.csv'), "utf-8").split("\r\n")
 const users = readFileSync(join(__dirname, '../../', 'source/users.csv'), "utf-8").split("\r\n").map(line => line.split(","))
@@ -33,11 +33,11 @@ for (const lineSource of informations.slice(1)) {
     }
   }
 
-  EXTRACTED_BUS_STOPS.push(busStop)
+  EXTRACTED_BUS_STOPS[parseInt(line[2])] = busStop
 
 }
 
-console.log(Math.max(...EXTRACTED_BUS_STOPS.map(e => e.users.average)))
+console.log(Math.max(...Object.values(EXTRACTED_BUS_STOPS).map(e => e.users.average)))
 writeFileSync("src/data/raw/extracted.json", JSON.stringify(EXTRACTED_BUS_STOPS, null, 2))
 
 
