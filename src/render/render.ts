@@ -42,8 +42,8 @@ export class Renderer {
       const [x, y] = Renderer.convert(now.x, now.y)
       this.ctx.lineTo(x, y)
     }
-    this.ctx.strokeStyle = route.color + "55"
-    this.ctx.lineWidth = 2
+    this.ctx.strokeStyle = route.color + "ff"
+    this.ctx.lineWidth = 5
     this.ctx.stroke()
     this.ctx.closePath()
   }
