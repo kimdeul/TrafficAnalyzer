@@ -1,14 +1,17 @@
-import { proposeWithMst } from "./graph/mst";
+import { graphize } from "./graph/graphize";
+import { dijkstra } from "./graph/shortest";
 import { Renderer } from "./render/render";
 
-const get = document.getElementById.bind(document);
-const canvas = get("graph")
+export const $ = document.getElementById.bind(document);
+const canvas = $("graph")
+
+graphize()
+const distances = dijkstra("40224")
 const renderer = new Renderer((canvas as HTMLCanvasElement).getContext("2d")!!)
 
 renderer.renderWithBackground(() => {
     renderer.renderGraph()
     // renderer.renderUsers()
-    // renderer.renderDistance(idx["40224"])
-    console.log(proposeWithMst(10))
-    renderer.renderBusRoute(proposeWithMst(10))
+    renderer.renderDistance(distances, "40224")
+    // renderer.renderBusRoute(proposeWithMst(8, (a, b) => graph[`${b.number}`]?.length - graph[`${a.number}`]?.length))
 })

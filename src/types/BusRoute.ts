@@ -30,6 +30,6 @@ export enum BusRouteColors {
 export interface BusRoute {
   number: string
   id: string
-  list: number[]
+  list: string[]
   color: BusRouteColors
 }

@@ -15,7 +15,7 @@ export type Dong = `${string}동`
 
 export interface BusStop {
   readonly name: string;
-  readonly number: number;
+  readonly number: string;
   readonly id: number;
   readonly discrit: Discrits;
   readonly dong: Dong;

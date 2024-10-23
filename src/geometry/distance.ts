@@ -14,5 +14,5 @@ export function getDistance(stop1: BusStop, stop2: BusStop) {
     haversine(rad(stop2.longitude) - rad(stop1.longitude))
      + Math.cos(rad(stop1.longitude)) * Math.cos(rad(stop2.longitude)) * haversine(rad(stop2.latitude) - rad(stop1.latitude))
   ))
-  return dist
+  return dist * 1000
 }

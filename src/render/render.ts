@@ -1,8 +1,7 @@
 import { hsl, hsv } from "color-convert"
 import { BUS_ROUTES } from "../data/BusRoutes"
 import { BUS_STOP_ARRAY, BUS_STOPS } from "../data/BusStops"
-import { dijkstra } from "../graph/dijkstra"
-import { graph, graphize } from "../graph/graphize"
+import { graph } from "../graph/graphize"
 import { BusRoute } from "../types/BusRoute"
 import { BusStop } from "../types/BusStop"
 
@@ -30,7 +29,7 @@ export class Renderer {
   renderBusStop(stop: BusStop, color?: string, size?: number) {
     this.ctx.fillStyle = color ?? "#99a";
     const [cx, cy] = Renderer.convert(stop.x, stop.y)
-    this.ctx.fillRect(cx, cy, size ?? 8, size ?? 8)
+    this.ctx.fillRect(cx - (size ?? 8) / 2, cy - (size ?? 8) / 2, size ?? 8, size ?? 8)
   }
   
   renderBusRoute(route: BusRoute) {
@@ -66,7 +65,6 @@ export class Renderer {
   }
   
   renderGraph() {
-    graphize()
     for (const foundFrom of BUS_STOP_ARRAY) {
       for (const to of graph[`${foundFrom.number}`] ?? []) {
         this.ctx.beginPath()
@@ -85,14 +83,16 @@ export class Renderer {
   }
     
     
-  renderDistance(start: number) {
-    const distances = dijkstra(start)
-    const [x1, y1] = Renderer.convert(BUS_STOP_ARRAY[start].x, BUS_STOP_ARRAY[start].y)
-    for (let i=0; i<BUS_STOP_ARRAY.length; i++) {
-      this.ctx.fillStyle = distances[i] === Infinity ? "#000000" : "#" + hsv.hex([360 * Math.min(distances[i], 20) / 20, 100, 50]);
-      const [cx, cy] = Renderer.convert(BUS_STOP_ARRAY[i].x, BUS_STOP_ARRAY[i].y)
-      this.ctx.fillRect(cx, cy, 8, 8)
+  renderDistance(distances: { [key: string]: number }, start: string) {
+    
+    const [x1, y1] = Renderer.convert(BUS_STOPS[start].x, BUS_STOPS[start].y)
+
+    for (const i of Object.keys(BUS_STOPS)) {
+      this.ctx.fillStyle = distances[i] === Infinity ? "#000000" : "#" + hsv.hex([360 * Math.min(distances[i], 2400) / 2400, 100, 50]);
+      const [cx, cy] = Renderer.convert(BUS_STOPS[i].x, BUS_STOPS[i].y)
+      this.ctx.fillRect(cx - 4, cy - 4, 8, 8)
     }
+    
     this.ctx.fillStyle = "#000"
     this.ctx.fillRect(x1, y1, 16, 16)
     this.ctx.fillStyle = "#FFF"

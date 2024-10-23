@@ -3,7 +3,7 @@ import { BusStop, Discrits } from "../types/BusStop";
 export const BUS_STOPS: { [key: string]: BusStop } = {
   "40002": {
     name: "종근당",
-    number: 40002,
+    number: "40002",
     id: 166000002,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -17,7 +17,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40003": {
     name: "동암사거리",
-    number: 40003,
+    number: "40003",
     id: 166000003,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -31,7 +31,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40004": {
     name: "형제마트",
-    number: 40004,
+    number: "40004",
     id: 166000004,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -45,7 +45,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40005": {
     name: "종근당",
-    number: 40005,
+    number: "40005",
     id: 166000005,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -59,7 +59,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40006": {
     name: "형제마트",
-    number: 40006,
+    number: "40006",
     id: 166000006,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -73,7 +73,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40007": {
     name: "십정시장입구",
-    number: 40007,
+    number: "40007",
     id: 166000007,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -87,7 +87,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40008": {
     name: "십정시장입구",
-    number: 40008,
+    number: "40008",
     id: 166000008,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -101,7 +101,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40009": {
     name: "수출산업단지6공단입구",
-    number: 40009,
+    number: "40009",
     id: 166000009,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -115,7 +115,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40010": {
     name: "수출산업단지6공단입구",
-    number: 40010,
+    number: "40010",
     id: 166000010,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -129,7 +129,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40011": {
     name: "린나이코리아",
-    number: 40011,
+    number: "40011",
     id: 166000011,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -143,7 +143,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40012": {
     name: "린나이코리아",
-    number: 40012,
+    number: "40012",
     id: 166000012,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -157,7 +157,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40013": {
     name: "동암북부역",
-    number: 40013,
+    number: "40013",
     id: 166000013,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -171,7 +171,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40014": {
     name: "동암국민주택",
-    number: 40014,
+    number: "40014",
     id: 166000014,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -185,7 +185,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40015": {
     name: "동암국민주택",
-    number: 40015,
+    number: "40015",
     id: 166000015,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -199,7 +199,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40020": {
     name: "강인여객",
-    number: 40020,
+    number: "40020",
     id: 166000020,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -213,7 +213,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40022": {
     name: "강인여객",
-    number: 40022,
+    number: "40022",
     id: 166000022,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -227,7 +227,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40028": {
     name: "열우물전통시장",
-    number: 40028,
+    number: "40028",
     id: 166000028,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -241,7 +241,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40029": {
     name: "십정사거리",
-    number: 40029,
+    number: "40029",
     id: 166000029,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -255,7 +255,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40030": {
     name: "열우물전통시장",
-    number: 40030,
+    number: "40030",
     id: 166000030,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -269,7 +269,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40032": {
     name: "인천교통공사",
-    number: 40032,
+    number: "40032",
     id: 166000032,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -283,7 +283,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40033": {
     name: "십정사거리",
-    number: 40033,
+    number: "40033",
     id: 166000033,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -297,7 +297,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40034": {
     name: "동암남부역",
-    number: 40034,
+    number: "40034",
     id: 166000034,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -311,7 +311,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40035": {
     name: "동암북부역",
-    number: 40035,
+    number: "40035",
     id: 166000035,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -325,7 +325,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40036": {
     name: "열우물전통시장입구",
-    number: 40036,
+    number: "40036",
     id: 166000036,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -339,7 +339,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40038": {
     name: "열우물전통시장입구",
-    number: 40038,
+    number: "40038",
     id: 166000038,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -353,7 +353,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40039": {
     name: "동암마트",
-    number: 40039,
+    number: "40039",
     id: 166000039,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -367,7 +367,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40041": {
     name: "십정초등학교(동암의원)",
-    number: 40041,
+    number: "40041",
     id: 166000041,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -381,7 +381,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40042": {
     name: "십정초등학교(동암의원)",
-    number: 40042,
+    number: "40042",
     id: 166000042,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -395,7 +395,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40043": {
     name: "선린감리교회",
-    number: 40043,
+    number: "40043",
     id: 166000043,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -409,7 +409,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40044": {
     name: "하정초등학교",
-    number: 40044,
+    number: "40044",
     id: 166000044,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -423,7 +423,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40045": {
     name: "십정초등학교·더샵부평정문",
-    number: 40045,
+    number: "40045",
     id: 166000045,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -437,7 +437,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40046": {
     name: "하정초등학교",
-    number: 40046,
+    number: "40046",
     id: 166000046,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -451,7 +451,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40047": {
     name: "선린감리교회",
-    number: 40047,
+    number: "40047",
     id: 166000047,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -465,7 +465,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40048": {
     name: "십정초등학교·더샵부평정문",
-    number: 40048,
+    number: "40048",
     id: 166000048,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -479,7 +479,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40049": {
     name: "십정1동행정복지센터",
-    number: 40049,
+    number: "40049",
     id: 166000049,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -493,7 +493,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40050": {
     name: "더샵부평센트럴시티(127동)",
-    number: 40050,
+    number: "40050",
     id: 166000050,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -507,7 +507,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40052": {
     name: "열우물사거리",
-    number: 40052,
+    number: "40052",
     id: 166000052,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -521,7 +521,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40053": {
     name: "열우물테니스경기장",
-    number: 40053,
+    number: "40053",
     id: 166000053,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -535,7 +535,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40054": {
     name: "열우물테니스경기장",
-    number: 40054,
+    number: "40054",
     id: 166000054,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -549,7 +549,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40055": {
     name: "정든마을아파트",
-    number: 40055,
+    number: "40055",
     id: 166000055,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -563,7 +563,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40056": {
     name: "십정2동행정복지센터",
-    number: 40056,
+    number: "40056",
     id: 166000056,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -577,7 +577,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40057": {
     name: "정든마을아파트",
-    number: 40057,
+    number: "40057",
     id: 166000057,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -591,7 +591,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40058": {
     name: "백영아파트",
-    number: 40058,
+    number: "40058",
     id: 166000058,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -605,7 +605,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40059": {
     name: "상정중학교",
-    number: 40059,
+    number: "40059",
     id: 166000059,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -619,7 +619,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40060": {
     name: "신동아아파트116동",
-    number: 40060,
+    number: "40060",
     id: 166000060,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -633,7 +633,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40061": {
     name: "더샵부평센트럴시티(101동)",
-    number: 40061,
+    number: "40061",
     id: 166000061,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -647,7 +647,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40063": {
     name: "열우물테니스경기장",
-    number: 40063,
+    number: "40063",
     id: 166000063,
     discrit: Discrits.BUPYEONG,
     dong: "가좌4동",
@@ -661,7 +661,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40064": {
     name: "열우물테니스경기장",
-    number: 40064,
+    number: "40064",
     id: 166000064,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -675,7 +675,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40065": {
     name: "더샵부평센트럴시티(101동)",
-    number: 40065,
+    number: "40065",
     id: 166000065,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -689,7 +689,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40066": {
     name: "부평삼거리역",
-    number: 40066,
+    number: "40066",
     id: 166000066,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -703,7 +703,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40068": {
     name: "신동아상가(백운역방면)",
-    number: 40068,
+    number: "40068",
     id: 166000068,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -717,7 +717,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40069": {
     name: "상정고",
-    number: 40069,
+    number: "40069",
     id: 166000069,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -731,7 +731,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40070": {
     name: "상정고",
-    number: 40070,
+    number: "40070",
     id: 166000070,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -745,7 +745,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40072": {
     name: "백운공원",
-    number: 40072,
+    number: "40072",
     id: 166000072,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -759,7 +759,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40073": {
     name: "부평사거리",
-    number: 40073,
+    number: "40073",
     id: 166000073,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -773,7 +773,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40074": {
     name: "부평사거리",
-    number: 40074,
+    number: "40074",
     id: 166000074,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -787,7 +787,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40075": {
     name: "백운공원(부평아트센터)",
-    number: 40075,
+    number: "40075",
     id: 166000075,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -801,7 +801,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40076": {
     name: "백운공원(부평아트센터)",
-    number: 40076,
+    number: "40076",
     id: 166000076,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -815,7 +815,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40077": {
     name: "경인교회앞",
-    number: 40077,
+    number: "40077",
     id: 166000077,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -829,7 +829,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40078": {
     name: "부평아트센터",
-    number: 40078,
+    number: "40078",
     id: 166000078,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -843,7 +843,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40079": {
     name: "백운역",
-    number: 40079,
+    number: "40079",
     id: 166000079,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -857,7 +857,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40080": {
     name: "백운역",
-    number: 40080,
+    number: "40080",
     id: 166000080,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -871,7 +871,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40081": {
     name: "백운역",
-    number: 40081,
+    number: "40081",
     id: 166000081,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -885,7 +885,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40082": {
     name: "부평도서관",
-    number: 40082,
+    number: "40082",
     id: 166000082,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -899,7 +899,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40084": {
     name: "부평도서관",
-    number: 40084,
+    number: "40084",
     id: 166000084,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -913,7 +913,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40091": {
     name: "희망천입구",
-    number: 40091,
+    number: "40091",
     id: 166000091,
     discrit: Discrits.BUPYEONG,
     dong: "부평2동",
@@ -927,7 +927,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40092": {
     name: "부평서중",
-    number: 40092,
+    number: "40092",
     id: 166000092,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -941,7 +941,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40093": {
     name: "호명사입구",
-    number: 40093,
+    number: "40093",
     id: 166000093,
     discrit: Discrits.BUPYEONG,
     dong: "부평2동",
@@ -955,7 +955,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40094": {
     name: "백운역(파출소)",
-    number: 40094,
+    number: "40094",
     id: 166000094,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -969,7 +969,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40095": {
     name: "부평서중",
-    number: 40095,
+    number: "40095",
     id: 166000095,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -983,7 +983,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40097": {
     name: "현대310동(서중학교)",
-    number: 40097,
+    number: "40097",
     id: 166000097,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -997,7 +997,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40098": {
     name: "신촌초등학교",
-    number: 40098,
+    number: "40098",
     id: 166000098,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -1011,7 +1011,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40099": {
     name: "신성미소지움",
-    number: 40099,
+    number: "40099",
     id: 166000099,
     discrit: Discrits.BUPYEONG,
     dong: "부평2동",
@@ -1025,7 +1025,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40102": {
     name: "신성미소지움",
-    number: 40102,
+    number: "40102",
     id: 166000102,
     discrit: Discrits.BUPYEONG,
     dong: "부평2동",
@@ -1039,7 +1039,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40103": {
     name: "현대자동차빌딩앞",
-    number: 40103,
+    number: "40103",
     id: 166000103,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -1053,7 +1053,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40105": {
     name: "현대아파트113동",
-    number: 40105,
+    number: "40105",
     id: 166000105,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -1067,7 +1067,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40106": {
     name: "무내미마을",
-    number: 40106,
+    number: "40106",
     id: 166000106,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -1081,7 +1081,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40107": {
     name: "3단지관리사무소",
-    number: 40107,
+    number: "40107",
     id: 166000107,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -1095,7 +1095,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40108": {
     name: "동수역",
-    number: 40108,
+    number: "40108",
     id: 166000108,
     discrit: Discrits.BUPYEONG,
     dong: "부평2동",
@@ -1109,7 +1109,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40110": {
     name: "동수역",
-    number: 40110,
+    number: "40110",
     id: 166000110,
     discrit: Discrits.BUPYEONG,
     dong: "부평2동",
@@ -1123,7 +1123,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40111": {
     name: "양로원",
-    number: 40111,
+    number: "40111",
     id: 166000111,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -1137,7 +1137,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40112": {
     name: "현대아파트",
-    number: 40112,
+    number: "40112",
     id: 166000112,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -1151,7 +1151,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40113": {
     name: "양로원",
-    number: 40113,
+    number: "40113",
     id: 166000113,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -1165,7 +1165,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40116": {
     name: "소망탑빌라",
-    number: 40116,
+    number: "40116",
     id: 166000116,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -1179,7 +1179,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40117": {
     name: "충성아파트",
-    number: 40117,
+    number: "40117",
     id: 166000117,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -1193,7 +1193,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40123": {
     name: "부일여자중학교",
-    number: 40123,
+    number: "40123",
     id: 166000123,
     discrit: Discrits.BUPYEONG,
     dong: "부평2동",
@@ -1207,7 +1207,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40124": {
     name: "동수역",
-    number: 40124,
+    number: "40124",
     id: 166000124,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -1221,7 +1221,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40125": {
     name: "새마을금고",
-    number: 40125,
+    number: "40125",
     id: 166000125,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -1235,7 +1235,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40126": {
     name: "새마을금고",
-    number: 40126,
+    number: "40126",
     id: 166000126,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -1249,7 +1249,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40127": {
     name: "현대3단지",
-    number: 40127,
+    number: "40127",
     id: 166000127,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -1263,7 +1263,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40128": {
     name: "화랑교회",
-    number: 40128,
+    number: "40128",
     id: 166000128,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -1277,7 +1277,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40129": {
     name: "현대3단지",
-    number: 40129,
+    number: "40129",
     id: 166000129,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -1291,7 +1291,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40131": {
     name: "새마을금고",
-    number: 40131,
+    number: "40131",
     id: 166000131,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -1305,7 +1305,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40132": {
     name: "전인연립(종점)",
-    number: 40132,
+    number: "40132",
     id: 166000132,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -1319,7 +1319,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40134": {
     name: "노인인력개발센터",
-    number: 40134,
+    number: "40134",
     id: 166000134,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -1333,7 +1333,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40136": {
     name: "부평남초등학교앞",
-    number: 40136,
+    number: "40136",
     id: 166000136,
     discrit: Discrits.BUPYEONG,
     dong: "부평2동",
@@ -1347,7 +1347,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40137": {
     name: "현대121동",
-    number: 40137,
+    number: "40137",
     id: 166000137,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -1361,7 +1361,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40138": {
     name: "인천성모병원후문",
-    number: 40138,
+    number: "40138",
     id: 166000138,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -1375,7 +1375,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40139": {
     name: "인천성모병원후문",
-    number: 40139,
+    number: "40139",
     id: 166000139,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -1389,7 +1389,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40140": {
     name: "현대아파트120동앞",
-    number: 40140,
+    number: "40140",
     id: 166000140,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -1403,7 +1403,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40141": {
     name: "부평남초등학교",
-    number: 40141,
+    number: "40141",
     id: 166000141,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -1417,7 +1417,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40145": {
     name: "근로복지공단인천병원",
-    number: 40145,
+    number: "40145",
     id: 166000145,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -1431,7 +1431,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40146": {
     name: "현대102동",
-    number: 40146,
+    number: "40146",
     id: 166000146,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -1445,7 +1445,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40148": {
     name: "부평감리교회",
-    number: 40148,
+    number: "40148",
     id: 166000148,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -1459,7 +1459,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40149": {
     name: "인평자동차고",
-    number: 40149,
+    number: "40149",
     id: 166000149,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -1473,7 +1473,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40151": {
     name: "인평자동차고",
-    number: 40151,
+    number: "40151",
     id: 166000151,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -1487,7 +1487,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40152": {
     name: "인평자동차고",
-    number: 40152,
+    number: "40152",
     id: 166000152,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -1501,7 +1501,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40154": {
     name: "2001아울렛",
-    number: 40154,
+    number: "40154",
     id: 166000154,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -1515,7 +1515,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40155": {
     name: "근로복지공단인천병원",
-    number: 40155,
+    number: "40155",
     id: 166000155,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -1529,7 +1529,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40156": {
     name: "산곡3동행정복지센터",
-    number: 40156,
+    number: "40156",
     id: 166000156,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -1543,7 +1543,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40158": {
     name: "2001아울렛부평점",
-    number: 40158,
+    number: "40158",
     id: 166000158,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -1557,7 +1557,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40159": {
     name: "2001아울렛",
-    number: 40159,
+    number: "40159",
     id: 166000159,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -1571,7 +1571,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40160": {
     name: "부평LH1(2)단지",
-    number: 40160,
+    number: "40160",
     id: 166000160,
     discrit: Discrits.BUPYEONG,
     dong: "부평6동",
@@ -1585,7 +1585,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40161": {
     name: "부평LH1(2)단지",
-    number: 40161,
+    number: "40161",
     id: 166000161,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -1599,7 +1599,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40162": {
     name: "2001아울렛",
-    number: 40162,
+    number: "40162",
     id: 166000162,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -1613,7 +1613,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40167": {
     name: "현대209동",
-    number: 40167,
+    number: "40167",
     id: 166000167,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -1627,7 +1627,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40168": {
     name: "현대207동",
-    number: 40168,
+    number: "40168",
     id: 166000168,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -1641,7 +1641,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40169": {
     name: "부평남부역",
-    number: 40169,
+    number: "40169",
     id: 166000169,
     discrit: Discrits.BUPYEONG,
     dong: "부평6동",
@@ -1655,7 +1655,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40170": {
     name: "부평남부역입구",
-    number: 40170,
+    number: "40170",
     id: 166000170,
     discrit: Discrits.BUPYEONG,
     dong: "부평6동",
@@ -1669,7 +1669,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40171": {
     name: "비젼교회",
-    number: 40171,
+    number: "40171",
     id: 166000171,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -1683,7 +1683,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40172": {
     name: "삼미타운.e편한세상아파트",
-    number: 40172,
+    number: "40172",
     id: 166000172,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -1697,7 +1697,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40173": {
     name: "문화교회",
-    number: 40173,
+    number: "40173",
     id: 166000173,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -1711,7 +1711,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40174": {
     name: "문화교회",
-    number: 40174,
+    number: "40174",
     id: 166000174,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -1725,7 +1725,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40175": {
     name: "팔도주유소",
-    number: 40175,
+    number: "40175",
     id: 166000175,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -1739,7 +1739,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40181": {
     name: "부원중학교",
-    number: 40181,
+    number: "40181",
     id: 166000181,
     discrit: Discrits.BUPYEONG,
     dong: "부평1동",
@@ -1753,7 +1753,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40184": {
     name: "동수교회",
-    number: 40184,
+    number: "40184",
     id: 166000184,
     discrit: Discrits.BUPYEONG,
     dong: "부평6동",
@@ -1767,7 +1767,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40185": {
     name: "우성4차",
-    number: 40185,
+    number: "40185",
     id: 166000185,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -1781,7 +1781,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40186": {
     name: "부평6동우체국",
-    number: 40186,
+    number: "40186",
     id: 166000186,
     discrit: Discrits.BUPYEONG,
     dong: "부평6동",
@@ -1795,7 +1795,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40187": {
     name: "우성4차",
-    number: 40187,
+    number: "40187",
     id: 166000187,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -1809,7 +1809,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40188": {
     name: "동소정사거리",
-    number: 40188,
+    number: "40188",
     id: 166000188,
     discrit: Discrits.BUPYEONG,
     dong: "부평6동",
@@ -1823,7 +1823,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40189": {
     name: "동소정사거리",
-    number: 40189,
+    number: "40189",
     id: 166000189,
     discrit: Discrits.BUPYEONG,
     dong: "부평6동",
@@ -1837,7 +1837,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40190": {
     name: "부평역",
-    number: 40190,
+    number: "40190",
     id: 166000190,
     discrit: Discrits.BUPYEONG,
     dong: "부평1동",
@@ -1851,7 +1851,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40191": {
     name: "부개1동행정복지센터",
-    number: 40191,
+    number: "40191",
     id: 166000191,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -1865,7 +1865,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40192": {
     name: "부평역(CU편의점)",
-    number: 40192,
+    number: "40192",
     id: 166000192,
     discrit: Discrits.BUPYEONG,
     dong: "부평1동",
@@ -1879,7 +1879,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40193": {
     name: "부개1동행정복지센터",
-    number: 40193,
+    number: "40193",
     id: 166000193,
     discrit: Discrits.BUPYEONG,
     dong: "부개1동",
@@ -1893,7 +1893,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40194": {
     name: "그린힐아파트.e편한세상아파트",
-    number: 40194,
+    number: "40194",
     id: 166000194,
     discrit: Discrits.BUPYEONG,
     dong: "부개1동",
@@ -1907,7 +1907,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40195": {
     name: "계량소",
-    number: 40195,
+    number: "40195",
     id: 166000195,
     discrit: Discrits.BUPYEONG,
     dong: "부개1동",
@@ -1921,7 +1921,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40196": {
     name: "부평역(대한극장)",
-    number: 40196,
+    number: "40196",
     id: 166000196,
     discrit: Discrits.BUPYEONG,
     dong: "부평1동",
@@ -1935,7 +1935,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40197": {
     name: "부평역(북인천우체국)",
-    number: 40197,
+    number: "40197",
     id: 166000197,
     discrit: Discrits.BUPYEONG,
     dong: "부평1동",
@@ -1949,7 +1949,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40198": {
     name: "산곡여자중학교",
-    number: 40198,
+    number: "40198",
     id: 166000198,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -1963,7 +1963,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40199": {
     name: "부개농협",
-    number: 40199,
+    number: "40199",
     id: 166000199,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -1977,7 +1977,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40200": {
     name: "일신동행정복지센터",
-    number: 40200,
+    number: "40200",
     id: 166000200,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -1991,7 +1991,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40201": {
     name: "부개농협",
-    number: 40201,
+    number: "40201",
     id: 166000201,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -2005,7 +2005,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40202": {
     name: "부원여중·동아아파트",
-    number: 40202,
+    number: "40202",
     id: 166000202,
     discrit: Discrits.BUPYEONG,
     dong: "부평1동",
@@ -2019,7 +2019,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40203": {
     name: "산곡여자중학교",
-    number: 40203,
+    number: "40203",
     id: 166000203,
     discrit: Discrits.BUPYEONG,
     dong: "산곡1동",
@@ -2033,7 +2033,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40204": {
     name: "태양주택",
-    number: 40204,
+    number: "40204",
     id: 166000204,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -2047,7 +2047,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40205": {
     name: "일신동행정복지센터",
-    number: 40205,
+    number: "40205",
     id: 166000205,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -2061,7 +2061,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40207": {
     name: "일신시장",
-    number: 40207,
+    number: "40207",
     id: 166000207,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -2075,7 +2075,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40208": {
     name: "부원여중·동아아파트",
-    number: 40208,
+    number: "40208",
     id: 166000208,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -2089,7 +2089,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40209": {
     name: "부평역",
-    number: 40209,
+    number: "40209",
     id: 166000209,
     discrit: Discrits.BUPYEONG,
     dong: "부평1동",
@@ -2103,7 +2103,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40210": {
     name: "일신시장",
-    number: 40210,
+    number: "40210",
     id: 166000210,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -2117,7 +2117,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40215": {
     name: "산곡여자중학교",
-    number: 40215,
+    number: "40215",
     id: 166000215,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -2131,7 +2131,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40216": {
     name: "산곡여자중학교",
-    number: 40216,
+    number: "40216",
     id: 166000216,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -2145,7 +2145,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40219": {
     name: "송내고등학교",
-    number: 40219,
+    number: "40219",
     id: 166000219,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -2159,7 +2159,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40220": {
     name: "일신동행정복지센터",
-    number: 40220,
+    number: "40220",
     id: 166000220,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -2173,7 +2173,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40222": {
     name: "부개역",
-    number: 40222,
+    number: "40222",
     id: 166000222,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -2187,7 +2187,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40223": {
     name: "부개역",
-    number: 40223,
+    number: "40223",
     id: 166000223,
     discrit: Discrits.BUPYEONG,
     dong: "부개1동",
@@ -2201,7 +2201,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40224": {
     name: "부평역(27번출구)",
-    number: 40224,
+    number: "40224",
     id: 166000224,
     discrit: Discrits.BUPYEONG,
     dong: "부평1동",
@@ -2215,7 +2215,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40226": {
     name: "부평역",
-    number: 40226,
+    number: "40226",
     id: 166000226,
     discrit: Discrits.BUPYEONG,
     dong: "부평5동",
@@ -2229,7 +2229,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40227": {
     name: "산곡남초등학교",
-    number: 40227,
+    number: "40227",
     id: 166000227,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -2243,7 +2243,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40228": {
     name: "부평역",
-    number: 40228,
+    number: "40228",
     id: 166000228,
     discrit: Discrits.BUPYEONG,
     dong: "부평5동",
@@ -2257,7 +2257,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40230": {
     name: "프리상뜨아파트",
-    number: 40230,
+    number: "40230",
     id: 166000230,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -2271,7 +2271,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40231": {
     name: "굴다리오거리",
-    number: 40231,
+    number: "40231",
     id: 166000231,
     discrit: Discrits.BUPYEONG,
     dong: "부평1동",
@@ -2285,7 +2285,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40232": {
     name: "굴다리오거리",
-    number: 40232,
+    number: "40232",
     id: 166000232,
     discrit: Discrits.BUPYEONG,
     dong: "부평5동",
@@ -2299,7 +2299,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40233": {
     name: "구산사거리",
-    number: 40233,
+    number: "40233",
     id: 166000233,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -2313,7 +2313,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40234": {
     name: "부평역",
-    number: 40234,
+    number: "40234",
     id: 166000234,
     discrit: Discrits.BUPYEONG,
     dong: "부평1동",
@@ -2327,7 +2327,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40237": {
     name: "부평역",
-    number: 40237,
+    number: "40237",
     id: 166000237,
     discrit: Discrits.BUPYEONG,
     dong: "부평5동",
@@ -2341,7 +2341,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40238": {
     name: "선경아파트",
-    number: 40238,
+    number: "40238",
     id: 166000238,
     discrit: Discrits.BUPYEONG,
     dong: "부평5동",
@@ -2355,7 +2355,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40239": {
     name: "부평역",
-    number: 40239,
+    number: "40239",
     id: 166000239,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -2369,7 +2369,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40241": {
     name: "인송빌라",
-    number: 40241,
+    number: "40241",
     id: 166000241,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -2383,7 +2383,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40242": {
     name: "대륭맨숀",
-    number: 40242,
+    number: "40242",
     id: 166000242,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -2397,7 +2397,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40243": {
     name: "부개서초등학교",
-    number: 40243,
+    number: "40243",
     id: 166000243,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -2411,7 +2411,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40244": {
     name: "농협로타리",
-    number: 40244,
+    number: "40244",
     id: 166000244,
     discrit: Discrits.BUPYEONG,
     dong: "부평5동",
@@ -2425,7 +2425,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40245": {
     name: "한신휴아파트",
-    number: 40245,
+    number: "40245",
     id: 166000245,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -2439,7 +2439,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40246": {
     name: "부평역(로터스프라자)",
-    number: 40246,
+    number: "40246",
     id: 166000246,
     discrit: Discrits.BUPYEONG,
     dong: "부평5동",
@@ -2453,7 +2453,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40247": {
     name: "대륭맨숀",
-    number: 40247,
+    number: "40247",
     id: 166000247,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -2467,7 +2467,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40248": {
     name: "농협로타리",
-    number: 40248,
+    number: "40248",
     id: 166000248,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -2481,7 +2481,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40250": {
     name: "미추홀아파트",
-    number: 40250,
+    number: "40250",
     id: 166000250,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -2495,7 +2495,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40251": {
     name: "농협로타리",
-    number: 40251,
+    number: "40251",
     id: 166000251,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -2509,7 +2509,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40253": {
     name: "한남시티플라자",
-    number: 40253,
+    number: "40253",
     id: 166000253,
     discrit: Discrits.BUPYEONG,
     dong: "부평5동",
@@ -2523,7 +2523,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40254": {
     name: "미추홀아파트",
-    number: 40254,
+    number: "40254",
     id: 166000254,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -2537,7 +2537,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40256": {
     name: "부개역",
-    number: 40256,
+    number: "40256",
     id: 166000256,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -2551,7 +2551,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40257": {
     name: "동아아파트후문",
-    number: 40257,
+    number: "40257",
     id: 166000257,
     discrit: Discrits.BUPYEONG,
     dong: "부평1동",
@@ -2565,7 +2565,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40258": {
     name: "동아아파트후문",
-    number: 40258,
+    number: "40258",
     id: 166000258,
     discrit: Discrits.BUPYEONG,
     dong: "산곡4동",
@@ -2579,7 +2579,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40259": {
     name: "부평시장(한남프라자)",
-    number: 40259,
+    number: "40259",
     id: 166000259,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -2593,7 +2593,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40260": {
     name: "부평샬레아파트(세일고등학교)",
-    number: 40260,
+    number: "40260",
     id: 166000260,
     discrit: Discrits.BUPYEONG,
     dong: "산곡1동",
@@ -2607,7 +2607,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40261": {
     name: "시장로터리(중앙철재)",
-    number: 40261,
+    number: "40261",
     id: 166000261,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -2621,7 +2621,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40262": {
     name: "부평시장",
-    number: 40262,
+    number: "40262",
     id: 166000262,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -2635,7 +2635,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40263": {
     name: "부평샬레아파트(세일고등학교)",
-    number: 40263,
+    number: "40263",
     id: 166000263,
     discrit: Discrits.BUPYEONG,
     dong: "산곡1동",
@@ -2649,7 +2649,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40264": {
     name: "부평시장",
-    number: 40264,
+    number: "40264",
     id: 166000264,
     discrit: Discrits.BUPYEONG,
     dong: "부평1동",
@@ -2663,7 +2663,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40265": {
     name: "부평시장",
-    number: 40265,
+    number: "40265",
     id: 166000265,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -2677,7 +2677,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40269": {
     name: "한양아파트",
-    number: 40269,
+    number: "40269",
     id: 166000269,
     discrit: Discrits.BUPYEONG,
     dong: "산곡1동",
@@ -2691,7 +2691,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40271": {
     name: "무지개.한양8차아파트",
-    number: 40271,
+    number: "40271",
     id: 166000271,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -2705,7 +2705,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40275": {
     name: "뉴서울1차아파트",
-    number: 40275,
+    number: "40275",
     id: 166000275,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -2719,7 +2719,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40276": {
     name: "무지개.한양8차아파트",
-    number: 40276,
+    number: "40276",
     id: 166000276,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -2733,7 +2733,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40277": {
     name: "대동아파트정문앞",
-    number: 40277,
+    number: "40277",
     id: 210000475,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -2747,7 +2747,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40279": {
     name: "인천부흥고등학교",
-    number: 40279,
+    number: "40279",
     id: 166000279,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -2761,7 +2761,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40282": {
     name: "부평SKVIEW해모로아파트",
-    number: 40282,
+    number: "40282",
     id: 166000282,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -2775,7 +2775,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40283": {
     name: "부평시장",
-    number: 40283,
+    number: "40283",
     id: 166000283,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -2789,7 +2789,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40285": {
     name: "부평SKVIEW해모로아파트",
-    number: 40285,
+    number: "40285",
     id: 166000285,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -2803,7 +2803,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40286": {
     name: "마장공원",
-    number: 40286,
+    number: "40286",
     id: 166000286,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -2817,7 +2817,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40287": {
     name: "경남아파트313동앞",
-    number: 40287,
+    number: "40287",
     id: 166000287,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -2831,7 +2831,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40288": {
     name: "부평시장입구",
-    number: 40288,
+    number: "40288",
     id: 166000288,
     discrit: Discrits.BUPYEONG,
     dong: "부평1동",
@@ -2845,7 +2845,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40289": {
     name: "명신여자고등학교",
-    number: 40289,
+    number: "40289",
     id: 166000289,
     discrit: Discrits.BUPYEONG,
     dong: "산곡1동",
@@ -2859,7 +2859,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40290": {
     name: "부평시장",
-    number: 40290,
+    number: "40290",
     id: 166000290,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -2873,7 +2873,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40291": {
     name: "명신여자고등학교",
-    number: 40291,
+    number: "40291",
     id: 166000291,
     discrit: Discrits.BUPYEONG,
     dong: "산곡1동",
@@ -2887,7 +2887,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40292": {
     name: "해광병원",
-    number: 40292,
+    number: "40292",
     id: 166000292,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -2901,7 +2901,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40293": {
     name: "부개성일아파트",
-    number: 40293,
+    number: "40293",
     id: 166000293,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -2915,7 +2915,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40295": {
     name: "부평시장(가구의거리)",
-    number: 40295,
+    number: "40295",
     id: 166000295,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -2929,7 +2929,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40296": {
     name: "부평시장(가구의거리)",
-    number: 40296,
+    number: "40296",
     id: 166000296,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -2943,7 +2943,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40298": {
     name: "삼보아파트",
-    number: 40298,
+    number: "40298",
     id: 166000298,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -2957,7 +2957,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40299": {
     name: "부흥초등학교",
-    number: 40299,
+    number: "40299",
     id: 166000299,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -2971,7 +2971,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40300": {
     name: "경남아파트311동앞",
-    number: 40300,
+    number: "40300",
     id: 166000300,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -2985,7 +2985,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40301": {
     name: "부개성일아파트",
-    number: 40301,
+    number: "40301",
     id: 166000301,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -2999,7 +2999,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40302": {
     name: "부흥초교",
-    number: 40302,
+    number: "40302",
     id: 166000302,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -3013,7 +3013,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40303": {
     name: "부평시장(당약국)",
-    number: 40303,
+    number: "40303",
     id: 166000303,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -3027,7 +3027,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40304": {
     name: "부흥초등학교",
-    number: 40304,
+    number: "40304",
     id: 166000304,
     discrit: Discrits.BUPYEONG,
     dong: "부평5동",
@@ -3041,7 +3041,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40305": {
     name: "경남2차",
-    number: 40305,
+    number: "40305",
     id: 166000305,
     discrit: Discrits.BUPYEONG,
     dong: "산곡4동",
@@ -3055,7 +3055,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40308": {
     name: "삼보아파트",
-    number: 40308,
+    number: "40308",
     id: 166000308,
     discrit: Discrits.BUPYEONG,
     dong: "산곡1동",
@@ -3069,7 +3069,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40309": {
     name: "부평시장입구(2번출구)",
-    number: 40309,
+    number: "40309",
     id: 166000309,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -3083,7 +3083,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40310": {
     name: "한양아파트",
-    number: 40310,
+    number: "40310",
     id: 166000310,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -3097,7 +3097,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40311": {
     name: "성일아파트후문앞",
-    number: 40311,
+    number: "40311",
     id: 210000427,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -3111,7 +3111,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40313": {
     name: "산곡동주안빌딩",
-    number: 40313,
+    number: "40313",
     id: 166000313,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -3125,7 +3125,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40316": {
     name: "금호이수마운트밸리",
-    number: 40316,
+    number: "40316",
     id: 166000316,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -3139,7 +3139,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40317": {
     name: "부개2파출소",
-    number: 40317,
+    number: "40317",
     id: 166000317,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -3153,7 +3153,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40318": {
     name: "부개2파출소",
-    number: 40318,
+    number: "40318",
     id: 166000318,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -3167,7 +3167,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40320": {
     name: "산곡중학교",
-    number: 40320,
+    number: "40320",
     id: 166000320,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -3181,7 +3181,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40321": {
     name: "대우아파트",
-    number: 40321,
+    number: "40321",
     id: 166000321,
     discrit: Discrits.BUPYEONG,
     dong: "부평1동",
@@ -3195,7 +3195,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40322": {
     name: "산곡중학교",
-    number: 40322,
+    number: "40322",
     id: 166000322,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -3209,7 +3209,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40323": {
     name: "부개2동행정복지센터",
-    number: 40323,
+    number: "40323",
     id: 166000323,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -3223,7 +3223,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40324": {
     name: "동아2단지정문",
-    number: 40324,
+    number: "40324",
     id: 166000324,
     discrit: Discrits.BUPYEONG,
     dong: "부평1동",
@@ -3237,7 +3237,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40328": {
     name: "부평시장(한라비발디)",
-    number: 40328,
+    number: "40328",
     id: 166000328,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -3251,7 +3251,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40329": {
     name: "부개2파출소",
-    number: 40329,
+    number: "40329",
     id: 166000329,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -3265,7 +3265,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40331": {
     name: "한양쇼핑",
-    number: 40331,
+    number: "40331",
     id: 166000331,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -3279,7 +3279,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40332": {
     name: "행정복지센터사거리",
-    number: 40332,
+    number: "40332",
     id: 166000332,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -3293,7 +3293,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40333": {
     name: "한양쇼핑",
-    number: 40333,
+    number: "40333",
     id: 166000333,
     discrit: Discrits.BUPYEONG,
     dong: "산곡1동",
@@ -3307,7 +3307,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40334": {
     name: "경남아파트308동앞",
-    number: 40334,
+    number: "40334",
     id: 166000334,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -3321,7 +3321,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40336": {
     name: "부평시장(한라비발디)",
-    number: 40336,
+    number: "40336",
     id: 166000336,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -3335,7 +3335,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40337": {
     name: "아름어린이공원",
-    number: 40337,
+    number: "40337",
     id: 166000337,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -3349,7 +3349,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40338": {
     name: "용갈비",
-    number: 40338,
+    number: "40338",
     id: 166000338,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -3363,7 +3363,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40339": {
     name: "아름어린이공원",
-    number: 40339,
+    number: "40339",
     id: 166000339,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -3377,7 +3377,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40340": {
     name: "대우아파트",
-    number: 40340,
+    number: "40340",
     id: 166000340,
     discrit: Discrits.BUPYEONG,
     dong: "부평1동",
@@ -3391,7 +3391,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40341": {
     name: "우성아파트",
-    number: 40341,
+    number: "40341",
     id: 166000341,
     discrit: Discrits.BUPYEONG,
     dong: "산곡4동",
@@ -3405,7 +3405,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40342": {
     name: "부평여자중학교",
-    number: 40342,
+    number: "40342",
     id: 166000342,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -3419,7 +3419,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40343": {
     name: "경남1차",
-    number: 40343,
+    number: "40343",
     id: 166000343,
     discrit: Discrits.BUPYEONG,
     dong: "산곡4동",
@@ -3433,7 +3433,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40344": {
     name: "부평시장(용갈비)",
-    number: 40344,
+    number: "40344",
     id: 166000344,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -3447,7 +3447,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40345": {
     name: "부개고입구",
-    number: 40345,
+    number: "40345",
     id: 166000345,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -3461,7 +3461,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40351": {
     name: "한화아파트",
-    number: 40351,
+    number: "40351",
     id: 166000351,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -3475,7 +3475,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40354": {
     name: "산곡한양7차",
-    number: 40354,
+    number: "40354",
     id: 166000354,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -3489,7 +3489,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40356": {
     name: "한양아파트",
-    number: 40356,
+    number: "40356",
     id: 166000356,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -3503,7 +3503,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40357": {
     name: "부평코오롱하늘채아파트",
-    number: 40357,
+    number: "40357",
     id: 166000357,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -3517,7 +3517,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40360": {
     name: "부평코오롱하늘채아파트",
-    number: 40360,
+    number: "40360",
     id: 166000360,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -3531,7 +3531,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40361": {
     name: "부평시장역",
-    number: 40361,
+    number: "40361",
     id: 166000361,
     discrit: Discrits.BUPYEONG,
     dong: "부평1동",
@@ -3545,7 +3545,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40363": {
     name: "한화2차",
-    number: 40363,
+    number: "40363",
     id: 166000363,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -3559,7 +3559,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40365": {
     name: "부평여자고등학교",
-    number: 40365,
+    number: "40365",
     id: 166000365,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -3573,7 +3573,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40367": {
     name: "수변로삼거리",
-    number: 40367,
+    number: "40367",
     id: 166000367,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -3587,7 +3587,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40368": {
     name: "부평시장역(부평대로우체국)",
-    number: 40368,
+    number: "40368",
     id: 166000368,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -3601,7 +3601,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40370": {
     name: "수변로삼거리",
-    number: 40370,
+    number: "40370",
     id: 166000370,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -3615,7 +3615,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40372": {
     name: "부평구보건소",
-    number: 40372,
+    number: "40372",
     id: 166000372,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -3629,7 +3629,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40373": {
     name: "부평구보건소",
-    number: 40373,
+    number: "40373",
     id: 166000373,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -3643,7 +3643,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40374": {
     name: "부흥오거리(소망병원)",
-    number: 40374,
+    number: "40374",
     id: 166000374,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -3657,7 +3657,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40375": {
     name: "부흥오거리(소망병원)",
-    number: 40375,
+    number: "40375",
     id: 166000375,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -3671,7 +3671,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40376": {
     name: "경남1차아파트",
-    number: 40376,
+    number: "40376",
     id: 166000376,
     discrit: Discrits.BUPYEONG,
     dong: "산곡4동",
@@ -3685,7 +3685,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40377": {
     name: "부평4동성당",
-    number: 40377,
+    number: "40377",
     id: 166000377,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -3699,7 +3699,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40378": {
     name: "미산초등학교",
-    number: 40378,
+    number: "40378",
     id: 166000378,
     discrit: Discrits.BUPYEONG,
     dong: "산곡4동",
@@ -3713,7 +3713,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40379": {
     name: "한화아파트",
-    number: 40379,
+    number: "40379",
     id: 166000379,
     discrit: Discrits.BUPYEONG,
     dong: "산곡4동",
@@ -3727,7 +3727,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40380": {
     name: "한화아파트",
-    number: 40380,
+    number: "40380",
     id: 166000380,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -3741,7 +3741,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40381": {
     name: "KT부평지사",
-    number: 40381,
+    number: "40381",
     id: 166000381,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -3755,7 +3755,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40382": {
     name: "대림아파트",
-    number: 40382,
+    number: "40382",
     id: 166000382,
     discrit: Discrits.BUPYEONG,
     dong: "부평1동",
@@ -3769,7 +3769,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40383": {
     name: "산곡교회",
-    number: 40383,
+    number: "40383",
     id: 166000383,
     discrit: Discrits.BUPYEONG,
     dong: "산곡4동",
@@ -3783,7 +3783,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40384": {
     name: "KT부평지사",
-    number: 40384,
+    number: "40384",
     id: 166000384,
     discrit: Discrits.BUPYEONG,
     dong: "산곡4동",
@@ -3797,7 +3797,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40385": {
     name: "부개주공7단지",
-    number: 40385,
+    number: "40385",
     id: 166000385,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -3811,7 +3811,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40386": {
     name: "백조아파트",
-    number: 40386,
+    number: "40386",
     id: 166000386,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -3825,7 +3825,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40387": {
     name: "부개주공7단지",
-    number: 40387,
+    number: "40387",
     id: 166000387,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -3839,7 +3839,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40388": {
     name: "백조아파트",
-    number: 40388,
+    number: "40388",
     id: 166000388,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -3853,7 +3853,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40389": {
     name: "백마장입구",
-    number: 40389,
+    number: "40389",
     id: 166000389,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -3867,7 +3867,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40390": {
     name: "백마장입구",
-    number: 40390,
+    number: "40390",
     id: 166000390,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -3881,7 +3881,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40392": {
     name: "부흥오거리(부흥아파트)",
-    number: 40392,
+    number: "40392",
     id: 166000392,
     discrit: Discrits.BUPYEONG,
     dong: "부평5동",
@@ -3895,7 +3895,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40393": {
     name: "혜성프라자",
-    number: 40393,
+    number: "40393",
     id: 166000393,
     discrit: Discrits.BUPYEONG,
     dong: "산곡4동",
@@ -3909,7 +3909,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40394": {
     name: "부흥오거리(부흥아파트)",
-    number: 40394,
+    number: "40394",
     id: 166000394,
     discrit: Discrits.BUPYEONG,
     dong: "부평5동",
@@ -3923,7 +3923,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40395": {
     name: "혜성프라자",
-    number: 40395,
+    number: "40395",
     id: 166000395,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -3937,7 +3937,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40397": {
     name: "대림아파트후문",
-    number: 40397,
+    number: "40397",
     id: 166000397,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -3951,7 +3951,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40398": {
     name: "나누리병원",
-    number: 40398,
+    number: "40398",
     id: 166000398,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -3965,7 +3965,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40399": {
     name: "백마장입구",
-    number: 40399,
+    number: "40399",
     id: 166000399,
     discrit: Discrits.BUPYEONG,
     dong: "부평1동",
@@ -3979,7 +3979,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40402": {
     name: "부평중학교",
-    number: 40402,
+    number: "40402",
     id: 166000402,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -3993,7 +3993,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40404": {
     name: "부평코오롱아파트106동",
-    number: 40404,
+    number: "40404",
     id: 166000404,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -4007,7 +4007,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40405": {
     name: "현대5차",
-    number: 40405,
+    number: "40405",
     id: 166000405,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -4021,7 +4021,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40406": {
     name: "부평동중",
-    number: 40406,
+    number: "40406",
     id: 166000406,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -4035,7 +4035,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40407": {
     name: "백마장입구",
-    number: 40407,
+    number: "40407",
     id: 166000407,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -4049,7 +4049,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40408": {
     name: "현대5차",
-    number: 40408,
+    number: "40408",
     id: 166000408,
     discrit: Discrits.BUPYEONG,
     dong: "산곡4동",
@@ -4063,7 +4063,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40409": {
     name: "중앙아파트",
-    number: 40409,
+    number: "40409",
     id: 166000409,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -4077,7 +4077,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40410": {
     name: "부평여자고등학교",
-    number: 40410,
+    number: "40410",
     id: 166000410,
     discrit: Discrits.BUPYEONG,
     dong: "부평1동",
@@ -4091,7 +4091,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40411": {
     name: "동광제일교회",
-    number: 40411,
+    number: "40411",
     id: 166000411,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -4105,7 +4105,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40412": {
     name: "부흥로터리",
-    number: 40412,
+    number: "40412",
     id: 166000412,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -4119,7 +4119,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40413": {
     name: "정병원",
-    number: 40413,
+    number: "40413",
     id: 166000413,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -4133,7 +4133,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40415": {
     name: "대진아파트",
-    number: 40415,
+    number: "40415",
     id: 166000415,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -4147,7 +4147,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40416": {
     name: "부평중학교",
-    number: 40416,
+    number: "40416",
     id: 166000416,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -4161,7 +4161,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40419": {
     name: "방촌공원",
-    number: 40419,
+    number: "40419",
     id: 166000419,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -4175,7 +4175,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40420": {
     name: "산곡역(1번출구)",
-    number: 40420,
+    number: "40420",
     id: 166000420,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -4189,7 +4189,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40421": {
     name: "부개여자고등학교",
-    number: 40421,
+    number: "40421",
     id: 166000421,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -4203,7 +4203,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40422": {
     name: "부개여자고등학교",
-    number: 40422,
+    number: "40422",
     id: 166000422,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -4217,7 +4217,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40423": {
     name: "부개여자고등학교",
-    number: 40423,
+    number: "40423",
     id: 166000423,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -4231,7 +4231,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40425": {
     name: "산곡역(7번출구)",
-    number: 40425,
+    number: "40425",
     id: 166000425,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -4245,7 +4245,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40426": {
     name: "청천도서관",
-    number: 40426,
+    number: "40426",
     id: 166000426,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -4259,7 +4259,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40427": {
     name: "청천도서관",
-    number: 40427,
+    number: "40427",
     id: 166000427,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -4273,7 +4273,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40428": {
     name: "부개여자고등학교",
-    number: 40428,
+    number: "40428",
     id: 166000428,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -4287,7 +4287,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40429": {
     name: "산곡역(6번출구)",
-    number: 40429,
+    number: "40429",
     id: 166000429,
     discrit: Discrits.BUPYEONG,
     dong: "산곡1동",
@@ -4301,7 +4301,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40430": {
     name: "부평우체국",
-    number: 40430,
+    number: "40430",
     id: 166000430,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -4315,7 +4315,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40432": {
     name: "부평우체국",
-    number: 40432,
+    number: "40432",
     id: 166000432,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -4329,7 +4329,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40433": {
     name: "쉐보레인천서비스",
-    number: 40433,
+    number: "40433",
     id: 166000433,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -4343,7 +4343,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40434": {
     name: "부광초등학교",
-    number: 40434,
+    number: "40434",
     id: 166000434,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -4357,7 +4357,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40437": {
     name: "부평래미안아파트",
-    number: 40437,
+    number: "40437",
     id: 166000437,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -4371,7 +4371,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40438": {
     name: "부평래미안아파트",
-    number: 40438,
+    number: "40438",
     id: 166000438,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -4385,7 +4385,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40439": {
     name: "쌍용아파트정문",
-    number: 40439,
+    number: "40439",
     id: 166000439,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -4399,7 +4399,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40440": {
     name: "부광초등학교",
-    number: 40440,
+    number: "40440",
     id: 166000440,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -4413,7 +4413,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40441": {
     name: "금호아파트",
-    number: 40441,
+    number: "40441",
     id: 166000441,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -4427,7 +4427,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40442": {
     name: "부개주공6단지",
-    number: 40442,
+    number: "40442",
     id: 166000442,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -4441,7 +4441,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40443": {
     name: "부평우체국",
-    number: 40443,
+    number: "40443",
     id: 166000443,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -4455,7 +4455,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40449": {
     name: "청천중학교",
-    number: 40449,
+    number: "40449",
     id: 166000449,
     discrit: Discrits.BUPYEONG,
     dong: "산곡1동",
@@ -4469,7 +4469,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40451": {
     name: "부평구청·부평세무서",
-    number: 40451,
+    number: "40451",
     id: 166000451,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -4483,7 +4483,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40452": {
     name: "영창한의원",
-    number: 40452,
+    number: "40452",
     id: 166000452,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -4497,7 +4497,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40453": {
     name: "주공6단지후문",
-    number: 40453,
+    number: "40453",
     id: 166000453,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -4511,7 +4511,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40454": {
     name: "인천축산농협",
-    number: 40454,
+    number: "40454",
     id: 166000454,
     discrit: Discrits.BUPYEONG,
     dong: "부평5동",
@@ -4525,7 +4525,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40455": {
     name: "청천중학교",
-    number: 40455,
+    number: "40455",
     id: 166000455,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -4539,7 +4539,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40456": {
     name: "테니스장",
-    number: 40456,
+    number: "40456",
     id: 166000456,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -4553,7 +4553,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40458": {
     name: "부개우체국",
-    number: 40458,
+    number: "40458",
     id: 166000458,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -4567,7 +4567,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40459": {
     name: "부개주공6단지",
-    number: 40459,
+    number: "40459",
     id: 166000459,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -4581,7 +4581,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40460": {
     name: "부개주공3단지정문",
-    number: 40460,
+    number: "40460",
     id: 166000460,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -4595,7 +4595,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40461": {
     name: "더필립요양병원",
-    number: 40461,
+    number: "40461",
     id: 166000461,
     discrit: Discrits.BUPYEONG,
     dong: "부평5동",
@@ -4609,7 +4609,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40462": {
     name: "부평구청",
-    number: 40462,
+    number: "40462",
     id: 166000462,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -4623,7 +4623,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40468": {
     name: "부평경찰서",
-    number: 40468,
+    number: "40468",
     id: 166000468,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -4637,7 +4637,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40469": {
     name: "북구도서관",
-    number: 40469,
+    number: "40469",
     id: 166000469,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -4651,7 +4651,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40470": {
     name: "인천미래생활고등학교",
-    number: 40470,
+    number: "40470",
     id: 166000470,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -4665,7 +4665,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40471": {
     name: "부광여자고등학교",
-    number: 40471,
+    number: "40471",
     id: 166000471,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -4679,7 +4679,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40472": {
     name: "신트리공원",
-    number: 40472,
+    number: "40472",
     id: 166000472,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -4693,7 +4693,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40473": {
     name: "산곡동천주교회",
-    number: 40473,
+    number: "40473",
     id: 166000473,
     discrit: Discrits.BUPYEONG,
     dong: "산곡1동",
@@ -4707,7 +4707,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40474": {
     name: "인천미래생활고등학교",
-    number: 40474,
+    number: "40474",
     id: 166000474,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -4721,7 +4721,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40475": {
     name: "청천하우스디아파트",
-    number: 40475,
+    number: "40475",
     id: 166000475,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -4735,7 +4735,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40476": {
     name: "산곡동천주교회",
-    number: 40476,
+    number: "40476",
     id: 166000476,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -4749,7 +4749,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40477": {
     name: "청천하우스디아파트",
-    number: 40477,
+    number: "40477",
     id: 166000477,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -4763,7 +4763,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40478": {
     name: "부평윤산부인과",
-    number: 40478,
+    number: "40478",
     id: 166000478,
     discrit: Discrits.BUPYEONG,
     dong: "부평5동",
@@ -4777,7 +4777,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40479": {
     name: "부개주공3단지",
-    number: 40479,
+    number: "40479",
     id: 166000479,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -4791,7 +4791,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40480": {
     name: "오성아파트",
-    number: 40480,
+    number: "40480",
     id: 166000480,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -4805,7 +4805,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40481": {
     name: "부평중앙침례교회",
-    number: 40481,
+    number: "40481",
     id: 166000481,
     discrit: Discrits.BUPYEONG,
     dong: "부평5동",
@@ -4819,7 +4819,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40482": {
     name: "부평구청",
-    number: 40482,
+    number: "40482",
     id: 166000482,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -4833,7 +4833,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40483": {
     name: "인천미래생활고등학교",
-    number: 40483,
+    number: "40483",
     id: 166000483,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -4847,7 +4847,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40484": {
     name: "부평구청",
-    number: 40484,
+    number: "40484",
     id: 166000484,
     discrit: Discrits.BUPYEONG,
     dong: "갈산2동",
@@ -4861,7 +4861,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40485": {
     name: "굴포천역(신복사거리)",
-    number: 40485,
+    number: "40485",
     id: 166000485,
     discrit: Discrits.BUPYEONG,
     dong: "부평5동",
@@ -4875,7 +4875,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40486": {
     name: "부개3동행정복지센터입구",
-    number: 40486,
+    number: "40486",
     id: 166000486,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -4889,7 +4889,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40487": {
     name: "오성아파트",
-    number: 40487,
+    number: "40487",
     id: 166000487,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -4903,7 +4903,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40488": {
     name: "청천푸르지오아파트",
-    number: 40488,
+    number: "40488",
     id: 166000488,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -4917,7 +4917,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40489": {
     name: "세월천사거리",
-    number: 40489,
+    number: "40489",
     id: 166000489,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -4931,7 +4931,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40490": {
     name: "부평기적의도서관.삼부한신아파트",
-    number: 40490,
+    number: "40490",
     id: 166000490,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -4945,7 +4945,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40491": {
     name: "대동아파트",
-    number: 40491,
+    number: "40491",
     id: 166000491,
     discrit: Discrits.BUPYEONG,
     dong: "부평5동",
@@ -4959,7 +4959,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40492": {
     name: "부평구청",
-    number: 40492,
+    number: "40492",
     id: 166000492,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -4973,7 +4973,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40493": {
     name: "오성아파트",
-    number: 40493,
+    number: "40493",
     id: 166000493,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -4987,7 +4987,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40494": {
     name: "부개3동행정복지센터",
-    number: 40494,
+    number: "40494",
     id: 166000494,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -5001,7 +5001,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40496": {
     name: "신트리공원",
-    number: 40496,
+    number: "40496",
     id: 166000496,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -5015,7 +5015,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40497": {
     name: "부평기적의도서관",
-    number: 40497,
+    number: "40497",
     id: 166000497,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -5029,7 +5029,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40498": {
     name: "굴포천역(신복사거리)",
-    number: 40498,
+    number: "40498",
     id: 166000498,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -5043,7 +5043,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40500": {
     name: "부개주공3단지후문",
-    number: 40500,
+    number: "40500",
     id: 166000500,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -5057,7 +5057,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40501": {
     name: "신트리공원",
-    number: 40501,
+    number: "40501",
     id: 166000501,
     discrit: Discrits.BUPYEONG,
     dong: "갈산2동",
@@ -5071,7 +5071,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40504": {
     name: "부개종합시장",
-    number: 40504,
+    number: "40504",
     id: 166000504,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -5085,7 +5085,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40505": {
     name: "뉴서울아파트",
-    number: 40505,
+    number: "40505",
     id: 166000505,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -5099,7 +5099,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40506": {
     name: "굴포천",
-    number: 40506,
+    number: "40506",
     id: 166000506,
     discrit: Discrits.BUPYEONG,
     dong: "갈산2동",
@@ -5113,7 +5113,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40507": {
     name: "굴포천역(부평농협)",
-    number: 40507,
+    number: "40507",
     id: 166000507,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -5127,7 +5127,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40508": {
     name: "굴포천역(부평농협)",
-    number: 40508,
+    number: "40508",
     id: 166000508,
     discrit: Discrits.BUPYEONG,
     dong: "갈산2동",
@@ -5141,7 +5141,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40509": {
     name: "굴포천",
-    number: 40509,
+    number: "40509",
     id: 166000509,
     discrit: Discrits.BUPYEONG,
     dong: "갈산2동",
@@ -5155,7 +5155,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40511": {
     name: "신명보람마을.삼부한신아파트",
-    number: 40511,
+    number: "40511",
     id: 166000511,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -5169,7 +5169,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40512": {
     name: "신명보람마을.삼부한신아파트",
-    number: 40512,
+    number: "40512",
     id: 166000512,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -5183,7 +5183,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40514": {
     name: "뉴서울아파트",
-    number: 40514,
+    number: "40514",
     id: 166000514,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -5197,7 +5197,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40515": {
     name: "청천푸르지오아파트",
-    number: 40515,
+    number: "40515",
     id: 166000515,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -5211,7 +5211,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40516": {
     name: "청천푸르지오아파트",
-    number: 40516,
+    number: "40516",
     id: 166000516,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -5225,7 +5225,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40518": {
     name: "구산중학교",
-    number: 40518,
+    number: "40518",
     id: 166000518,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -5239,7 +5239,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40519": {
     name: "굴포천역(욱일아파트)",
-    number: 40519,
+    number: "40519",
     id: 166000519,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -5253,7 +5253,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40520": {
     name: "청천농장(종점)",
-    number: 40520,
+    number: "40520",
     id: 166000520,
     discrit: Discrits.BUPYEONG,
     dong: "청천1동",
@@ -5267,7 +5267,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40522": {
     name: "굴포천역(욱일아파트)",
-    number: 40522,
+    number: "40522",
     id: 166000522,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -5281,7 +5281,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40524": {
     name: "삭은다리한국지엠",
-    number: 40524,
+    number: "40524",
     id: 166000524,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -5295,7 +5295,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40525": {
     name: "삭은다리한국지엠",
-    number: 40525,
+    number: "40525",
     id: 166000525,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -5309,7 +5309,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40526": {
     name: "뉴서울아파트",
-    number: 40526,
+    number: "40526",
     id: 166000526,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -5323,7 +5323,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40527": {
     name: "삼산글로리병원",
-    number: 40527,
+    number: "40527",
     id: 166000527,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -5337,7 +5337,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40528": {
     name: "마을금고",
-    number: 40528,
+    number: "40528",
     id: 166000528,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -5351,7 +5351,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40531": {
     name: "갈월초등학교",
-    number: 40531,
+    number: "40531",
     id: 166000531,
     discrit: Discrits.BUPYEONG,
     dong: "갈산2동",
@@ -5365,7 +5365,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40532": {
     name: "삼산월드체육관",
-    number: 40532,
+    number: "40532",
     id: 166000532,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -5379,7 +5379,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40533": {
     name: "청천치안센터",
-    number: 40533,
+    number: "40533",
     id: 166000533,
     discrit: Discrits.BUPYEONG,
     dong: "청천1동",
@@ -5393,7 +5393,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40535": {
     name: "삼산월드체육관",
-    number: 40535,
+    number: "40535",
     id: 166000535,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -5407,7 +5407,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40536": {
     name: "삼산체육관역(호수공원)",
-    number: 40536,
+    number: "40536",
     id: 166000536,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -5421,7 +5421,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40537": {
     name: "청천치안센터",
-    number: 40537,
+    number: "40537",
     id: 166000537,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -5435,7 +5435,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40538": {
     name: "청천농장",
-    number: 40538,
+    number: "40538",
     id: 166000538,
     discrit: Discrits.BUPYEONG,
     dong: "청천1동",
@@ -5449,7 +5449,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40539": {
     name: "삼산체육관역(호수공원)",
-    number: 40539,
+    number: "40539",
     id: 166000539,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -5463,7 +5463,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40542": {
     name: "갈산태화아파트",
-    number: 40542,
+    number: "40542",
     id: 166000542,
     discrit: Discrits.BUPYEONG,
     dong: "갈산2동",
@@ -5477,7 +5477,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40543": {
     name: "삼산월드체육관",
-    number: 40543,
+    number: "40543",
     id: 166000543,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -5491,7 +5491,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40544": {
     name: "갈산두산아파트",
-    number: 40544,
+    number: "40544",
     id: 166000544,
     discrit: Discrits.BUPYEONG,
     dong: "갈산2동",
@@ -5505,7 +5505,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40545": {
     name: "태화아파트",
-    number: 40545,
+    number: "40545",
     id: 166000545,
     discrit: Discrits.BUPYEONG,
     dong: "갈산2동",
@@ -5519,7 +5519,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40546": {
     name: "하나아파트",
-    number: 40546,
+    number: "40546",
     id: 166000546,
     discrit: Discrits.BUPYEONG,
     dong: "갈산2동",
@@ -5533,7 +5533,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40547": {
     name: "삼산주공7단지",
-    number: 40547,
+    number: "40547",
     id: 166000547,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -5547,7 +5547,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40550": {
     name: "갈산대동아파트",
-    number: 40550,
+    number: "40550",
     id: 166000550,
     discrit: Discrits.BUPYEONG,
     dong: "갈산2동",
@@ -5561,7 +5561,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40551": {
     name: "영진아파트",
-    number: 40551,
+    number: "40551",
     id: 166000551,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -5575,7 +5575,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40552": {
     name: "영진아파트",
-    number: 40552,
+    number: "40552",
     id: 166000552,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -5589,7 +5589,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40553": {
     name: "대동1차후문(종점)",
-    number: 40553,
+    number: "40553",
     id: 166000553,
     discrit: Discrits.BUPYEONG,
     dong: "갈산2동",
@@ -5603,7 +5603,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40556": {
     name: "신영자동차(종점)",
-    number: 40556,
+    number: "40556",
     id: 166000556,
     discrit: Discrits.BUPYEONG,
     dong: "청천1동",
@@ -5617,7 +5617,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40557": {
     name: "인향아파트",
-    number: 40557,
+    number: "40557",
     id: 166000557,
     discrit: Discrits.BUPYEONG,
     dong: "청천1동",
@@ -5631,7 +5631,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40558": {
     name: "청천농장입구",
-    number: 40558,
+    number: "40558",
     id: 166000558,
     discrit: Discrits.BUPYEONG,
     dong: "청천1동",
@@ -5645,7 +5645,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40559": {
     name: "인향아파트",
-    number: 40559,
+    number: "40559",
     id: 166000559,
     discrit: Discrits.BUPYEONG,
     dong: "청천1동",
@@ -5659,7 +5659,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40560": {
     name: "한국지엠기술교육원",
-    number: 40560,
+    number: "40560",
     id: 166000560,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -5673,7 +5673,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40561": {
     name: "신영자동차",
-    number: 40561,
+    number: "40561",
     id: 166000561,
     discrit: Discrits.BUPYEONG,
     dong: "청천1동",
@@ -5687,7 +5687,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40562": {
     name: "갈산주공2단지",
-    number: 40562,
+    number: "40562",
     id: 166000562,
     discrit: Discrits.BUPYEONG,
     dong: "갈산2동",
@@ -5701,7 +5701,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40564": {
     name: "두산아파트",
-    number: 40564,
+    number: "40564",
     id: 166000564,
     discrit: Discrits.BUPYEONG,
     dong: "갈산2동",
@@ -5715,7 +5715,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40565": {
     name: "공단오거리",
-    number: 40565,
+    number: "40565",
     id: 166000565,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -5729,7 +5729,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40566": {
     name: "공단오거리",
-    number: 40566,
+    number: "40566",
     id: 166000566,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -5743,7 +5743,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40567": {
     name: "갈산동아아파트",
-    number: 40567,
+    number: "40567",
     id: 166000567,
     discrit: Discrits.BUPYEONG,
     dong: "갈산2동",
@@ -5757,7 +5757,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40568": {
     name: "GM물류센터",
-    number: 40568,
+    number: "40568",
     id: 166000568,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -5771,7 +5771,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40569": {
     name: "대동아파트",
-    number: 40569,
+    number: "40569",
     id: 166000569,
     discrit: Discrits.BUPYEONG,
     dong: "갈산2동",
@@ -5785,7 +5785,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40570": {
     name: "한국지엠기술교육원",
-    number: 40570,
+    number: "40570",
     id: 166000570,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -5799,7 +5799,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40571": {
     name: "삼산월드체육관",
-    number: 40571,
+    number: "40571",
     id: 166000571,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -5813,7 +5813,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40572": {
     name: "성산교회",
-    number: 40572,
+    number: "40572",
     id: 166000572,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -5827,7 +5827,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40574": {
     name: "청천초등학교후문",
-    number: 40574,
+    number: "40574",
     id: 166000574,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -5841,7 +5841,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40575": {
     name: "진산중학교",
-    number: 40575,
+    number: "40575",
     id: 166000575,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -5855,7 +5855,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40576": {
     name: "삼산타운7단지",
-    number: 40576,
+    number: "40576",
     id: 166000576,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -5869,7 +5869,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40577": {
     name: "갈산주공2단지",
-    number: 40577,
+    number: "40577",
     id: 166000577,
     discrit: Discrits.BUPYEONG,
     dong: "갈산2동",
@@ -5883,7 +5883,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40578": {
     name: "갈산주공1단지",
-    number: 40578,
+    number: "40578",
     id: 166000578,
     discrit: Discrits.BUPYEONG,
     dong: "갈산2동",
@@ -5897,7 +5897,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40579": {
     name: "청천초등학교후문",
-    number: 40579,
+    number: "40579",
     id: 166000579,
     discrit: Discrits.BUPYEONG,
     dong: "청천1동",
@@ -5911,7 +5911,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40580": {
     name: "삼산타운6단지",
-    number: 40580,
+    number: "40580",
     id: 166000580,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -5925,7 +5925,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40582": {
     name: "청천초등학교",
-    number: 40582,
+    number: "40582",
     id: 166000582,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -5939,7 +5939,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40583": {
     name: "한국만화박물관",
-    number: 40583,
+    number: "40583",
     id: 166000583,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -5953,7 +5953,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40584": {
     name: "삼산경찰서",
-    number: 40584,
+    number: "40584",
     id: 166000584,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -5967,7 +5967,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40585": {
     name: "삼산타운1단지정문",
-    number: 40585,
+    number: "40585",
     id: 166000585,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -5981,7 +5981,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40586": {
     name: "청천초등학교",
-    number: 40586,
+    number: "40586",
     id: 166000586,
     discrit: Discrits.BUPYEONG,
     dong: "청천1동",
@@ -5995,7 +5995,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40587": {
     name: "청천초등학교",
-    number: 40587,
+    number: "40587",
     id: 166000587,
     discrit: Discrits.BUPYEONG,
     dong: "청천1동",
@@ -6009,7 +6009,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40588": {
     name: "삼산타운1단지",
-    number: 40588,
+    number: "40588",
     id: 166000588,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -6023,7 +6023,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40589": {
     name: "삼산서해그랑블",
-    number: 40589,
+    number: "40589",
     id: 166000589,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -6037,7 +6037,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40590": {
     name: "광명아파트",
-    number: 40590,
+    number: "40590",
     id: 166000590,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -6051,7 +6051,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40591": {
     name: "삼산주공4단지",
-    number: 40591,
+    number: "40591",
     id: 166000591,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -6065,7 +6065,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40592": {
     name: "우림라이온스밸리",
-    number: 40592,
+    number: "40592",
     id: 166000592,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -6079,7 +6079,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40594": {
     name: "우림라이온스밸리",
-    number: 40594,
+    number: "40594",
     id: 166000594,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -6093,7 +6093,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40595": {
     name: "아이즈빌(부평CGV)",
-    number: 40595,
+    number: "40595",
     id: 166000595,
     discrit: Discrits.BUPYEONG,
     dong: "청천1동",
@@ -6107,7 +6107,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40597": {
     name: "부평역사박물관",
-    number: 40597,
+    number: "40597",
     id: 166000597,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -6121,7 +6121,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40598": {
     name: "아이즈빌(부평CGV)",
-    number: 40598,
+    number: "40598",
     id: 166000598,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -6135,7 +6135,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40599": {
     name: "로얄금속",
-    number: 40599,
+    number: "40599",
     id: 166000599,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -6149,7 +6149,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40600": {
     name: "한국샤프(로얄금속)",
-    number: 40600,
+    number: "40600",
     id: 166000600,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -6163,7 +6163,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40601": {
     name: "갈산역",
-    number: 40601,
+    number: "40601",
     id: 166000601,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -6177,7 +6177,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40602": {
     name: "갈산역",
-    number: 40602,
+    number: "40602",
     id: 166000602,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -6191,7 +6191,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40604": {
     name: "갈산역(1번출구)",
-    number: 40604,
+    number: "40604",
     id: 166000604,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -6205,7 +6205,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40605": {
     name: "인천테크노밸리U1센터",
-    number: 40605,
+    number: "40605",
     id: 166000605,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -6219,7 +6219,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40606": {
     name: "갈산역(부평4공단)4번출구",
-    number: 40606,
+    number: "40606",
     id: 166000606,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -6233,7 +6233,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40607": {
     name: "인천테크노밸리U1센터",
-    number: 40607,
+    number: "40607",
     id: 166000607,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -6247,7 +6247,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40608": {
     name: "삼산타운4단지",
-    number: 40608,
+    number: "40608",
     id: 166000608,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -6261,7 +6261,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40609": {
     name: "부평역사박물관",
-    number: 40609,
+    number: "40609",
     id: 166000609,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -6275,7 +6275,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40610": {
     name: "서해그랑블후문",
-    number: 40610,
+    number: "40610",
     id: 166000610,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -6289,7 +6289,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40611": {
     name: "삼산타운1단지후문",
-    number: 40611,
+    number: "40611",
     id: 166000611,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -6303,7 +6303,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40612": {
     name: "삼산타운1단지후문",
-    number: 40612,
+    number: "40612",
     id: 166000612,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -6317,7 +6317,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40613": {
     name: "삼산서해아파트",
-    number: 40613,
+    number: "40613",
     id: 166000613,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -6331,7 +6331,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40614": {
     name: "진산초등학교",
-    number: 40614,
+    number: "40614",
     id: 166000614,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -6345,7 +6345,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40615": {
     name: "부평테크노타워",
-    number: 40615,
+    number: "40615",
     id: 166000615,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -6359,7 +6359,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40616": {
     name: "부평테크노타워",
-    number: 40616,
+    number: "40616",
     id: 166000616,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -6373,7 +6373,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40617": {
     name: "청천동무지개아파트",
-    number: 40617,
+    number: "40617",
     id: 166000617,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -6387,7 +6387,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40618": {
     name: "청천동무지개아파트",
-    number: 40618,
+    number: "40618",
     id: 166000618,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -6401,7 +6401,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40620": {
     name: "국민건강보험 인천부평지사",
-    number: 40620,
+    number: "40620",
     id: 166000620,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -6415,7 +6415,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40621": {
     name: "국민건강보험 인천부평지사",
-    number: 40621,
+    number: "40621",
     id: 166000621,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -6429,7 +6429,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40622": {
     name: "갈산동입구",
-    number: 40622,
+    number: "40622",
     id: 166000622,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -6443,7 +6443,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40623": {
     name: "동서식품",
-    number: 40623,
+    number: "40623",
     id: 166000623,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -6457,7 +6457,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40624": {
     name: "동서식품",
-    number: 40624,
+    number: "40624",
     id: 166000624,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -6471,7 +6471,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40625": {
     name: "신도실업(주)",
-    number: 40625,
+    number: "40625",
     id: 166000625,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -6485,7 +6485,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40628": {
     name: "갈산시장",
-    number: 40628,
+    number: "40628",
     id: 166000628,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -6499,7 +6499,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40629": {
     name: "갈산시장.갈산도서관",
-    number: 40629,
+    number: "40629",
     id: 166000629,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -6513,7 +6513,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40630": {
     name: "두산위브아파트",
-    number: 40630,
+    number: "40630",
     id: 166000630,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -6527,7 +6527,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40631": {
     name: "갈산사거리",
-    number: 40631,
+    number: "40631",
     id: 166000631,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -6541,7 +6541,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40633": {
     name: "진산초등학교",
-    number: 40633,
+    number: "40633",
     id: 166000633,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -6555,7 +6555,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40634": {
     name: "갈산사거리",
-    number: 40634,
+    number: "40634",
     id: 166000634,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -6569,7 +6569,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40635": {
     name: "갈산새마을금고",
-    number: 40635,
+    number: "40635",
     id: 166000635,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -6583,7 +6583,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40636": {
     name: "삼산중학교",
-    number: 40636,
+    number: "40636",
     id: 166000636,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -6597,7 +6597,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40637": {
     name: "삼산중학교",
-    number: 40637,
+    number: "40637",
     id: 166000637,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -6611,7 +6611,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40638": {
     name: "삼산사거리",
-    number: 40638,
+    number: "40638",
     id: 166000638,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -6625,7 +6625,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40640": {
     name: "진산과학고등학교",
-    number: 40640,
+    number: "40640",
     id: 166000640,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -6639,7 +6639,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40643": {
     name: "신성미소지움",
-    number: 40643,
+    number: "40643",
     id: 166000643,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -6653,7 +6653,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40644": {
     name: "부평제이타워3차지식산업센터",
-    number: 40644,
+    number: "40644",
     id: 166000644,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -6667,7 +6667,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40645": {
     name: "삼산사거리.한국아파트",
-    number: 40645,
+    number: "40645",
     id: 166000645,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -6681,7 +6681,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40646": {
     name: "삼산사거리(한국아파트)",
-    number: 40646,
+    number: "40646",
     id: 166000646,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -6695,7 +6695,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40647": {
     name: "부평정수장",
-    number: 40647,
+    number: "40647",
     id: 166000647,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -6709,7 +6709,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40648": {
     name: "두산위브아파트",
-    number: 40648,
+    number: "40648",
     id: 166000648,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -6723,7 +6723,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40649": {
     name: "신성미소지움",
-    number: 40649,
+    number: "40649",
     id: 166000649,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -6737,7 +6737,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40650": {
     name: "갈산동천주교회맞은편",
-    number: 40650,
+    number: "40650",
     id: 166000650,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -6751,7 +6751,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40651": {
     name: "부평구자활센터",
-    number: 40651,
+    number: "40651",
     id: 166000651,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -6765,7 +6765,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40652": {
     name: "갈산동천주교회",
-    number: 40652,
+    number: "40652",
     id: 166000652,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -6779,7 +6779,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40653": {
     name: "삼산푸른솔마을",
-    number: 40653,
+    number: "40653",
     id: 166000653,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -6793,7 +6793,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40656": {
     name: "부평북초등학교",
-    number: 40656,
+    number: "40656",
     id: 166000656,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -6807,7 +6807,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40657": {
     name: "부평북초등학교",
-    number: 40657,
+    number: "40657",
     id: 166000657,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -6821,7 +6821,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40658": {
     name: "부평구자활센터",
-    number: 40658,
+    number: "40658",
     id: 166000658,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -6835,7 +6835,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40659": {
     name: "브라운스톤.엠코타운아파트",
-    number: 40659,
+    number: "40659",
     id: 166000659,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -6849,7 +6849,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40660": {
     name: "신성미소지움후문",
-    number: 40660,
+    number: "40660",
     id: 166000660,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -6863,7 +6863,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40661": {
     name: "순복음교회",
-    number: 40661,
+    number: "40661",
     id: 166000661,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -6877,7 +6877,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40662": {
     name: "미래타운5단지501동",
-    number: 40662,
+    number: "40662",
     id: 166000662,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -6891,7 +6891,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40664": {
     name: "갈산태화아파트",
-    number: 40664,
+    number: "40664",
     id: 166000664,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -6905,7 +6905,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40666": {
     name: "갈산태화아파트",
-    number: 40666,
+    number: "40666",
     id: 166000666,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -6919,7 +6919,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40667": {
     name: "갈산태화아파트",
-    number: 40667,
+    number: "40667",
     id: 166000667,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -6933,7 +6933,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40668": {
     name: "삼산새마을금고",
-    number: 40668,
+    number: "40668",
     id: 166000668,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -6947,7 +6947,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40669": {
     name: "미래타운5단지505동",
-    number: 40669,
+    number: "40669",
     id: 166000669,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -6961,7 +6961,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40672": {
     name: "미래타운5단지",
-    number: 40672,
+    number: "40672",
     id: 166000672,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -6975,7 +6975,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40673": {
     name: "한국선교역사기념관",
-    number: 40673,
+    number: "40673",
     id: 166000673,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -6989,7 +6989,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40674": {
     name: "대성유니드아파트",
-    number: 40674,
+    number: "40674",
     id: 166000674,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -7003,7 +7003,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40675": {
     name: "대성유니드아파트",
-    number: 40675,
+    number: "40675",
     id: 166000675,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -7017,7 +7017,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40676": {
     name: "유진시스템앞",
-    number: 40676,
+    number: "40676",
     id: 166000676,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -7031,7 +7031,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40677": {
     name: "삼보아파트",
-    number: 40677,
+    number: "40677",
     id: 166000677,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -7045,7 +7045,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40678": {
     name: "유진시스템앞",
-    number: 40678,
+    number: "40678",
     id: 166000678,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -7059,7 +7059,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40679": {
     name: "삼보아파트",
-    number: 40679,
+    number: "40679",
     id: 166000679,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -7073,7 +7073,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40681": {
     name: "현대아파트",
-    number: 40681,
+    number: "40681",
     id: 166000681,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -7087,7 +7087,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40682": {
     name: "현대아파트",
-    number: 40682,
+    number: "40682",
     id: 166000682,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -7101,7 +7101,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40683": {
     name: "미래타운1.2단지",
-    number: 40683,
+    number: "40683",
     id: 166000683,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -7115,7 +7115,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40684": {
     name: "미래타운1.2단지",
-    number: 40684,
+    number: "40684",
     id: 166000684,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -7129,7 +7129,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40685": {
     name: "후정초등학교.삼산도서관",
-    number: 40685,
+    number: "40685",
     id: 166000685,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -7143,7 +7143,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40686": {
     name: "삼산고등학교(미래타운4단지)",
-    number: 40686,
+    number: "40686",
     id: 166000686,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -7157,7 +7157,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40687": {
     name: "삼산농산물시장",
-    number: 40687,
+    number: "40687",
     id: 166000687,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -7171,7 +7171,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40688": {
     name: "농산물시장",
-    number: 40688,
+    number: "40688",
     id: 166000688,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -7185,7 +7185,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40689": {
     name: "삼산고등학교(미래타운3단지)",
-    number: 40689,
+    number: "40689",
     id: 166000689,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -7199,7 +7199,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40690": {
     name: "삼산사거리",
-    number: 40690,
+    number: "40690",
     id: 166000690,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -7213,7 +7213,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40691": {
     name: "삼산사거리",
-    number: 40691,
+    number: "40691",
     id: 166000691,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -7227,7 +7227,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40708": {
     name: "주공뜨란채아파트",
-    number: 40708,
+    number: "40708",
     id: 166000708,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -7241,7 +7241,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40709": {
     name: "부평아트센터",
-    number: 40709,
+    number: "40709",
     id: 166000709,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -7255,7 +7255,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40714": {
     name: "한국아파트",
-    number: 40714,
+    number: "40714",
     id: 166000714,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -7269,7 +7269,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40715": {
     name: "한국아파트",
-    number: 40715,
+    number: "40715",
     id: 166000715,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -7283,7 +7283,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40716": {
     name: "백운역",
-    number: 40716,
+    number: "40716",
     id: 166000716,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -7297,7 +7297,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40721": {
     name: "오성아파트",
-    number: 40721,
+    number: "40721",
     id: 166000721,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -7311,7 +7311,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40726": {
     name: "부평여자중학교",
-    number: 40726,
+    number: "40726",
     id: 166000726,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -7325,7 +7325,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40730": {
     name: "우성4차후문",
-    number: 40730,
+    number: "40730",
     id: 166000730,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -7339,7 +7339,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40731": {
     name: "우성4차후문",
-    number: 40731,
+    number: "40731",
     id: 166000731,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -7353,7 +7353,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40732": {
     name: "현대아파트116동",
-    number: 40732,
+    number: "40732",
     id: 166000732,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -7367,7 +7367,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40733": {
     name: "현대아파트119동",
-    number: 40733,
+    number: "40733",
     id: 166000733,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -7381,7 +7381,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40734": {
     name: "현대아파트105동",
-    number: 40734,
+    number: "40734",
     id: 166000734,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -7395,7 +7395,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40735": {
     name: "현대아파트105동",
-    number: 40735,
+    number: "40735",
     id: 166000735,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -7409,7 +7409,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40736": {
     name: "3단지",
-    number: 40736,
+    number: "40736",
     id: 166000736,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -7423,7 +7423,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40737": {
     name: "현대아파트",
-    number: 40737,
+    number: "40737",
     id: 166000737,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -7437,7 +7437,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40738": {
     name: "남부고가교남측",
-    number: 40738,
+    number: "40738",
     id: 166000738,
     discrit: Discrits.BUPYEONG,
     dong: "부평2동",
@@ -7451,7 +7451,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40739": {
     name: "남부고가교남측",
-    number: 40739,
+    number: "40739",
     id: 166000739,
     discrit: Discrits.BUPYEONG,
     dong: "부평2동",
@@ -7465,7 +7465,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40740": {
     name: "현대1단지관리사무소",
-    number: 40740,
+    number: "40740",
     id: 166000740,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -7479,7 +7479,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40744": {
     name: "부평2동행정복지센터",
-    number: 40744,
+    number: "40744",
     id: 166000744,
     discrit: Discrits.BUPYEONG,
     dong: "부평2동",
@@ -7493,7 +7493,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40745": {
     name: "노인인력개발센터",
-    number: 40745,
+    number: "40745",
     id: 166000745,
     discrit: Discrits.BUPYEONG,
     dong: "부평2동",
@@ -7507,7 +7507,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40746": {
     name: "새마을금고",
-    number: 40746,
+    number: "40746",
     id: 166000746,
     discrit: Discrits.BUPYEONG,
     dong: "부평2동",
@@ -7521,7 +7521,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40751": {
     name: "농협로타리",
-    number: 40751,
+    number: "40751",
     id: 166000751,
     discrit: Discrits.BUPYEONG,
     dong: "부평5동",
@@ -7535,7 +7535,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40761": {
     name: "송내남부역",
-    number: 40761,
+    number: "40761",
     id: 166000761,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -7549,7 +7549,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40764": {
     name: "부개2파출소",
-    number: 40764,
+    number: "40764",
     id: 166000764,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -7563,7 +7563,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40766": {
     name: "삼산경찰서",
-    number: 40766,
+    number: "40766",
     id: 166000766,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -7577,7 +7577,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40768": {
     name: "부평윤산부인과",
-    number: 40768,
+    number: "40768",
     id: 166000768,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -7591,7 +7591,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40772": {
     name: "부개주공2단지",
-    number: 40772,
+    number: "40772",
     id: 166000772,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -7605,7 +7605,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40774": {
     name: "팔도주유소",
-    number: 40774,
+    number: "40774",
     id: 166000774,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -7619,7 +7619,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40779": {
     name: "산곡동입구(롯데마트)",
-    number: 40779,
+    number: "40779",
     id: 166000779,
     discrit: Discrits.BUPYEONG,
     dong: "산곡1동",
@@ -7633,7 +7633,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40780": {
     name: "삼산주공1단지",
-    number: 40780,
+    number: "40780",
     id: 166000780,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -7647,7 +7647,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40781": {
     name: "부평역(12번출구)",
-    number: 40781,
+    number: "40781",
     id: 166000781,
     discrit: Discrits.BUPYEONG,
     dong: "부평5동",
@@ -7661,7 +7661,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40782": {
     name: "해물탕거리",
-    number: 40782,
+    number: "40782",
     id: 166000782,
     discrit: Discrits.BUPYEONG,
     dong: "부평5동",
@@ -7675,7 +7675,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40783": {
     name: "부개고입구",
-    number: 40783,
+    number: "40783",
     id: 166000783,
     discrit: Discrits.BUPYEONG,
     dong: "부개2동",
@@ -7689,7 +7689,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40784": {
     name: "나누리병원",
-    number: 40784,
+    number: "40784",
     id: 166000784,
     discrit: Discrits.BUPYEONG,
     dong: "부평5동",
@@ -7703,7 +7703,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40785": {
     name: "산곡동입구(롯데마트)",
-    number: 40785,
+    number: "40785",
     id: 166000785,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -7717,7 +7717,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40786": {
     name: "삼보아파트",
-    number: 40786,
+    number: "40786",
     id: 166000786,
     discrit: Discrits.BUPYEONG,
     dong: "산곡1동",
@@ -7731,7 +7731,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40787": {
     name: "인평자동차고",
-    number: 40787,
+    number: "40787",
     id: 166000787,
     discrit: Discrits.BUPYEONG,
     dong: "산곡3동",
@@ -7745,7 +7745,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40788": {
     name: "현대아파트",
-    number: 40788,
+    number: "40788",
     id: 166000788,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -7759,7 +7759,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40789": {
     name: "부원중학교",
-    number: 40789,
+    number: "40789",
     id: 166000789,
     discrit: Discrits.BUPYEONG,
     dong: "부평1동",
@@ -7773,7 +7773,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40790": {
     name: "한국아파트",
-    number: 40790,
+    number: "40790",
     id: 166000790,
     discrit: Discrits.BUPYEONG,
     dong: "부개1동",
@@ -7787,7 +7787,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40791": {
     name: "한국아파트",
-    number: 40791,
+    number: "40791",
     id: 166000791,
     discrit: Discrits.BUPYEONG,
     dong: "부개1동",
@@ -7801,7 +7801,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40792": {
     name: "한국아파트",
-    number: 40792,
+    number: "40792",
     id: 166000792,
     discrit: Discrits.BUPYEONG,
     dong: "부평1동",
@@ -7815,7 +7815,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40793": {
     name: "부평여자고등학교",
-    number: 40793,
+    number: "40793",
     id: 166000793,
     discrit: Discrits.BUPYEONG,
     dong: "부평1동",
@@ -7829,7 +7829,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40794": {
     name: "부평경찰서",
-    number: 40794,
+    number: "40794",
     id: 166000794,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -7843,7 +7843,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40795": {
     name: "금호아파트",
-    number: 40795,
+    number: "40795",
     id: 166000795,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -7857,7 +7857,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40796": {
     name: "삼보새마을금고",
-    number: 40796,
+    number: "40796",
     id: 166000796,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -7871,7 +7871,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40797": {
     name: "동암남부역",
-    number: 40797,
+    number: "40797",
     id: 166000797,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -7885,7 +7885,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40798": {
     name: "부평역사박물관",
-    number: 40798,
+    number: "40798",
     id: 166000798,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -7899,7 +7899,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40799": {
     name: "희망천입구",
-    number: 40799,
+    number: "40799",
     id: 166000799,
     discrit: Discrits.BUPYEONG,
     dong: "부평2동",
@@ -7913,7 +7913,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40800": {
     name: "동암북부역광장",
-    number: 40800,
+    number: "40800",
     id: 166000800,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -7927,7 +7927,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40801": {
     name: "삼산주공7단지",
-    number: 40801,
+    number: "40801",
     id: 166000801,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -7941,7 +7941,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40802": {
     name: "삼산월드체육관(삼산주공6단지)",
-    number: 40802,
+    number: "40802",
     id: 166000802,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -7955,7 +7955,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40803": {
     name: "주공뜨란채아파트",
-    number: 40803,
+    number: "40803",
     id: 166000803,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -7969,7 +7969,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40804": {
     name: "부평역화성파크드림아파트",
-    number: 40804,
+    number: "40804",
     id: 166000804,
     discrit: Discrits.BUPYEONG,
     dong: "부평6동",
@@ -7983,7 +7983,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40805": {
     name: "부평역화성파크드림아파트",
-    number: 40805,
+    number: "40805",
     id: 166000805,
     discrit: Discrits.BUPYEONG,
     dong: "부평6동",
@@ -7997,7 +7997,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40806": {
     name: "한신삼부아파트",
-    number: 40806,
+    number: "40806",
     id: 166000806,
     discrit: Discrits.BUPYEONG,
     dong: "부개3동",
@@ -8011,7 +8011,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40808": {
     name: "청천동",
-    number: 40808,
+    number: "40808",
     id: 166000808,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -8025,7 +8025,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40809": {
     name: "청천농장입구",
-    number: 40809,
+    number: "40809",
     id: 166000809,
     discrit: Discrits.BUPYEONG,
     dong: "청천1동",
@@ -8039,7 +8039,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40810": {
     name: "태화아파트",
-    number: 40810,
+    number: "40810",
     id: 166000810,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -8053,7 +8053,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40811": {
     name: "청천푸르지오아파트",
-    number: 40811,
+    number: "40811",
     id: 166000811,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -8067,7 +8067,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40812": {
     name: "청천푸르지오아파트",
-    number: 40812,
+    number: "40812",
     id: 166000812,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -8081,7 +8081,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40813": {
     name: "갈산주공1단지105동",
-    number: 40813,
+    number: "40813",
     id: 166000813,
     discrit: Discrits.BUPYEONG,
     dong: "갈산2동",
@@ -8095,7 +8095,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40814": {
     name: "굴포천역(롯데마트)",
-    number: 40814,
+    number: "40814",
     id: 166000814,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -8109,7 +8109,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40815": {
     name: "굴포천역(롯데마트)",
-    number: 40815,
+    number: "40815",
     id: 166000815,
     discrit: Discrits.BUPYEONG,
     dong: "갈산2동",
@@ -8123,7 +8123,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40816": {
     name: "한국아파트",
-    number: 40816,
+    number: "40816",
     id: 166000816,
     discrit: Discrits.BUPYEONG,
     dong: "갈산2동",
@@ -8137,7 +8137,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40817": {
     name: "광명아파트",
-    number: 40817,
+    number: "40817",
     id: 166000817,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -8151,7 +8151,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40818": {
     name: "아울렛(CGV부평)",
-    number: 40818,
+    number: "40818",
     id: 166000818,
     discrit: Discrits.BUPYEONG,
     dong: "청천1동",
@@ -8165,7 +8165,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40819": {
     name: "인천예림학교(인천성모병원)",
-    number: 40819,
+    number: "40819",
     id: 166000819,
     discrit: Discrits.BUPYEONG,
     dong: "부평6동",
@@ -8179,7 +8179,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40820": {
     name: "인천예림학교(인천성모병원)",
-    number: 40820,
+    number: "40820",
     id: 166000820,
     discrit: Discrits.BUPYEONG,
     dong: "부평6동",
@@ -8193,7 +8193,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40821": {
     name: "원적산터널",
-    number: 40821,
+    number: "40821",
     id: 166000821,
     discrit: Discrits.BUPYEONG,
     dong: "산곡1동",
@@ -8207,7 +8207,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40822": {
     name: "원적산터널",
-    number: 40822,
+    number: "40822",
     id: 166000822,
     discrit: Discrits.BUPYEONG,
     dong: "산곡1동",
@@ -8221,7 +8221,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40824": {
     name: "목련어린이집",
-    number: 40824,
+    number: "40824",
     id: 166000824,
     discrit: Discrits.BUPYEONG,
     dong: "산곡1동",
@@ -8235,7 +8235,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40825": {
     name: "수도군수지원단(장애인복지관)",
-    number: 40825,
+    number: "40825",
     id: 166000825,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -8249,7 +8249,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40826": {
     name: "수도군수지원단(장애인복지관)",
-    number: 40826,
+    number: "40826",
     id: 166000826,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -8263,7 +8263,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40828": {
     name: "서해그랑블",
-    number: 40828,
+    number: "40828",
     id: 166000828,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -8277,7 +8277,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40829": {
     name: "서해그랑블",
-    number: 40829,
+    number: "40829",
     id: 166000829,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -8291,7 +8291,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40830": {
     name: "삼산동차고지",
-    number: 40830,
+    number: "40830",
     id: 166000830,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -8305,7 +8305,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40832": {
     name: "17사단입구",
-    number: 40832,
+    number: "40832",
     id: 166000832,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -8319,7 +8319,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40833": {
     name: "금마초등학교",
-    number: 40833,
+    number: "40833",
     id: 166000833,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -8333,7 +8333,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40837": {
     name: "휴먼시아1단지",
-    number: 40837,
+    number: "40837",
     id: 166000837,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -8347,7 +8347,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40838": {
     name: "휴먼시아1단지",
-    number: 40838,
+    number: "40838",
     id: 166000838,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -8361,7 +8361,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40840": {
     name: "휴먼시아1단지",
-    number: 40840,
+    number: "40840",
     id: 166000840,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -8375,7 +8375,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40841": {
     name: "부평구청역",
-    number: 40841,
+    number: "40841",
     id: 166000841,
     discrit: Discrits.BUPYEONG,
     dong: "갈산2동",
@@ -8389,7 +8389,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40842": {
     name: "구산사거리",
-    number: 40842,
+    number: "40842",
     id: 166000842,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -8403,7 +8403,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40843": {
     name: "구산사거리",
-    number: 40843,
+    number: "40843",
     id: 166000843,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -8417,7 +8417,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40844": {
     name: "인천성모병원정문",
-    number: 40844,
+    number: "40844",
     id: 166000844,
     discrit: Discrits.BUPYEONG,
     dong: "부평6동",
@@ -8431,7 +8431,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40845": {
     name: "금호아파트",
-    number: 40845,
+    number: "40845",
     id: 166000845,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -8445,7 +8445,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40849": {
     name: "인천나비공원",
-    number: 40849,
+    number: "40849",
     id: 166000849,
     discrit: Discrits.BUPYEONG,
     dong: "청천1동",
@@ -8459,7 +8459,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40850": {
     name: "새소망교회",
-    number: 40850,
+    number: "40850",
     id: 166000850,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -8473,7 +8473,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40851": {
     name: "숭보사입구",
-    number: 40851,
+    number: "40851",
     id: 166000851,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -8487,7 +8487,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40852": {
     name: "휴먼시아1단지",
-    number: 40852,
+    number: "40852",
     id: 166000852,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -8501,7 +8501,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40853": {
     name: "영선고등학교",
-    number: 40853,
+    number: "40853",
     id: 166000853,
     discrit: Discrits.BUPYEONG,
     dong: "삼산2동",
@@ -8515,7 +8515,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40854": {
     name: "옐림교회",
-    number: 40854,
+    number: "40854",
     id: 166000854,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -8529,7 +8529,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40855": {
     name: "광일아파트",
-    number: 40855,
+    number: "40855",
     id: 166000855,
     discrit: Discrits.BUPYEONG,
     dong: "부개1동",
@@ -8543,7 +8543,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40856": {
     name: "산곡역(3번출구)",
-    number: 40856,
+    number: "40856",
     id: 166000856,
     discrit: Discrits.BUPYEONG,
     dong: "산곡1동",
@@ -8557,7 +8557,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40857": {
     name: "인천성모병원정문",
-    number: 40857,
+    number: "40857",
     id: 166000857,
     discrit: Discrits.BUPYEONG,
     dong: "부평6동",
@@ -8571,7 +8571,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40858": {
     name: "부평구보건소",
-    number: 40858,
+    number: "40858",
     id: 166000858,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -8585,7 +8585,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40859": {
     name: "신동아아파트116동",
-    number: 40859,
+    number: "40859",
     id: 166000859,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -8599,7 +8599,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40860": {
     name: "신동아상가",
-    number: 40860,
+    number: "40860",
     id: 166000860,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -8613,7 +8613,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40861": {
     name: "동암남부역",
-    number: 40861,
+    number: "40861",
     id: 166000861,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -8627,7 +8627,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40862": {
     name: "동암남부역",
-    number: 40862,
+    number: "40862",
     id: 166000862,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -8641,7 +8641,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40863": {
     name: "우주골드타운빌라",
-    number: 40863,
+    number: "40863",
     id: 166000863,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -8655,7 +8655,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40864": {
     name: "우주골드타운빌라",
-    number: 40864,
+    number: "40864",
     id: 166000864,
     discrit: Discrits.BUPYEONG,
     dong: "십정2동",
@@ -8669,7 +8669,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40865": {
     name: "부평역",
-    number: 40865,
+    number: "40865",
     id: 166000865,
     discrit: Discrits.BUPYEONG,
     dong: "부평5동",
@@ -8683,7 +8683,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40866": {
     name: "일신주공",
-    number: 40866,
+    number: "40866",
     id: 166000866,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -8697,7 +8697,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40867": {
     name: "주공아파트",
-    number: 40867,
+    number: "40867",
     id: 166000867,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -8711,7 +8711,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40868": {
     name: "일신주공109동",
-    number: 40868,
+    number: "40868",
     id: 166000868,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -8725,7 +8725,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40870": {
     name: "다임메가타운",
-    number: 40870,
+    number: "40870",
     id: 166000870,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -8739,7 +8739,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40871": {
     name: "부평자이",
-    number: 40871,
+    number: "40871",
     id: 166000871,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -8753,7 +8753,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40874": {
     name: "광일아파트",
-    number: 40874,
+    number: "40874",
     id: 166000874,
     discrit: Discrits.BUPYEONG,
     dong: "부개1동",
@@ -8767,7 +8767,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40875": {
     name: "뉴그린아트빌",
-    number: 40875,
+    number: "40875",
     id: 166000875,
     discrit: Discrits.BUPYEONG,
     dong: "부개1동",
@@ -8781,7 +8781,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40876": {
     name: "뉴그린아트빌",
-    number: 40876,
+    number: "40876",
     id: 166000876,
     discrit: Discrits.BUPYEONG,
     dong: "부개1동",
@@ -8795,7 +8795,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40877": {
     name: "욱일아파트후문",
-    number: 40877,
+    number: "40877",
     id: 166000877,
     discrit: Discrits.BUPYEONG,
     dong: "부평1동",
@@ -8809,7 +8809,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40878": {
     name: "부흥초등학교·굿케어요양병원",
-    number: 40878,
+    number: "40878",
     id: 166000878,
     discrit: Discrits.BUPYEONG,
     dong: "부평5동",
@@ -8823,7 +8823,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40886": {
     name: "주공아파트105동",
-    number: 40886,
+    number: "40886",
     id: 166000886,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -8837,7 +8837,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40887": {
     name: "부평사거리",
-    number: 40887,
+    number: "40887",
     id: 166000887,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -8851,7 +8851,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40890": {
     name: "부평구보건소",
-    number: 40890,
+    number: "40890",
     id: 166000890,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -8865,7 +8865,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40891": {
     name: "힘찬병원",
-    number: 40891,
+    number: "40891",
     id: 166000891,
     discrit: Discrits.BUPYEONG,
     dong: "부평5동",
@@ -8879,7 +8879,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40892": {
     name: "힘찬병원",
-    number: 40892,
+    number: "40892",
     id: 166000892,
     discrit: Discrits.BUPYEONG,
     dong: "부평5동",
@@ -8893,7 +8893,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40893": {
     name: "(주)세모입구(린나이코리아)",
-    number: 40893,
+    number: "40893",
     id: 166000893,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -8907,7 +8907,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40894": {
     name: "청천푸르지오아파트",
-    number: 40894,
+    number: "40894",
     id: 166000894,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -8921,7 +8921,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40895": {
     name: "17사단.다임메가타운",
-    number: 40895,
+    number: "40895",
     id: 166000895,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -8935,7 +8935,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40896": {
     name: "청천천공영주차장",
-    number: 40896,
+    number: "40896",
     id: 166000896,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",
@@ -8949,7 +8949,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40898": {
     name: "풍림아파트104동",
-    number: 40898,
+    number: "40898",
     id: 166000898,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -8963,7 +8963,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40899": {
     name: "풍림아파트104동",
-    number: 40899,
+    number: "40899",
     id: 166000899,
     discrit: Discrits.BUPYEONG,
     dong: "일신동",
@@ -8977,7 +8977,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40901": {
     name: "백운역(하행)",
-    number: 40901,
+    number: "40901",
     id: 166000901,
     discrit: Discrits.BUPYEONG,
     dong: "부평3동",
@@ -8991,7 +8991,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40902": {
     name: "구도일주유소",
-    number: 40902,
+    number: "40902",
     id: 166000902,
     discrit: Discrits.BUPYEONG,
     dong: "부개1동",
@@ -9005,7 +9005,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40905": {
     name: "한양아파트",
-    number: 40905,
+    number: "40905",
     id: 166000905,
     discrit: Discrits.BUPYEONG,
     dong: "산곡2동",
@@ -9019,7 +9019,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40906": {
     name: "부평6동행정복지센터",
-    number: 40906,
+    number: "40906",
     id: 166000906,
     discrit: Discrits.BUPYEONG,
     dong: "부평6동",
@@ -9033,7 +9033,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40908": {
     name: "삼산주공1단지(상가앞)",
-    number: 40908,
+    number: "40908",
     id: 166000908,
     discrit: Discrits.BUPYEONG,
     dong: "삼산1동",
@@ -9047,7 +9047,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40911": {
     name: "산곡여자중학교(마장로삼거리)",
-    number: 40911,
+    number: "40911",
     id: 166000911,
     discrit: Discrits.BUPYEONG,
     dong: "산곡동",
@@ -9061,7 +9061,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40912": {
     name: "희망체육공원입구",
-    number: 40912,
+    number: "40912",
     id: 166000912,
     discrit: Discrits.BUPYEONG,
     dong: "부평2동",
@@ -9075,7 +9075,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40913": {
     name: "십정동차고지",
-    number: 40913,
+    number: "40913",
     id: 166000913,
     discrit: Discrits.BUPYEONG,
     dong: "십정동",
@@ -9089,7 +9089,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40914": {
     name: "진산초등학교",
-    number: 40914,
+    number: "40914",
     id: 166000914,
     discrit: Discrits.BUPYEONG,
     dong: "삼산동",
@@ -9103,7 +9103,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40915": {
     name: "진산과학고등학교",
-    number: 40915,
+    number: "40915",
     id: 166000915,
     discrit: Discrits.BUPYEONG,
     dong: "삼산동",
@@ -9117,7 +9117,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40917": {
     name: "새소망교회",
-    number: 40917,
+    number: "40917",
     id: 166000917,
     discrit: Discrits.BUPYEONG,
     dong: "십정1동",
@@ -9131,7 +9131,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40918": {
     name: "숭보사입구",
-    number: 40918,
+    number: "40918",
     id: 166000918,
     discrit: Discrits.BUPYEONG,
     dong: "십정동",
@@ -9145,7 +9145,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40919": {
     name: "인천성모병원종점지주차장",
-    number: 40919,
+    number: "40919",
     id: 166000919,
     discrit: Discrits.BUPYEONG,
     dong: "부평6동",
@@ -9159,7 +9159,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40921": {
     name: "남부고가교",
-    number: 40921,
+    number: "40921",
     id: 166000921,
     discrit: Discrits.BUPYEONG,
     dong: "부평2동",
@@ -9173,7 +9173,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40922": {
     name: "부평4동성당",
-    number: 40922,
+    number: "40922",
     id: 166000922,
     discrit: Discrits.BUPYEONG,
     dong: "부평4동",
@@ -9187,7 +9187,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40923": {
     name: "부개사거리",
-    number: 40923,
+    number: "40923",
     id: 166000923,
     discrit: Discrits.BUPYEONG,
     dong: "부개동",
@@ -9201,7 +9201,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40924": {
     name: "삼산사거리",
-    number: 40924,
+    number: "40924",
     id: 166000924,
     discrit: Discrits.BUPYEONG,
     dong: "갈산1동",
@@ -9215,7 +9215,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40925": {
     name: "청천동차고지",
-    number: 40925,
+    number: "40925",
     id: 166000925,
     discrit: Discrits.BUPYEONG,
     dong: "청천1동",
@@ -9229,7 +9229,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40926": {
     name: "인천나비공원",
-    number: 40926,
+    number: "40926",
     id: 166000926,
     discrit: Discrits.BUPYEONG,
     dong: "청천1동",
@@ -9243,7 +9243,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40927": {
     name: "부평역",
-    number: 40927,
+    number: "40927",
     id: 166000927,
     discrit: Discrits.BUPYEONG,
     dong: "부평동",
@@ -9257,7 +9257,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40928": {
     name: "e편한세상부평그랑힐스정문",
-    number: 40928,
+    number: "40928",
     id: 166000928,
     discrit: Discrits.BUPYEONG,
     dong: "청천동",
@@ -9271,7 +9271,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40929": {
     name: "e편한세상부평그랑힐스정문",
-    number: 40929,
+    number: "40929",
     id: 166000929,
     discrit: Discrits.BUPYEONG,
     dong: "청천동",
@@ -9285,7 +9285,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40930": {
     name: "e편한세상부평그랑힐스후문",
-    number: 40930,
+    number: "40930",
     id: 166000930,
     discrit: Discrits.BUPYEONG,
     dong: "청천동",
@@ -9299,7 +9299,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "40931": {
     name: "부평캐슬앤더샵퍼스트",
-    number: 40931,
+    number: "40931",
     id: 166000931,
     discrit: Discrits.BUPYEONG,
     dong: "청천동",
@@ -9313,7 +9313,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "41448": {
     name: "광명아파트",
-    number: 41448,
+    number: "41448",
     id: 167000448,
     discrit: Discrits.BUPYEONG,
     dong: "효성2동",
@@ -9327,7 +9327,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "41464": {
     name: "인향아파트",
-    number: 41464,
+    number: "41464",
     id: 167000464,
     discrit: Discrits.BUPYEONG,
     dong: "청천1동",
@@ -9341,7 +9341,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "41465": {
     name: "인향아파트",
-    number: 41465,
+    number: "41465",
     id: 167000465,
     discrit: Discrits.BUPYEONG,
     dong: "청천1동",
@@ -9355,7 +9355,7 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   },
   "41639": {
     name: "청천천공영주차장",
-    number: 41639,
+    number: "41639",
     id: 167000639,
     discrit: Discrits.BUPYEONG,
     dong: "청천2동",

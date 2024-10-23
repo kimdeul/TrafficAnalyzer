@@ -38,7 +38,7 @@ async function getRouteStopsByRouteId(id: string) {
       routeId: id,
     }
   })
-  return extractDataByTag(res.data, "SHORT_BSTOPID")?.map(id => parseInt(id))
+  return extractDataByTag(res.data, "SHORT_BSTOPID")
 }
 
 const TARGET_ROUTES = ROUTE_NUMBERS_TOWN;

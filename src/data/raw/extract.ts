@@ -20,7 +20,7 @@ for (const lineSource of informations.slice(1)) {
 
   const busStop: BusStop = {
     name: line[1],
-    number: parseInt(line[2]),
+    number: line[2],
     id: parseInt(line[3]),
     discrit: discrit,
     dong: dong,
