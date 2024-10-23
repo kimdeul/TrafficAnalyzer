@@ -1,6 +1,104 @@
 import { BusStop, Discrits } from "../types/BusStop";
 
 export const BUS_STOPS: { [key: string]: BusStop } = {
+  "39460": {
+    name: "간석오거리",
+    number: "39460",
+    id: 165000460,
+    discrit: Discrits.NAMDONG,
+    dong: "간석2동",
+    x: 174115.3478,
+    latitude: 126.7081816,
+    y: 440871.5943,
+    longitude: 37.46965811,
+    users: {
+      average: 953
+    }
+  },
+  "39484": {
+    name: "보훈회관",
+    number: "39484",
+    id: 165000484,
+    discrit: Discrits.NAMDONG,
+    dong: "간석3동",
+    x: 174229.4139,
+    latitude: 126.7094535,
+    y: 441371.0403,
+    longitude: 37.47416127,
+    users: {
+      average: 387
+    }
+  },
+  "39489": {
+    name: "부평삼거리",
+    number: "39489",
+    id: 165000489,
+    discrit: Discrits.NAMDONG,
+    dong: "간석2동",
+    x: 174275.059,
+    latitude: 126.7099611,
+    y: 441611.9336,
+    longitude: 37.47633297,
+    users: {
+      average: 664
+    }
+  },
+  "39491": {
+    name: "부평삼거리역",
+    number: "39491",
+    id: 165000491,
+    discrit: Discrits.NAMDONG,
+    dong: "간석2동",
+    x: 174316.8634,
+    latitude: 126.7104319,
+    y: 441661.6223,
+    longitude: 37.47678183,
+    users: {
+      average: 186
+    }
+  },
+  "39493": {
+    name: "인천가족공원입구",
+    number: "39493",
+    id: 165000493,
+    discrit: Discrits.NAMDONG,
+    dong: "간석2동",
+    x: 174490.418,
+    latitude: 126.712396,
+    y: 441605.0256,
+    longitude: 37.47627671,
+    users: {
+      average: 43
+    }
+  },
+  "39495": {
+    name: "인천가족공원입구",
+    number: "39495",
+    id: 165000495,
+    discrit: Discrits.NAMDONG,
+    dong: "간석2동",
+    x: 174508.9257,
+    latitude: 126.7126036,
+    y: 441651.1587,
+    longitude: 37.47669288,
+    users: {
+      average: 94
+    }
+  },
+  "40001": {
+    name: "동암사거리",
+    number: "40001",
+    id: 166000001,
+    discrit: Discrits.NAMDONG,
+    dong: "십정2동",
+    x: 173460.5258,
+    latitude: 126.7007857,
+    y: 440696.7193,
+    longitude: 37.4680639,
+    users: {
+      average: 954
+    }
+  },
   "40002": {
     name: "종근당",
     number: "40002",
@@ -349,20 +447,6 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
     longitude: 37.47412078,
     users: {
       average: 144
-    }
-  },
-  "40039": {
-    name: "동암마트",
-    number: "40039",
-    id: 166000039,
-    discrit: Discrits.BUPYEONG,
-    dong: "십정2동",
-    x: 173459.2786,
-    latitude: 126.7007522,
-    y: 441233.1475,
-    longitude: 37.47289703,
-    users: {
-      average: 0
     }
   },
   "40041": {
@@ -1259,20 +1343,6 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
     longitude: 37.48966055,
     users: {
       average: 533
-    }
-  },
-  "40128": {
-    name: "화랑교회",
-    number: "40128",
-    id: 166000128,
-    discrit: Discrits.BUPYEONG,
-    dong: "부평3동",
-    x: 173695.5335,
-    latitude: 126.7033531,
-    y: 443184.8891,
-    longitude: 37.49048878,
-    users: {
-      average: 0
     }
   },
   "40129": {
@@ -5475,20 +5545,6 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
       average: 58
     }
   },
-  "40543": {
-    name: "삼산월드체육관",
-    number: "40543",
-    id: 166000543,
-    discrit: Discrits.BUPYEONG,
-    dong: "삼산2동",
-    x: 176877.5408,
-    latitude: 126.7392766,
-    y: 444977.5507,
-    longitude: 37.5067258,
-    users: {
-      average: 158
-    }
-  },
   "40544": {
     name: "갈산두산아파트",
     number: "40544",
@@ -5543,20 +5599,6 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
     longitude: 37.50848441,
     users: {
       average: 476
-    }
-  },
-  "40550": {
-    name: "갈산대동아파트",
-    number: "40550",
-    id: 166000550,
-    discrit: Discrits.BUPYEONG,
-    dong: "갈산2동",
-    x: 175536.5344,
-    latitude: 126.7240905,
-    y: 445566.2839,
-    longitude: 37.51199556,
-    users: {
-      average: 38
     }
   },
   "40551": {
@@ -6425,20 +6467,6 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
     longitude: 37.52197409,
     users: {
       average: 151
-    }
-  },
-  "40622": {
-    name: "갈산동입구",
-    number: "40622",
-    id: 166000622,
-    discrit: Discrits.BUPYEONG,
-    dong: "청천2동",
-    x: 175308.9084,
-    latitude: 126.7214907,
-    y: 446317.4511,
-    longitude: 37.5187574,
-    users: {
-      average: 130
     }
   },
   "40623": {
@@ -7533,20 +7561,6 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
       average: 245
     }
   },
-  "40761": {
-    name: "송내남부역",
-    number: "40761",
-    id: 166000761,
-    discrit: Discrits.BUPYEONG,
-    dong: "일신동",
-    x: 178117.7641,
-    latitude: 126.7533784,
-    y: 442455.3103,
-    longitude: 37.48403094,
-    users: {
-      average: 44
-    }
-  },
   "40764": {
     name: "부개2파출소",
     number: "40764",
@@ -8009,20 +8023,6 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
       average: 149
     }
   },
-  "40808": {
-    name: "청천동",
-    number: "40808",
-    id: 166000808,
-    discrit: Discrits.BUPYEONG,
-    dong: "청천2동",
-    x: 173792.7829,
-    latitude: 126.7043523,
-    y: 445999.821,
-    longitude: 37.5158537,
-    users: {
-      average: 30
-    }
-  },
   "40809": {
     name: "청천농장입구",
     number: "40809",
@@ -8035,20 +8035,6 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
     longitude: 37.52242253,
     users: {
       average: 14
-    }
-  },
-  "40810": {
-    name: "태화아파트",
-    number: "40810",
-    id: 166000810,
-    discrit: Discrits.BUPYEONG,
-    dong: "갈산1동",
-    x: 175898.2757,
-    latitude: 126.7281426,
-    y: 446766.5452,
-    longitude: 37.52281929,
-    users: {
-      average: 53
     }
   },
   "40811": {
@@ -8807,34 +8793,6 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
       average: 133
     }
   },
-  "40878": {
-    name: "부흥초등학교·굿케어요양병원",
-    number: "40878",
-    id: 166000878,
-    discrit: Discrits.BUPYEONG,
-    dong: "부평5동",
-    x: 176047.7606,
-    latitude: 126.7299329,
-    y: 443722.9554,
-    longitude: 37.49540083,
-    users: {
-      average: 316
-    }
-  },
-  "40886": {
-    name: "주공아파트105동",
-    number: "40886",
-    id: 166000886,
-    discrit: Discrits.BUPYEONG,
-    dong: "삼산1동",
-    x: 177223.7284,
-    latitude: 126.7431524,
-    y: 446248.1527,
-    longitude: 37.51818239,
-    users: {
-      average: 0
-    }
-  },
   "40887": {
     name: "부평사거리",
     number: "40887",
@@ -8889,20 +8847,6 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
     longitude: 37.4926547,
     users: {
       average: 235
-    }
-  },
-  "40893": {
-    name: "(주)세모입구(린나이코리아)",
-    number: "40893",
-    id: 166000893,
-    discrit: Discrits.BUPYEONG,
-    dong: "십정1동",
-    x: 172057.7617,
-    latitude: 126.6849083,
-    y: 441242.8151,
-    longitude: 37.47294275,
-    users: {
-      average: 33
     }
   },
   "40894": {
@@ -9365,6 +9309,62 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
     longitude: 37.51693379,
     users: {
       average: 58
+    }
+  },
+  "42023": {
+    name: "열우물테니스경기장",
+    number: "42023",
+    id: 168000023,
+    discrit: Discrits.SEO,
+    dong: "가좌4동",
+    x: 172529.2093,
+    latitude: 126.6902106,
+    y: 441969.6885,
+    longitude: 37.47950596,
+    users: {
+      average: 296
+    }
+  },
+  "42024": {
+    name: "열우물테니스경기장·축산물시장",
+    number: "42024",
+    id: 168000024,
+    discrit: Discrits.SEO,
+    dong: "가좌4동",
+    x: 172415.2993,
+    latitude: 126.6889207,
+    y: 442025.8988,
+    longitude: 37.48000901,
+    users: {
+      average: 199
+    }
+  },
+  "42511": {
+    name: "청천농장",
+    number: "42511",
+    id: 168000511,
+    discrit: Discrits.SEO,
+    dong: "가정3동",
+    x: 172271.2083,
+    latitude: 126.687113,
+    y: 446757.0439,
+    longitude: 37.52263159,
+    users: {
+      average: 48
+    }
+  },
+  "92059": {
+    name: "인천가족공원입구",
+    number: "92059",
+    id: 165001059,
+    discrit: Discrits.NAMDONG,
+    dong: "간석3동",
+    x: 174469.7182,
+    latitude: 126.71216,
+    y: 441661.8573,
+    longitude: 37.47678819,
+    users: {
+      average: 102
     }
   }
 }

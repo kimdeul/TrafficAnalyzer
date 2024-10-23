@@ -16,7 +16,11 @@ for (const lineSource of informations.slice(1)) {
   if (!isValidDong(dong)) continue;
 
   if (Number.isNaN(parseFloat(line[8]))) continue;
-  if (discrit !== Discrits.BUPYEONG) continue;
+
+  // 부평구 및 부평구 약간 외부에 있는 맞은편 정거장만 포함
+  if (discrit !== Discrits.BUPYEONG && !["40001", "39460", "39484", "39489", "39491", "92059", "39495", "39493", "40063", "42024", "42023", "42511"].includes(line[2])) continue;
+  // 부평구 내에 있어도 시내버스가 정차하지 않는 전용승강장은 제외, 연구 도중 폐지된 정거장 제외
+  if (["40622", "40543", "40808", "40810", "40878", "40039", "40128", "40550", "40886", "40761"].includes(line[2])) continue;
 
   const busStop: BusStop = {
     name: line[1],

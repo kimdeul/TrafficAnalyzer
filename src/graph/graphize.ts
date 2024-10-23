@@ -1,7 +1,6 @@
 import { BUS_ROUTES } from "../data/BusRoutes";
 import { BUS_STOP_ARRAY, BUS_STOPS } from "../data/BusStops";
 import { getDistance } from "../geometry/distance";
-import { Discrits } from "../types/BusStop";
 
 type connection = { to: string, weight: number, route: string }
 
@@ -13,7 +12,7 @@ const AVERAGE_WALKING_SPEED = 4.8 / 3.6;
 
 export function graphize() {
 
-    for (const stop of BUS_STOP_ARRAY) if (!graph[`${stop.number}`] && BUS_STOPS[`${stop.number}`]?.discrit === Discrits.BUPYEONG) graph[`${stop.number}`] = []
+    for (const stop of BUS_STOP_ARRAY) if (!graph[`${stop.number}`]) graph[`${stop.number}`] = []
 
     for (const route of BUS_ROUTES) {
         let prev = route.list[0]
@@ -28,7 +27,10 @@ export function graphize() {
 
     // Upside-downside transfer
     for (const from of BUS_STOP_ARRAY) {
-        const toArray = BUS_STOP_ARRAY.filter(stop => from.number !== stop.number && getDistance(from, stop) <= 50)
+        const in50 = BUS_STOP_ARRAY.filter(stop => from.number !== stop.number && getDistance(from, stop) <= 50)
+        const in200 = BUS_STOP_ARRAY.filter(stop => from.number !== stop.number && from.name === stop.name && getDistance(from, stop) <= 200)
+        // 50m 내 정류장은 도보로 반드시 잇고, 200m 안이면서 이름이 동일하면 동일정류장 간주. 예외적으로 일신동 40117 - 40106번 정류장은 고속도로 인근이라 간격이 넓음. 이어주지 않으면 고립
+        const toArray = from.number === "40117" ? [BUS_STOPS["40106"]] : (in50.length ? in50 : in200);
         if (!from.number) return;
         for (const to of toArray) {
             if (!to.number) continue;
