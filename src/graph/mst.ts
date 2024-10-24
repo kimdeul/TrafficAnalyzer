@@ -26,7 +26,7 @@ function mst(size: number, edges: connection[][], start: number) {
   return result;
 }
 
-export function proposeWithMst(size: number, compare: (a: BusStop, b: BusStop) => number) {
+export function proposeWithMST(size: number, compare: (a: BusStop, b: BusStop) => number) {
 
   const selected = BUS_STOP_ARRAY.sort(compare).slice(0, size)
   
