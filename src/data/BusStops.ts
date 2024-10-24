@@ -1,6 +1,11 @@
 import { BusStop, Discrits } from "../types/BusStop";
 
-export const BUS_STOPS: { [key: string]: BusStop } = {
+const isolated = [
+  '40002', '40005', '40007', '40008', '40011', '40012', '40106', '40117', '40145', '40155', '40233', '40275', '40617', '40618', '40842', '40843', '40895', '40913', '42024',
+  "40011", "40012", "40020", "40022", "40256", "40277", "40311", "40625"
+]
+
+const RAW_BUS_STOPS: { [key: string]: BusStop } = {
   "39460": {
     name: "간석오거리",
     number: "39460",
@@ -9369,4 +9374,5 @@ export const BUS_STOPS: { [key: string]: BusStop } = {
   }
 }
 
+export const BUS_STOPS = Object.fromEntries(Object.entries(RAW_BUS_STOPS).filter(pair => !isolated.includes(pair[1].number)))
 export const BUS_STOP_ARRAY = Object.values(BUS_STOPS)

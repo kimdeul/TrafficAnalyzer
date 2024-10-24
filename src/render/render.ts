@@ -23,7 +23,7 @@ export class Renderer {
   }
 
   static convert(x: number, y: number) {
-    return [(x-MIN_X)/5, (MAX_Y-y)/5 + 140] as const
+    return [40 + (x-MIN_X)/5, (MAX_Y-y)/5 + 140] as const
   }
 
   renderBusStop(stop: BusStop, color?: string, size?: number) {

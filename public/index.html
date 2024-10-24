@@ -1,7 +1,32 @@
 <head>
   <title>Incheon metropolitan city</title>
+  <style>
+    #graph, #table {
+      width: 1460px;
+    }
+
+    #table {
+      font-size: 13pt;
+    }
+
+    table, td, th {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    .diagonal {
+      background-image: linear-gradient(to right bottom, transparent calc(50% - 1px), #000, transparent calc(50% + 1px));
+      background-position: center;
+    }
+  </style>
 </head>
 <body>
-  <canvas id="graph" width=4000 height=4000></canvas>
+  <table id="table">
+    <tr id="table-head"></tr>
+    <tr id="table-users"></tr>
+    <tr id="table-seconds"></tr>
+    <tr id="table-complexity"></tr>
+  </table>
+  <canvas id="graph" width=1400 height=1400></canvas>
 </body>
 <script src="../dist/bundle.js"></script>

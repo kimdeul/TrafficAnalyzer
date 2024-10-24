@@ -1,24 +1,23 @@
-import { BUS_ROUTES } from "./data/BusRoutes";
-import { BUS_STOP_ARRAY, BUS_STOPS } from "./data/BusStops";
-import { graph, graphize } from "./graph/graphize";
-import { naiveFloydWashall } from "./graph/shortest";
+import { BUS_STOPS } from "./data/BusStops";
+import { graphize } from "./graph/graphize";
+import { naiveDijkstra } from "./graph/shortest";
 import { Renderer } from "./render/render";
+import { $, setTable } from "./render/tables";
 
-export const $ = document.getElementById.bind(document);
+export const Create = document.createElement.bind(document);
 const canvas = $("graph")
-
-graphize()
-const START_NUMBER = "40224"
-const distances = naiveFloydWashall(START_NUMBER)
 const renderer = new Renderer((canvas as HTMLCanvasElement).getContext("2d")!!)
+graphize()
+
+const START_NUMBER = "40224"
+const COMPLEXITY_VIEWPOINT = ["40049", "40785", "40451", "40533", "40631", "40683", "40853", "40790"]
+const distances = naiveDijkstra(START_NUMBER)
 
 renderer.renderWithBackground(() => {
     renderer.renderGraph()
     // renderer.renderUsers()
+    COMPLEXITY_VIEWPOINT.map(number => renderer.renderBusStop(BUS_STOPS[number], "#fff", 12))
     renderer.renderDistance(distances, START_NUMBER)
-    console.log(graph)
-    const isolated = BUS_STOP_ARRAY.filter(stop => distances[stop.number] === Infinity && graph[stop.number].length === 0)
-    isolated.map(stop => renderer.renderBusStop(stop, "#fff", 20))
-    for (const stop of BUS_ROUTES.find(route => route.number === "24-1")?.list ?? []) console.log(BUS_STOPS[stop]?.name)
+    setTable(COMPLEXITY_VIEWPOINT, distances)
     // renderer.renderBusRoute(proposeWithMst(8, (a, b) => graph[`${b.number}`]?.length - graph[`${a.number}`]?.length))
 })

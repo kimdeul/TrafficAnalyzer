@@ -23,14 +23,16 @@ export function graphize() {
         }
     }
 
-    // Remove out-scope
+    // 
 
     // Upside-downside transfer
     for (const from of BUS_STOP_ARRAY) {
         const in50 = BUS_STOP_ARRAY.filter(stop => from.number !== stop.number && getDistance(from, stop) <= 50)
         const in200 = BUS_STOP_ARRAY.filter(stop => from.number !== stop.number && from.name === stop.name && getDistance(from, stop) <= 200)
-        // 50m 내 정류장은 도보로 반드시 잇고, 200m 안이면서 이름이 동일하면 동일정류장 간주. 예외적으로 일신동 40117 - 40106번 정류장은 고속도로 인근이라 간격이 넓음. 이어주지 않으면 고립
-        const toArray = from.number === "40117" ? [BUS_STOPS["40106"]] : (in50.length ? in50 : in200);
+        // 50m 내 정류장은 도보로 반드시 잇고, 200m 안이면서 이름이 동일하면 동일정류장 간주
+        // 몇몇 정류장은 큰 도로 인근이라 간격이 넓음. 이어주지 않으면 고립
+        const isolatedPair: { [key: string]: string } = { "40117": "40106", "40644": "40647" }
+        const toArray = isolatedPair[from.number] ? [BUS_STOPS[isolatedPair[from.number]]] : (in50.length ? in50 : in200);
         if (!from.number) return;
         for (const to of toArray) {
             if (!to.number) continue;
