@@ -44,8 +44,8 @@ export function proposeWithMST(size: number, compare: (a: BusStop, b: BusStop) =
     .reduce((prev, curr) => prev.length < curr.length ? prev : curr, { route: [], length: Infinity })
   
   const route: BusRoute = {
-    number: "",
-    id: "",
+    number: "PROPOSED_MST",
+    id: "PROPOSED_MST",
     list: stops.route.map(stop => selected[stop].number),
     color: BusRouteColors.BRANCH
   }

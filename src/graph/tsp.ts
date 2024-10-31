@@ -2,6 +2,7 @@ import { BUS_STOP_ARRAY } from "../data/BusStops";
 import { getDistance } from "../geometry/distance";
 import { BusRoute, BusRouteColors } from "../types/BusRoute";
 import { BusStop } from "../types/BusStop";
+import { pairs } from "./graphize";
 
 function tsp(size: number, edges: number[][]) {
 
@@ -49,14 +50,15 @@ export function proposeWithTSP(size: number, compare: (a: BusStop, b: BusStop) =
   const result = tsp(size+1, edges)
 
   const route: BusRoute = {
-    number: "",
-    id: "",
+    number: "PROPOSED_TSP",
+    id: "PROPOSED_TSP",
     list: result.route.map(index => selected[index]?.number ?? ""),
     color: BusRouteColors.BRANCH
   }
 
   while (route.list[0] !== "") route.list.push(route.list.shift()!)
   route.list.shift()
+  route.list.push(...route.list.slice(0, -1).reverse().map(stop => pairs[stop]))
 
   return route;
 
