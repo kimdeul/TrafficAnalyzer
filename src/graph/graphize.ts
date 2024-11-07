@@ -1,14 +1,24 @@
 import { BUS_ROUTES } from "../data/BusRoutes";
 import { BUS_STOP_ARRAY, BUS_STOPS } from "../data/BusStops";
 import { getDistance } from "../geometry/distance";
+import { Point } from "../geometry/shapes/Point";
 import { BusRoute } from "../types/BusRoute";
 
 type connection = { to: string, weight: number, route: string }
 type degree = { in: number, out: number }
 
+/*
+    [Key: BusStop.number]
+    graph: grpah connections
+    pairs: to get upper-bound/lower-bound
+    degrees: to calcuate in-out degrees
+    vertices: vertex by group(expanded pairs), used in geo methods
+*/
+
 export const graph: { [key: string]: connection[] } = {}
 export const pairs: { [key: string]: string } = {}
 export const degrees: { [key: string]: degree } = Object.fromEntries(BUS_STOP_ARRAY.map(stop => [stop.number, { in: 0, out: 0}]))
+export const vertices: { [key: string]: Point } = {}
 
 const AVERAGE_BUS_SPEED = 15 / 3.6;
 const AVERAGE_STOP_TIME = 20;
