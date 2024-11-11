@@ -37,7 +37,7 @@ export function grouping() {
       y: grouped.reduce<number>((p, c) => p + BUS_STOPS[c].y, 0) / grouped.length
     }, groupId)
     Geo.points.push(point)
-    vertices[stop.number] = point;
+    for (const number of grouped) vertices[number] = point
   }
 }
 

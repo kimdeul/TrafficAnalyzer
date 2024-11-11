@@ -1,5 +1,6 @@
 import { BUS_ROUTES } from "../data/BusRoutes";
 import { BUS_STOP_ARRAY, BUS_STOPS } from "../data/BusStops";
+import { Geo } from "../geometry/Area";
 import { getDistance } from "../geometry/distance";
 import { Point } from "../geometry/shapes/Point";
 import { BusRoute } from "../types/BusRoute";
@@ -66,4 +67,21 @@ export function graphize() {
 
     console.log("Graphize completed.")
 
+}
+
+export function graphizeTriangulation() {
+    const map: { [key: string]: string[] } = {}
+    for (const key in vertices) {
+        if (!map[vertices[key].id]) map[vertices[key].id] = []
+        map[vertices[key].id].push(key)
+    }
+    
+    for (const triangle of Geo.triangles) {
+        for (const edge of triangle.edges) {
+            const from = BUS_STOPS[map[edge.from.id][0]]
+            const to = BUS_STOPS[map[edge.to.id][0]]
+            if (!graph[from.number]?.find(connection => connection.to === to.number)) graph[`${from.number}`]?.push({ to: `${to.number}`, weight: getDistance(from, to) / AVERAGE_BUS_SPEED + AVERAGE_STOP_TIME, route: "delaunay" })
+            if (!graph[to.number]?.find(connection => connection.to === from.number)) graph[`${to.number}`]?.push({ to: `${from.number}`, weight: getDistance(from, to) / AVERAGE_BUS_SPEED + AVERAGE_STOP_TIME, route: "delaunay" })
+        }
+    }
 }
